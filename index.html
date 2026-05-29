@@ -847,7 +847,7 @@
 
       <div class="prose">
         <p>
-          <strong>Post-event investor acquisition rates provide the most temporally precise measure.</strong> The round is dated after the company's first attendance, and the investor is new to the cap table. On this basis, 29% of Slush companies gained a new investor post-event; 7% gained a US investor; 2.10% — roughly one in fifty — gained a new top-0.25% global VC.
+          <strong>Post-event investor acquisition rates provide the most temporally precise measure.</strong> The round is dated after the company's first attendance, and the investor is new to the cap table. On this basis, 29% of Slush companies gained a new investor post-event; 7% gained a US investor; 12.2% gained a top-10% global VC; and 4.4% gained a top-1% global VC.
         </p>
       </div>
 
@@ -1130,8 +1130,8 @@
         <thead><tr><th>Post-event investor acquisition</th><th style="text-align:right;">Slush n (rate)</th><th>Notes</th></tr></thead>
         <tbody>
           <tr><td>Any new investor (28.90%)</td><td style="text-align:right;">2,108</td><td>Investor must be new to the company's cap table and the qualifying round must be dated after first Slush attendance; all investor types included</td></tr>
-          <tr><td>New top-100 global VC (2.10%)</td><td style="text-align:right;">2,108</td><td>Investor new to cap table; Dealroom global rank ≤ 100</td></tr>
-          <tr><td>New top-1k global VC (7.00%)</td><td style="text-align:right;">2,108</td><td>Investor new to cap table; Dealroom global rank ≤ 1,000</td></tr>
+          <tr><td>New Top 10% VC (12.20%)</td><td style="text-align:right;">2,108</td><td>Investor new to cap table; Dealroom global rank ≤ 4,000 (Top 10% of ~40,000 ranked investors)</td></tr>
+          <tr><td>New Top 1% VC (4.40%)</td><td style="text-align:right;">2,108</td><td>Investor new to cap table; Dealroom global rank ≤ 400 (Top 1% of ~40,000 ranked investors)</td></tr>
           <tr><td>New US investor (7.00%)</td><td style="text-align:right;">2,108</td><td>Investor new to cap table; investor headquartered in the United States</td></tr>
           <tr><td>New international (non-European) VC (10.3%)</td><td style="text-align:right;">2,108</td><td>Investor new to cap table; investor headquartered outside Europe (includes US, Asia, other)</td></tr>
         </tbody>
@@ -1440,10 +1440,10 @@
     new Chart(document.getElementById('chart-f2-acquisition'), {
       type: 'bar',
       data: {
-        labels: ['Any new investor', 'US investor', 'Top 2.5% VC', 'Top 0.25% VC'],
+        labels: ['Any new investor', 'US investor', 'Top 10% VC', 'Top 1% VC'],
         datasets: [{
-          data: [28.9, 7.0, 7.0, 2.1],
-          backgroundColor: [SLUSH, SLUSH, SLUSH, FG],
+          data: [28.9, 7.0, 12.2, 4.4],
+          backgroundColor: SLUSH,
           borderRadius: 3,
           barPercentage: 0.55,
           datalabels: {
