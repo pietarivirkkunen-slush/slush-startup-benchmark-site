@@ -354,14 +354,11 @@
       hyphens: auto;
       text-align-last: left;
     }
-    /* Bold sentence at the top of each beat */
+    /* Bold lead-in sentence — inline, same line as body text */
     .prose p strong:first-child {
-      display: block;
-      font-size: 18px;
+      font-size: inherit;
       font-weight: 700;
       color: var(--fg);
-      margin-bottom: 10px;
-      line-height: 1.45;
     }
     .prose p a { color: var(--fg); text-decoration: underline; text-underline-offset: 3px; opacity: 0.75; }
     .prose p a:hover { opacity: 1; }
