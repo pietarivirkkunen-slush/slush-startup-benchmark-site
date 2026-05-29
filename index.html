@@ -561,9 +561,21 @@
       font-family: var(--font-heading);
       font-size: 10px; font-weight: 600;
       color: rgba(255,255,255,0.9);
+      transition: outline 80ms ease;
     }
-    .grad-table td.empty-cell {
-      background: transparent !important;
+    .grad-table td.grad-cell:not(.empty-cell) { cursor: default; }
+    .grad-table td.grad-cell:not(.empty-cell):hover {
+      outline: 2px solid rgba(255,255,255,0.4);
+      outline-offset: -2px;
+      position: relative; z-index: 1;
+    }
+    .grad-table td.empty-cell { background: transparent !important; }
+    .heat-tooltip {
+      position: fixed; z-index: 300; pointer-events: none;
+      background: #1e1e22; border: 1px solid rgba(255,255,255,0.13);
+      border-radius: 8px; padding: 10px 14px;
+      font-size: 12px; line-height: 1.65; color: #f2f2f4;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.45); min-width: 190px; display: none;
     }
     .grad-table tr.bench-spacer td { height: 6px; background: transparent !important; }
     .grad-footer {
@@ -718,7 +730,7 @@
           Slush companies raise institutional capital at 3.5× the rate of comparable European peers. That figure comes from tracking 2,108 European companies from the moment they first attended Slush — measuring how many raised a VC round afterward — and comparing them to 229,866 European peers matched on founding year, country, and growth stage. The premium holds in every cohort and every region tested.
         </p>
         <p>
-          <strong>The most important number for a founder without prior backing is 3.1×.</strong> Slush is nearly evenly split between companies that had no institutional capital before attending (1,009, or 48%) and those that had (1,099, or 52%). That mix is striking: in the European benchmark, 89% of companies are bootstrapped. Among bootstrapped Slush attendees, the post-event VC rate is 17.00% — against 5.60% for bootstrapped European peers. Among already-backed attendees, the follow-on rate is 35.00% against 23.20% for peers. The door-opener effect is twice the size of the follow-on effect. For founders who arrive without a term sheet, that is where the value is.
+          <strong>The premium differs by starting position.</strong> Slush is nearly evenly split between companies with no institutional capital before attending (1,009, or 48%) and those that already had backing (1,099, or 52%). That mix is notable: in the European benchmark, 89% of companies are bootstrapped. Among bootstrapped Slush attendees, the post-event VC rate is 17.00% — against 5.60% for bootstrapped European peers, a 3.1× premium. Among already-backed attendees, the follow-on rate is 35.00% against 23.20% for peers, a 1.5× premium. The door-opener effect is twice the size of the follow-on effect.
         </p>
       </div>
 
@@ -728,7 +740,7 @@
           <div class="chart-canvas-wrap"><canvas id="chart-f1-split" height="190"></canvas></div>
           <div class="chart-legend">
             <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#35cd5a"></span>Slush companies</span>
-            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#3d3d48"></span>European peers</span>
+            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#5e5e70"></span>European peers</span>
           </div>
           <div class="chart-source-line">Post-event VC rate · Dealroom, Slush analysis</div>
         </div>
@@ -737,7 +749,7 @@
           <div class="chart-canvas-wrap"><canvas id="chart-f1-cohort" height="190"></canvas></div>
           <div class="chart-legend">
             <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#35cd5a"></span>Slush</span>
-            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#3d3d48"></span>Peers</span>
+            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#5e5e70"></span>Peers</span>
           </div>
           <div class="chart-source-line">Post-event VC rate (%) by first attendance year</div>
         </div>
@@ -804,7 +816,7 @@
           <div class="chart-canvas-wrap"><canvas id="chart-f2-tier-rates" height="210"></canvas></div>
           <div class="chart-legend">
             <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#35cd5a"></span>Slush</span>
-            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#3d3d48"></span>Peers</span>
+            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#5e5e70"></span>Peers</span>
           </div>
           <div class="chart-source-line">% backed by investor tier · Dealroom global rank · 2022–2024</div>
         </div>
@@ -817,7 +829,7 @@
 
       <div class="prose">
         <p>
-          <strong>Slush companies attract US investors at 4.8× the rate of comparable European peers.</strong> 22% of the cohort have at least one US investor on their cap table, against 4.60% of peers — a 17-percentage-point gap and the widest single-metric difference in this study. That gap reflects two things simultaneously: access, because Slush creates the conditions for cross-Atlantic relationships that would not otherwise form, and validation, because US investors are selective and their presence on a cap table is a signal in its own right. European startups have historically had less access to US capital than their US counterparts. For the slice of the European cohort that attends Slush, that gap is materially smaller.
+          <strong>Slush companies attract US investors at 4.8× the rate of comparable European peers.</strong> 22% of the cohort have at least one US investor on their cap table, against 4.60% of peers — a 17-percentage-point gap and the widest single-metric difference in this study. The gap likely reflects a combination of access and selection effects: European companies that attend Slush may be better positioned to attract international capital, and the pool of US investors active at Slush is itself selective. The direction of causality cannot be determined from this data alone.
         </p>
       </div>
 
@@ -827,7 +839,7 @@
           <div class="chart-canvas-wrap"><canvas id="chart-f2-crossborder" height="180"></canvas></div>
           <div class="chart-legend">
             <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#35cd5a"></span>Slush</span>
-            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#3d3d48"></span>Peers</span>
+            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#5e5e70"></span>Peers</span>
           </div>
           <div class="chart-source-line">% with cross-border investor post-event · 2022–2024</div>
         </div>
@@ -835,7 +847,7 @@
 
       <div class="prose">
         <p>
-          <strong>Post-event investor acquisition is the finding with the cleanest causal logic.</strong> The measure is strict: the round is dated after the company's first attendance, and the investor is new to the cap table. On this basis, 29% of Slush companies gained a new investor post-event. 7% gained a US investor. 2.10% — roughly one in fifty — gained a new top-100 global VC. These relationships did not exist before. They exist after.
+          <strong>Post-event investor acquisition rates provide the most temporally precise measure.</strong> The round is dated after the company's first attendance, and the investor is new to the cap table. On this basis, 29% of Slush companies gained a new investor post-event; 7% gained a US investor; 2.10% — roughly one in fifty — gained a new top-0.25% global VC.
         </p>
       </div>
 
@@ -910,7 +922,7 @@
           <div class="chart-canvas-wrap"><canvas id="chart-f3-headcount" height="130"></canvas></div>
           <div class="chart-legend">
             <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#35cd5a"></span>Slush</span>
-            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#3d3d48"></span>Peers</span>
+            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#5e5e70"></span>Peers</span>
           </div>
           <div class="chart-source-line">% with headcount growth post-event · companies with Dealroom employee data only</div>
         </div>
@@ -928,7 +940,7 @@
           <div class="chart-canvas-wrap"><canvas id="chart-f3-grants" height="130"></canvas></div>
           <div class="chart-legend">
             <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#35cd5a"></span>Slush</span>
-            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#3d3d48"></span>Peers</span>
+            <span class="chart-legend-item"><span class="chart-legend-swatch" style="background:#5e5e70"></span>Peers</span>
           </div>
           <div class="chart-source-line">% receiving grant or support-programme allocation post-event · 2022–2024</div>
         </div>
@@ -936,7 +948,7 @@
 
       <div class="prose">
         <p>
-          Slush companies are not only raising more often — they are building, advancing, and compounding at multiples of the peer rate across every measure we tracked. Whether the premium narrows as the more recent cohorts mature is the question this study returns to in its second edition.
+          Across every operational measure in this study — fundraising rate, investor quality, stage progression, headcount growth, and grant allocation — Slush companies outperform the matched benchmark. Whether the premium narrows as the 2023 and 2024 cohorts mature is a question this study returns to in its second edition.
         </p>
       </div>
 
@@ -1258,7 +1270,7 @@
     const FG_MUTED = '#b0b0bc';
     const FG_DIM   = '#80808e';
     const SLUSH    = '#35cd5a';
-    const PEER     = '#3d3d48';
+    const PEER     = '#5e5e70';
     const GRID     = 'rgba(255,255,255,0.07)';
     const FONT     = '"Inter", -apple-system, system-ui, sans-serif';
 
@@ -1428,7 +1440,7 @@
     new Chart(document.getElementById('chart-f2-acquisition'), {
       type: 'bar',
       data: {
-        labels: ['Any new investor', 'US investor', 'Top-1,000 VC', 'Top-100 VC'],
+        labels: ['Any new investor', 'US investor', 'Top 2.5% VC', 'Top 0.25% VC'],
         datasets: [{
           data: [28.9, 7.0, 7.0, 2.1],
           backgroundColor: [SLUSH, SLUSH, SLUSH, FG],
@@ -1757,10 +1769,11 @@
           const v = vals[i];
           const m = MILESTONES.includes(i + 1);
           const outline = m ? ';box-shadow:0 0 0 1px rgba(255,255,255,0.12)' : '';
+          const bv = benchData.vals[i];
           if (v === null) {
             h += `<td class="grad-cell empty-cell"></td>`;
           } else {
-            h += `<td class="grad-cell" style="background:${cellBg(v, true)}${outline}">${v.toFixed(1)}%</td>`;
+            h += `<td class="grad-cell" style="background:${cellBg(v, true)}${outline}" data-type="slush" data-cohort="${year}" data-q="${i+1}" data-val="${v}" data-bench="${bv}">${v.toFixed(1)}%</td>`;
           }
         }
         h += '</tr>';
@@ -1774,7 +1787,7 @@
         const v = benchData.vals[i];
         const m = MILESTONES.includes(i + 1);
         const outline = m ? ';box-shadow:0 0 0 1px rgba(255,255,255,0.08)' : '';
-        h += `<td class="grad-cell" style="background:${cellBg(v, false)}${outline}">${v.toFixed(1)}%</td>`;
+        h += `<td class="grad-cell" style="background:${cellBg(v, false)}${outline}" data-type="bench" data-q="${i+1}" data-val="${v}">${v.toFixed(1)}%</td>`;
       }
       h += '</tr></tbody></table>';
 
@@ -1784,6 +1797,44 @@
 
     buildGradTable('grad-boot', BOOT_SLUSH, BOOT_BENCH);
     buildGradTable('grad-seed', SEED_SLUSH, SEED_BENCH);
+
+    // ── Heatmap tooltip ──
+    const heatTip = document.createElement('div');
+    heatTip.className = 'heat-tooltip';
+    heatTip.id = 'heat-tooltip';
+    document.body.appendChild(heatTip);
+
+    function positionHeatTip(e) {
+      const x = e.clientX + 14, y = e.clientY - 10;
+      heatTip.style.left = Math.min(x, window.innerWidth - heatTip.offsetWidth - 16) + 'px';
+      heatTip.style.top = Math.max(y - heatTip.offsetHeight, 8) + 'px';
+    }
+
+    document.querySelectorAll('.grad-cell:not(.empty-cell)').forEach(cell => {
+      cell.addEventListener('mouseenter', e => {
+        const q = cell.dataset.q;
+        const val = parseFloat(cell.dataset.val);
+        const yr = q >= 12 ? '3yr' : q >= 8 ? '2yr' : q >= 4 ? '1yr' : '';
+        const qLabel = `Q${q}${yr ? ' (' + yr + ')' : ''}`;
+        let html = '';
+        if (cell.dataset.type === 'slush') {
+          const bench = parseFloat(cell.dataset.bench);
+          const ratio = (val / bench).toFixed(1);
+          html += `<div style="color:var(--fg-dim);font-size:11px;margin-bottom:5px">${cell.dataset.cohort} Slush cohort · ${qLabel}</div>`;
+          html += `<div><span style="color:#35cd5a;font-weight:700">${val.toFixed(1)}%</span> cumulative graduation rate</div>`;
+          html += `<div style="color:var(--fg-muted)">Benchmark at ${qLabel}: ${bench.toFixed(1)}%</div>`;
+          html += `<div style="color:#35cd5a;font-weight:600;margin-top:5px;border-top:1px solid rgba(255,255,255,0.08);padding-top:5px">${ratio}× premium vs benchmark</div>`;
+        } else {
+          html += `<div style="color:var(--fg-dim);font-size:11px;margin-bottom:5px">European benchmark · ${qLabel}</div>`;
+          html += `<div><span style="font-weight:700">${val.toFixed(1)}%</span> cumulative graduation rate</div>`;
+        }
+        heatTip.innerHTML = html;
+        heatTip.style.display = 'block';
+        positionHeatTip(e);
+      });
+      cell.addEventListener('mousemove', positionHeatTip);
+      cell.addEventListener('mouseleave', () => { heatTip.style.display = 'none'; });
+    });
   })();
   </script>
 
