@@ -30,6 +30,7 @@
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
     html { scroll-behavior: smooth; background: var(--bg); }
     body {
       background: var(--bg);
@@ -242,6 +243,85 @@
       margin-top: 1.25em;
     }
 
+    /* ── Attendee profile inline toggle ── */
+    .profile-toggle {
+      margin-top: 48px;
+      border-top: 1px solid var(--rule);
+      padding-top: 24px;
+    }
+    .profile-toggle summary {
+      list-style: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      user-select: none;
+      outline: none;
+      font-family: var(--font-heading);
+      font-weight: 500;
+      font-size: 13px;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--fg-muted);
+    }
+    .profile-toggle summary::-webkit-details-marker { display: none; }
+    .profile-toggle summary::after {
+      content: '+';
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 300;
+      color: var(--fg-dim);
+    }
+    .profile-toggle[open] summary::after { content: '−'; }
+    .profile-toggle-body { margin-top: 28px; }
+    .profile-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-bottom: 20px;
+    }
+    .profile-cell { display: flex; flex-direction: column; gap: 6px; }
+    .profile-val {
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 22px;
+      color: var(--fg);
+      letter-spacing: -0.01em;
+    }
+    .profile-key {
+      font-family: var(--font-body);
+      font-size: 12.5px;
+      color: var(--fg-dim);
+      line-height: 1.4;
+    }
+    .profile-prose {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      margin-top: 32px;
+      margin-bottom: 8px;
+    }
+    .profile-prose p {
+      font-size: 17px;
+      line-height: 1.7;
+      color: var(--fg-muted);
+      text-align: justify;
+      hyphens: auto;
+    }
+    .profile-prose p strong:first-child { color: var(--fg); }
+    .profile-note {
+      font-family: var(--font-body);
+      font-size: 13px;
+      color: var(--fg-dim);
+      border-top: 1px solid var(--rule);
+      padding-top: 16px;
+      margin-top: 8px;
+    }
+    .profile-note a { color: var(--fg-muted); }
+    @media (max-width: 600px) {
+      .profile-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+
     /* Meta panel */
     .meta-panel {
       background: var(--bg-elev);
@@ -362,6 +442,24 @@
     }
     .prose p a { color: var(--fg); text-decoration: underline; text-underline-offset: 3px; opacity: 0.75; }
     .prose p a:hover { opacity: 1; }
+
+    .study-cta {
+      margin-top: 48px;
+      max-width: var(--reading-width);
+      border: 1px solid rgba(53, 205, 90, 0.3);
+      border-radius: 10px;
+      padding: 24px 28px;
+      background: rgba(53, 205, 90, 0.05);
+    }
+    .study-cta p {
+      margin: 0;
+      font-family: var(--font-body);
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--fg-muted);
+    }
+    .study-cta a { color: var(--fg); text-decoration: underline; text-underline-offset: 3px; }
+    .study-cta a:hover { color: #35cd5a; }
 
     .section-rule {
       border: none;
@@ -693,22 +791,29 @@
       <div class="exec-meta-layout">
 
         <div class="exec-summary">
-          <p>This report benchmarks 2,108 European startups that attended Slush for the first time in 2022, 2023, or 2024 against 229,866 matched peers — controlled for founding year, country, and growth stage. In the period after attendance, Slush companies raised institutional capital at 3.5× the rate of the benchmark. The premium holds across all three cohorts and every region tested, and is largest for previously bootstrapped companies at 3.1×.</p>
+          <p>Slush is Europe's largest startup event, bringing together founders and investors each November in Helsinki. This study asks a straightforward question: do the startups that attend Slush go on to outperform comparable peers? To answer it, we tracked 2,108 European companies that attended Slush for the first time in 2022, 2023, or 2024 — all pre-Series B at attendance, founded 2016 or later — and compared their post-attendance outcomes against 229,866 matched European peers from the same stage, country, and founding vintage. The observation window opens the day after each company's first attendance.</p>
 
-          <p>The investor quality gap is even wider: Slush companies are 7× more likely to attract a top-0.1% global VC and 4.8× more likely to gain a US investor. Beyond fundraising, Slush companies graduate to the next funding stage at 2.5× the benchmark rate, grow headcount at 1.2×, and acquire non-dilutive grant funding at 3.4× (24% vs 7% of peers).</p>
+          <p><strong>Slush companies raised institutional capital at 3.5× the rate of comparable European peers.</strong> The premium holds in all three cohorts and every European region tested. Among the 48% of attendees who arrived without prior backing, the post-event VC rate is 3.1× that of comparable peers — making Slush a measurable catalyst on the path to first institutional capital.</p>
 
-          <p>The findings are correlational; the benchmark controls for stage, geography, and founding year, but Slush attracts ambitious founders by design.</p>
+          <p><strong>The fund-quality gap is wider than the fundraising gap.</strong> Slush companies are 7× more likely to attract a top-0.1% global VC — twice the headline rate premium. Rounds are also larger: among funded companies, the median Slush round was 2.1× the size of a comparable peer round. The cross-border signal runs both ways: European attendees gained a US investor at 5× the rate of peers; US attendees gained a European investor at 8× the rate of comparable US peers.</p>
+
+          <p><strong>The pattern extends beyond fundraising.</strong> Slush companies advance at least one funding stage at 2.5× the rate of peers, grow headcount faster (61% vs 49% of peers with measurable data), and acquire non-dilutive grant funding at 3.4× (24% vs 7%). Across every operational metric in this study, the direction is the same. The findings are correlational — the benchmark controls for stage, geography, and founding year, but cannot account for the ambition of founders who choose to attend.</p>
+
+          <p>Pressed for time? The full dataset, methodology, and caveats are also available as <a href="slush-startup-report-2026.md" target="_blank" rel="noopener">a plain-text file</a> — readable by both AI and humans.</p>
         </div>
 
         <aside class="meta-panel">
+          <div class="meta-row">
+            <div class="meta-label">Author</div>
+            <div class="meta-value">Pietari Virkkunen</div>
+            <div class="meta-sub">Researcher, Slush</div>
+          </div>
           <div class="meta-row">
             <div class="meta-label">Contributors</div>
             <div class="meta-value">Santtu Vaalamo</div>
             <div class="meta-sub">CGO, Slush</div>
             <div class="meta-value" style="margin-top:10px;">Nelli Sillanpää</div>
             <div class="meta-sub">Head of Media &amp; PR, Slush</div>
-            <div class="meta-value" style="margin-top:10px;">Pietari Virkkunen</div>
-            <div class="meta-sub">Researcher, Slush</div>
           </div>
           <div class="meta-row">
             <div class="meta-label">Published</div>
@@ -723,6 +828,35 @@
           </div>
         </aside>
 
+      <details class="profile-toggle">
+        <summary>Who attends Slush?</summary>
+        <div class="profile-toggle-body">
+          <div class="profile-grid">
+            <div class="profile-cell">
+              <div class="profile-val">2 years</div>
+              <div class="profile-key">Median age at first attendance (2022–2024 cohorts)</div>
+            </div>
+            <div class="profile-cell">
+              <div class="profile-val">~90%</div>
+              <div class="profile-key">Early stage — bootstrapped through seed — at first attendance</div>
+            </div>
+            <div class="profile-cell">
+              <div class="profile-val">3 in 4</div>
+              <div class="profile-key">From outside Finland — the event draws from across Europe and beyond</div>
+            </div>
+            <div class="profile-cell">
+              <div class="profile-val">48%</div>
+              <div class="profile-key">Arrived bootstrapped — no institutional backing before attending</div>
+            </div>
+          </div>
+          <div class="profile-prose">
+            <p><strong>Slush is Europe's largest startup event, held each November in Helsinki.</strong> Thousands of founders, investors, and ecosystem players converge on one of the world's most concentrated early-stage venues — three days of programming, meetings, and chance encounters that don't happen anywhere else on the calendar. Half the startups that attend are pre-institutional: no VC round, no lead investor, just a product and a plane ticket. Median company age at first attendance is two years. Slush is built for exactly that moment — before the term sheet, before the proof, before the world is paying attention.</p>
+            <p><strong>The investor side of the room is equally concentrated.</strong> Over 2,000 investors attend each year, from seed angels and regional VCs to partners at top-tier global funds and multi-stage growth shops. Corporate venture arms, accelerators, media, and ecosystem builders fill the rest. It is one of the few venues where a zero-revenue founder and a partner at a top-10 global fund are genuinely in the same building, for three days, with no gatekeeping between them.</p>
+            <p><strong>Slush is, at its core, a bet on Europe.</strong> European tech has spent a decade building on its own terms — deep technical talent, founder-first capital, and a growing cluster of breakout companies that have earned their place on any global stage. This study is Slush Research's attempt to put numbers to that conviction. What it shows is that founders who invest in their network — who show up, who put themselves in the room — go on to raise more, from better investors, and grow faster than peers who don't.</p>
+          </div>
+          <p class="profile-note">Top industries: Enterprise SW · Fintech · AI &nbsp;·&nbsp; Full breakdown in <a href="#methodology">Methodology</a>.</p>
+        </div>
+      </details>
       </div>
     </div>
   </section>
@@ -735,13 +869,13 @@
 
       <div class="prose">
         <p>
-          Fundraising is consistently the primary challenge for early-stage European founders — cited as their top bottleneck by nearly 60% of respondents in Slush's 2025 Startup Struggle survey. The data shows that attending Slush is significantly associated with closing that gap.
+          Fundraising is consistently the primary challenge for early-stage European founders — cited as their top bottleneck by nearly 60% of respondents in <a href="https://slush.org/newsroom/slush-startup-struggle-survey-2025" target="_blank" rel="noopener">Slush's 2025 Startup Struggle survey</a>. The data shows that attending Slush is significantly associated with closing that gap.
         </p>
         <p>
           <strong>Slush companies raise institutional capital at 3.5× the rate of comparable European peers.</strong> That figure comes from tracking 2,108 European companies from the moment they first attended Slush — measuring how many raised a VC round afterward — and comparing them to 229,866 European peers matched on founding year, country, and growth stage. The premium holds in every cohort and every region tested.
         </p>
         <p>
-          <strong>The premium differs by starting position.</strong> Slush is nearly evenly split between companies with no institutional capital before attending (1,009, or 48%) and those that already had backing (1,099, or 52%). That mix is notable: in the European benchmark, 89% of companies are bootstrapped. Among bootstrapped Slush attendees, the post-event VC rate is 17.00% — against 5.60% for bootstrapped European peers, a 3.1× premium. Among already-backed attendees, the follow-on rate is 35.00% against 23.20% for peers, a 1.5× premium. The door-opener effect is twice the size of the follow-on effect.
+          <strong>The premium differs by starting position.</strong> Slush is nearly evenly split between companies with no institutional capital before attending (1,009, or 48%) and those that already had backing (1,099, or 52%). That mix is notable: in the European benchmark, 89% of companies are bootstrapped. Among bootstrapped Slush attendees, the post-event VC rate is 17.00% — against 5.60% for bootstrapped European peers, a 3.1× premium. Among already-backed attendees, the follow-on rate is 35.00% against 23.20% for peers.
         </p>
       </div>
 
@@ -799,7 +933,7 @@
 
       <div class="prose">
         <p>
-          <strong>Slush companies are 7.0× more likely than comparable European peers to be backed by a top-0.1% global VC.</strong> The overall fundraising premium is 3.5×. The fund-quality premium is twice that. Slush companies are not just raising more often — they are raising from better funds at a proportionally higher rate than the fundraising premium alone would predict.
+          <strong>Slush companies are 7.0× more likely than comparable European peers to be backed by a top-0.1% global VC</strong> (ranked by Dealroom's global investor index — see <a href="#methodology">Methodology</a>). <strong>The overall fundraising premium is 3.5×. The fund-quality premium is twice that.</strong> Slush companies are not just raising more often — they are raising from better funds at a proportionally higher rate than the fundraising premium alone would predict.
         </p>
 
         <table class="method-table" style="margin-top: 24px; margin-bottom: 8px;">
@@ -845,7 +979,7 @@
 
       <div class="prose">
         <p>
-          <strong>Slush companies attract US investors at 4.8× the rate of comparable European peers.</strong> 22% of the cohort have at least one US investor on their cap table, against 4.60% of peers — a 17-percentage-point gap and the widest single-metric difference in this study. The premium runs in both directions: US companies attending Slush gained a European investor at 37%, against 4.6% of comparable peers. For US companies looking to expand into Europe, the cross-border signal is even stronger. The gap likely reflects a combination of access and selection effects, and the direction of causality cannot be determined from this data alone.
+          <strong>Slush companies attract US investors at 5× the rate of comparable European peers.</strong> 22% of the cohort have at least one US investor on their cap table, against 4.5% of peers. The premium runs in both directions: Slush also attracted roughly 135 US-domiciled companies over the study period — excluded from the main 2,108 analysis but tracked separately — and those US attendees gained a European investor at 8× the rate of comparable US peers (37% against 4.6%). The gap likely reflects a combination of access and selection effects, and the direction of causality cannot be determined from this data alone.
         </p>
       </div>
 
@@ -890,7 +1024,7 @@
           <strong>Raising capital is not the only thing Slush companies do faster.</strong> The premium shows up in stage progression, team growth, and non-dilutive funding — consistently and across all three cohorts.
         </p>
         <p>
-          <strong>Slush companies advance at least one funding stage at 2.5× the rate of peers.</strong> 14% of the cohort moved up at least one stage — bootstrapped to seed, seed to early VC, early to growth — against 5% of peers. The graduation premium is widest at the bootstrapped layer, at 3.7× for the 2022 cohort, and narrows as starting stage rises. The pattern mirrors the fundraising premium: it is largest where the starting position is lowest.
+          <strong>Slush companies advance at least one funding stage at 2.5× the rate of peers.</strong> 14% of the cohort moved up at least one stage — bootstrapped to seed, seed to early VC, early to growth — against 5% of peers. The graduation premium is widest at the bootstrapped layer: 3.7× in the 2022 cohort, which has three full years of post-event data and is the most mature reference point. The 2023 and 2024 cohorts show higher apparent premiums (4.2× and 5.7× respectively), but with shorter observation windows their benchmark comparisons are expected to converge as data matures. The premium narrows as starting stage rises in all cohorts. The pattern mirrors the fundraising premium: it is largest where the starting position is lowest.
         </p>
       </div>
 
@@ -972,6 +1106,12 @@
         </p>
       </div>
 
+      <div class="prose" style="margin-top: 48px; padding-top: 48px; border-top: 1px solid var(--rule);">
+        <p>
+          Slush 2026 takes place in Helsinki this November. If you want your company in the next cohort, applications are open at <a href="https://slush.org" target="_blank" rel="noopener">slush.org</a>. The data suggests it might be worth the flight.
+        </p>
+      </div>
+
     </div>
   </section>
 
@@ -992,7 +1132,7 @@
           The analysis covers 2,108 European companies that attended Slush for the first time in 2022, 2023, or 2024 — founded 2016 or later, pre-Series B at first attendance. The benchmark is 229,866 Dealroom-tracked European companies from the same vintage and stage, matched on founding year, country, and growth stage. For Slush companies, the observation window opens the day after first attendance. For benchmark peers, it covers the equivalent post-2022 period.
         </p>
         <p>
-          The 2,108 companies are drawn from a paid-ticket universe of 4,838 unique companies across Europe and the US over the 2022–2025 events. Europe-only, 2022–2024 cohorts, founded 2016+, pre-Series B filters reduce that universe to the analysis population.
+          The 2,108 companies are drawn from a paid-ticket universe of 4,501 unique companies across Europe and the US over the 2022–2025 events (de-duplicated to first attendance year per company). Europe-only, 2022–2024 cohorts, founded 2016+, pre-Series B filters reduce that universe to the analysis population.
         </p>
         <p>
           <strong>The 2025 cohort is excluded.</strong> Six months of post-event data is not enough to register the rounds that will eventually appear; the measured rate is artificially low. The 2025 cohort enters the analysis in the 2027 edition.
@@ -1000,6 +1140,68 @@
         <p>
           <strong>The study is observational, not causal.</strong> Matching controls for founding year, geography, and growth stage. It cannot control for the ambition, network, or fundraising-readiness of companies that choose to attend Slush. The premium reflects a combination of who attends and what attending does; the data cannot separate the two.
         </p>
+      </div>
+
+      <div class="section-label" style="margin-top: 64px;">Attendee profile</div>
+      <div class="prose" style="margin-top: 0; margin-bottom: 32px;">
+        <p>
+          The statistics below describe the 4,501 unique companies that held a paid ticket to Slush in 2022–2025 (EU and US). The 2,108-company analysis population is a subset: Europe-only, first-time attendees in 2022–2024, founded 2016 or later, pre-Series B at first attendance.
+        </p>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 48px;">
+        <div>
+          <div class="section-label" style="margin-top: 0; font-size: 11px;">Stage at first attendance (study pop, n=2,108)</div>
+          <table class="method-table">
+            <thead><tr><th>Stage</th><th style="text-align:right;">n</th><th style="text-align:right;">Share</th></tr></thead>
+            <tbody>
+              <tr><td>Bootstrapped / No prior VC</td><td style="text-align:right;">1,009</td><td style="text-align:right;">47.9%</td></tr>
+              <tr><td>Seed / Angel</td><td style="text-align:right;">~630</td><td style="text-align:right;">~29.9%</td></tr>
+              <tr><td>Early VC</td><td style="text-align:right;">~469</td><td style="text-align:right;">~22.2%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div class="section-label" style="margin-top: 0; font-size: 11px;">Company age at first attendance (2022–2024, EU)</div>
+          <table class="method-table">
+            <thead><tr><th>Cohort</th><th style="text-align:right;">Median age</th><th style="text-align:right;">n</th></tr></thead>
+            <tbody>
+              <tr><td>2022</td><td style="text-align:right;">2.0 yrs</td><td style="text-align:right;">1,076</td></tr>
+              <tr><td>2023</td><td style="text-align:right;">2.0 yrs</td><td style="text-align:right;">864</td></tr>
+              <tr><td>2024</td><td style="text-align:right;">2.0 yrs</td><td style="text-align:right;">868</td></tr>
+              <tr><td colspan="2" style="color:var(--fg-dim)">70.6% were 0–3 years old</td><td></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div style="display:grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-bottom: 64px;">
+        <div>
+          <div class="section-label" style="margin-top: 0; font-size: 11px;">Top industries (ticket universe, n=4,501)</div>
+          <table class="method-table">
+            <thead><tr><th>Industry</th><th style="text-align:right;">Share</th></tr></thead>
+            <tbody>
+              <tr><td>Enterprise SW</td><td style="text-align:right;">13.2%</td></tr>
+              <tr><td>Fintech</td><td style="text-align:right;">9.1%</td></tr>
+              <tr><td>AI</td><td style="text-align:right;">7.1%</td></tr>
+              <tr><td>Health</td><td style="text-align:right;">7.0%</td></tr>
+              <tr><td>Climate</td><td style="text-align:right;">4.9%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div>
+          <div class="section-label" style="margin-top: 0; font-size: 11px;">Top countries (ticket universe, n=4,501)</div>
+          <table class="method-table">
+            <thead><tr><th>Country</th><th style="text-align:right;">Share</th></tr></thead>
+            <tbody>
+              <tr><td>Finland</td><td style="text-align:right;">28.6%</td></tr>
+              <tr><td>Germany</td><td style="text-align:right;">14.1%</td></tr>
+              <tr><td>United Kingdom</td><td style="text-align:right;">13.2%</td></tr>
+              <tr><td>Sweden</td><td style="text-align:right;">9.5%</td></tr>
+              <tr><td>Estonia</td><td style="text-align:right;">4.2%</td></tr>
+            </tbody>
+          </table>
+        </div>
       </div>
 
       <div class="section-label" style="margin-top: 64px;">Match method</div>
@@ -1012,11 +1214,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr><td>Exact name</td><td>63.9%</td><td>3,090</td></tr>
-          <tr><td>Website domain</td><td>10.9%</td><td>528</td></tr>
-          <tr><td>Dealroom URL slug</td><td>0.8%</td><td>38</td></tr>
-          <tr><td>Fuzzy confirmed</td><td>0.8%</td><td>53</td></tr>
-          <tr><td>No match</td><td>23.3%</td><td>1,129</td></tr>
+          <tr><td>Exact name</td><td>64.5%</td><td>2,904</td></tr>
+          <tr><td>Website domain</td><td>10.6%</td><td>478</td></tr>
+          <tr><td>Dealroom URL slug</td><td>0.8%</td><td>37</td></tr>
+          <tr><td>Fuzzy confirmed</td><td>0.6%</td><td>26</td></tr>
+          <tr><td>No match</td><td>23.2%</td><td>1,044</td></tr>
         </tbody>
       </table>
 
@@ -1105,7 +1307,7 @@
         <tbody>
           <tr><td>Slush companies (analysis population)</td><td style="text-align:right;">2,108</td><td>European companies · first attendance 2022, 2023, or 2024 · founded 2016 or later · pre-Series B at time of first attendance</td></tr>
           <tr><td>European benchmark</td><td style="text-align:right;">229,866</td><td>Dealroom-tracked European companies matched to the Slush population on founding year, country, and growth stage</td></tr>
-          <tr><td>Paid-ticket universe (all years, EU + US)</td><td style="text-align:right;">4,838</td><td>All unique companies with paid tickets across 2022–2025 events before applying Europe-only, 2016+ founding, and pre-Series B filters</td></tr>
+          <tr><td>Paid-ticket universe (all years, EU + US)</td><td style="text-align:right;">4,501</td><td>Unique companies with paid tickets across 2022–2025 events, de-duplicated to first attendance year per company; before applying Europe-only, 2016+ founding, and pre-Series B filters</td></tr>
         </tbody>
       </table>
 
@@ -1161,7 +1363,7 @@
         <thead><tr><th>Cross-border investor reach</th><th style="text-align:right;">Slush n</th><th style="text-align:right;">Benchmark n</th><th>Notes</th></tr></thead>
         <tbody>
           <tr><td>European company with US investor (22.20% vs 4.50%)</td><td style="text-align:right;">469</td><td style="text-align:right;">10,177</td><td>n = companies with this investor configuration; rate = n ÷ total population (Slush 2,108 · Benchmark 229,866); investor geography from Dealroom headquarters field</td></tr>
-          <tr><td>US company with European investor (37.00% vs 4.60%)</td><td style="text-align:right;">50</td><td style="text-align:right;">8,580</td><td>Restricted to US-domiciled companies only; rate denominator is US-headquartered companies in each population (approx. 135 Slush · approx. 185,800 benchmark)</td></tr>
+          <tr><td>US company with European investor (37.00% vs 4.60%)</td><td style="text-align:right;">50</td><td style="text-align:right;">8,580</td><td>Restricted to US-domiciled companies only; Slush denominator is the ~135 US-domiciled companies in the ticket universe; benchmark denominator is Dealroom's global US company dataset (~185,800 companies) — not the 229,866 European benchmark used elsewhere</td></tr>
         </tbody>
       </table>
 
@@ -1344,7 +1546,7 @@
             datalabels: {
               anchor: 'end', align: 'end', offset: 4,
               color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => v + '%',
+              formatter: v => Math.round(v) + '%',
             }
           },
           {
@@ -1363,7 +1565,7 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
@@ -1389,7 +1591,7 @@
             datalabels: {
               anchor: 'end', align: 'top', offset: 4,
               color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => v + '%',
+              formatter: v => Math.round(v) + '%',
             }
           },
           {
@@ -1410,7 +1612,7 @@
           tooltip: {
             ...tooltip,
             callbacks: {
-              label: c => ` ${c.dataset.label}: ${c.raw}%`,
+              label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%`,
               afterBody: items => items.length === 2 ? [`Premium: ${(items[0].raw / items[1].raw).toFixed(1)}×`] : []
             }
           },
@@ -1418,7 +1620,7 @@
         },
         scales: {
           x: { grid: { display: false }, border: { display: false }, ticks: { color: FG_DIM } },
-          y: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '%' }, max: 42 }
+          y: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 10, callback: v => v + '%' }, max: 40 }
         }
       }
     });
@@ -1437,7 +1639,7 @@
           datalabels: {
             anchor: 'end', align: 'end', offset: 4,
             color: FG, font: { size: 11, weight: '700', family: FONT },
-            formatter: v => v + '×',
+            formatter: v => Math.round(v) + '×',
           }
         }]
       },
@@ -1446,11 +1648,11 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` Premium: ${c.raw}×` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` Premium: ${c.raw.toFixed(1)}×` } },
           datalabels: {}
         },
         scales: {
-          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '×' }, min: 0, max: 9 },
+          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 2, callback: v => v + '×' }, min: 0, max: 8 },
           y: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } }
         }
       }
@@ -1469,7 +1671,7 @@
           datalabels: {
             anchor: 'end', align: 'end', offset: 4,
             color: FG, font: { size: 11, weight: '700', family: FONT },
-            formatter: v => v + '%',
+            formatter: v => Math.round(v) + '%',
           }
         }]
       },
@@ -1478,11 +1680,11 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` Post-event rate: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` Post-event rate: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
-          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '%' }, min: 0, max: 38 },
+          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 10, callback: v => v + '%' }, min: 0, max: 40 },
           y: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } }
         }
       }
@@ -1504,7 +1706,7 @@
             datalabels: {
               anchor: 'end', align: 'end', offset: 4,
               color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => v + '%',
+              formatter: v => Math.round(v) + '%',
             }
           },
           {
@@ -1523,7 +1725,7 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
@@ -1549,7 +1751,7 @@
             datalabels: {
               anchor: 'end', align: 'end', offset: 4,
               color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => v + '%',
+              formatter: v => Math.round(v) + '%',
             }
           },
           {
@@ -1568,7 +1770,7 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
@@ -1594,7 +1796,7 @@
             datalabels: {
               anchor: 'end', align: 'end', offset: 4,
               color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => v + '%',
+              formatter: v => Math.round(v) + '%',
             }
           },
           {
@@ -1613,11 +1815,11 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
-          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '%' }, max: 35 },
+          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 10, callback: v => v + '%' }, max: 30 },
           y: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } }
         }
       }
@@ -1636,7 +1838,7 @@
           datalabels: {
             anchor: 'end', align: 'end', offset: 4,
             color: FG, font: { size: 12, weight: '700', family: FONT },
-            formatter: v => '$' + v.toFixed(1) + 'M'
+            formatter: v => '$' + Math.round(v) + 'M'
           }
         }]
       },
@@ -1644,12 +1846,12 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` $${c.raw}M median` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` $${c.raw.toFixed(1)}M median` } },
           datalabels: {}
         },
         scales: {
           x: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } },
-          y: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => '$' + v + 'M' }, min: 0, max: 5.2 }
+          y: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 1, callback: v => '$' + v + 'M' }, min: 0, max: 5 }
         }
       }
     });
@@ -1670,7 +1872,7 @@
             datalabels: {
               anchor: 'end', align: 'end', offset: 4,
               color: FG, font: { size: 10, weight: '700', family: FONT },
-              formatter: v => v + '%'
+              formatter: v => Math.round(v) + '%'
             }
           },
           {
@@ -1689,11 +1891,11 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
-          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '%' }, min: 0, max: 46 },
+          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 10, callback: v => v + '%' }, min: 0, max: 40 },
           y: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } }
         }
       }
@@ -1715,7 +1917,7 @@
             datalabels: {
               anchor: 'end', align: 'end', offset: 4,
               color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => v + '%'
+              formatter: v => Math.round(v) + '%'
             }
           },
           {
@@ -1734,11 +1936,11 @@
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw}%` } },
+          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
           datalabels: {}
         },
         scales: {
-          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '%' }, min: 0, max: 48 },
+          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, stepSize: 10, callback: v => v + '%' }, min: 0, max: 40 },
           y: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } }
         }
       }
