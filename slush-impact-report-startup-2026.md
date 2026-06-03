@@ -1,8 +1,8 @@
-# Slush Startup Report 2026—Full Reference
+# Slush Impact Report Series — Startup Report 2026: Full Reference
 
 **A matched benchmark of 2,108 pre-Series B European startups against 229,866 peers.**
 
-> This document is the complete, plain-text reference for the Slush Startup Report 2026. It is a superset of the interactive report: it carries every finding, number, definition, population count, and caveat, plus the quarter-by-quarter trajectories and per-cohort sample sizes that sit behind each chart. It is designed to be read by a human or handed to an LLM for analysis or Q&A. Where the interactive report shows a headline, this document also shows the denominator.
+> This document is the complete, plain-text reference for the Slush Startup Report 2026, part of the Slush Impact Report series. It is a superset of the interactive report: it carries every finding, number, definition, population count, and caveat, plus the quarter-by-quarter trajectories and per-cohort sample sizes that sit behind each chart. It is designed to be read by a human or handed to an LLM for analysis or Q&A. Where the interactive report shows a headline, this document also shows the denominator.
 
 ---
 
@@ -23,9 +23,9 @@
 
 ## What this study is
 
-Slush is Europe's largest startup event, held in Helsinki each November. This study asks a single question: do the startups that attend Slush go on to outperform comparable peers?
+Slush is the largest gathering of venture capital in Europe, held in Helsinki each November. The question this report asks is simple: do the startups that attend Slush go on to outperform comparable peers?
 
-To answer it, we tracked 2,108 European companies that attended Slush for the first time in 2022, 2023, or 2024—all pre-Series B at attendance and founded 2016 or later—and compared their post-attendance outcomes against 229,866 matched European peers from the same stage, country, and founding vintage. The observation window opens the day after each company's first attendance.
+To answer it, the study tracked 2,108 European companies that attended Slush for the first time in 2022, 2023, or 2024 (all pre-Series B at attendance and founded 2016 or later) and compared their post-attendance outcomes against 229,866 matched European peers from the same stage, country, and founding vintage. The observation window opens the day after each company's first attendance.
 
 The 2,108 companies are drawn from a paid-ticket universe of 4,501 unique companies across Europe and the US over the 2022–2025 events, de-duplicated to first attendance year per company. Europe-only, 2022–2024 cohorts, founded 2016 or later, and pre-Series B filters reduce that universe to the analysis population.
 
@@ -55,9 +55,9 @@ The study is observational, not causal. Matching controls for founding year, geo
 
 ## Finding 1: The fundraising premium
 
-Attendees raised institutional capital at 3.5× the rate of matched European peers—26.4% against 7.5%. The premium holds in all three cohorts and every region tested.
+Attendees raised institutional capital at 3.5× the rate of matched European peers: 26.4% against 7.5%. The premium holds in all three cohorts and every region tested.
 
-Among the 48% who arrived without prior backing, the post-event VC rate runs at 3.1× that of bootstrapped peers—a measurable catalyst on the path to first institutional capital.
+Among the 48% who arrived without prior backing, the post-event VC rate runs at 3.1× that of bootstrapped peers, a measurable catalyst on the path to first institutional capital.
 
 ### Cohort breakdown
 
@@ -89,9 +89,9 @@ Among funded companies only: Slush median $3.8M against benchmark $1.8M, a 2.1×
 
 ## Finding 2: The cap table premium
 
-It is not just whether you raise—it is who you raise from. Attendees are 7.0× more likely than matched European peers to be backed by a top-0.1% global VC, ranked by Dealroom's global investor index. The headline fundraising premium is 3.5×. The fund-quality premium is twice that.
+It is not just whether you raise. It is who you raise from. Attendees are 7.0× more likely than matched European peers to be backed by a top-0.1% global VC, ranked by Dealroom's global investor index. The headline fundraising premium is 3.5×. The fund-quality premium is twice that.
 
-The ratio climbs from 5.1× at the top decile to 7.0× at the top 0.1%—the Slush cohort is concentrated toward the upper end of the VC quality spectrum.
+The ratio climbs from 5.1× at the top decile to 7.0× at the top 0.1%; the Slush cohort is concentrated toward the upper end of the VC quality spectrum.
 
 ### Investor tier definitions (Dealroom global rank)
 
@@ -127,7 +127,7 @@ Slush also attracted roughly 135 US-domiciled companies over the study period; t
 | European company + US investor | 22.20% | 4.50% | 5× | 469 | 10,177 |
 | US company + European investor | 37.00% | 4.60% | 8× | 50 | 8,580 |
 
-The EU→US row divides each count by the full populations (Slush 2,108, benchmark 229,866). The US→EU row is restricted to US-domiciled companies: the Slush denominator is the ~135 US-domiciled companies in the ticket universe, and the benchmark denominator is Dealroom's global US company dataset (~185,800 companies)—not the 229,866 European benchmark used elsewhere. Investor geography is taken from the Dealroom headquarters field.
+The EU→US row divides each count by the full populations (Slush 2,108, benchmark 229,866). The US→EU row is restricted to US-domiciled companies: the Slush denominator is the ~135 US-domiciled companies in the ticket universe, and the benchmark denominator is Dealroom's global US company dataset (~185,800 companies), not the 229,866 European benchmark used elsewhere. Investor geography is taken from the Dealroom headquarters field.
 
 ---
 
@@ -135,9 +135,9 @@ The EU→US row divides each count by the full populations (Slush 2,108, benchma
 
 ### Stage graduation
 
-Attendees advance at least one funding stage at 2.5× the rate of peers—13.7% of the cohort moved up at least one stage, against 5.4% of peers. Counted transitions: bootstrapped→seed, seed→early VC, and early VC→growth/late, each occurring post-event.
+Attendees advance at least one funding stage at 2.5× the rate of peers: 13.7% of the cohort moved up at least one stage, against 5.4% of peers. Counted transitions: bootstrapped→seed, seed→early VC, and early VC→growth/late, each occurring post-event.
 
-The graduation premium is widest at the bootstrapped layer. Using the 2022 cohort—three full years of post-event data, the most mature reference:
+The graduation premium is widest at the bootstrapped layer. Using the 2022 cohort (three full years of post-event data, the most mature reference):
 
 | Stage at attendance | Slush 2022 rate | Benchmark rate | Premium |
 |---|---|---|---|
@@ -145,7 +145,7 @@ The graduation premium is widest at the bootstrapped layer. Using the 2022 cohor
 | Seed / Angel → Early VC | 23.0% | 11.9% | 1.9× |
 | Early VC / Series A → Growth | 10.3% | 5.5% | 1.9× |
 
-The 2023 and 2024 cohorts show higher apparent premiums—4.2× and 5.7× for the bootstrapped layer—because their shorter observation windows produce lower absolute benchmark rates. These are expected to converge as the data matures.
+The 2023 and 2024 cohorts show higher apparent premiums (4.2× and 5.7× for the bootstrapped layer) because their shorter observation windows produce lower absolute benchmark rates. These are expected to converge as the data matures.
 
 #### Graduation trajectory: Bootstrapped → First VC (cumulative % graduated, by quarter)
 
@@ -171,13 +171,13 @@ Note on cohort n's: the quarter-level trajectory series above use the heatmap's 
 
 ### Headcount growth
 
-61.1% of Slush companies with measurable headcount data grew their teams post-event, against 49.4% of peers—a 1.2× premium. Dealroom employee data is available for roughly 70% of companies; only the ~43% with non-zero records at both the start and end of the observation window are included (n=910 Slush, 30,952 benchmark). The signal is directional, not a precise measure.
+61.1% of Slush companies with measurable headcount data grew their teams post-event, against 49.4% of peers, a 1.2× premium. Dealroom employee data is available for roughly 70% of companies; only the ~43% with non-zero records at both the start and end of the observation window are included (n=910 Slush, 30,952 benchmark). The signal is directional, not a precise measure.
 
 ### Grant / non-dilutive funding
 
-23.8% of Slush companies received a grant or support-program allocation post-event, against 7.1% of peers—a 3.4× premium. At least one government grant, public program, or accelerator allocation recorded after first attendance qualifies; VC equity and debt are excluded. Grants are tracked separately from VC to avoid conflating dilutive and non-dilutive capital. For deep tech, climate, and research-intensive companies, non-dilutive funding typically runs alongside equity, not in place of it.
+23.8% of Slush companies received a grant or support-program allocation post-event, against 7.1% of peers, a 3.4× premium. At least one government grant, public program, or accelerator allocation recorded after first attendance qualifies; VC equity and debt are excluded. Grants are tracked separately from VC to avoid conflating dilutive and non-dilutive capital. For deep tech, climate, and research-intensive companies, non-dilutive funding typically runs alongside equity, not in place of it.
 
-Across every operational measure—fundraising rate, investor quality, stage progression, headcount growth, and grant allocation—Slush companies outperform the matched benchmark.
+Across every operational measure (fundraising rate, investor quality, stage progression, headcount growth, and grant allocation) Slush companies outperform the matched benchmark.
 
 ---
 
@@ -260,7 +260,7 @@ Six months of post-event data is not enough to register the rounds that will eve
 
 ### Benchmark time anchor caveat
 
-For Slush companies, quarters are measured from November 1 of the attendance year: Q4 for the 2022 cohort reaches November 2023; Q4 for the 2023 cohort reaches November 2024. The benchmark is a single pool anchored to November 1, 2022—every benchmark company's Q1–Q12 starts there, regardless of when it was founded or last raised. A 2023 or 2024 Slush cohort row and the benchmark row therefore cover different calendar windows. The design measures relative pace, not performance within a shared calendar period.
+For Slush companies, quarters are measured from November 1 of the attendance year: Q4 for the 2022 cohort reaches November 2023; Q4 for the 2023 cohort reaches November 2024. The benchmark is a single pool anchored to November 1, 2022; every benchmark company's Q1–Q12 starts there, regardless of when it was founded or last raised. A 2023 or 2024 Slush cohort row and the benchmark row therefore cover different calendar windows. The design measures relative pace, not performance within a shared calendar period.
 
 ### Caveats
 
@@ -324,7 +324,7 @@ Population counts for every number, chart, and comparison in this report.
 | 2022 cohort rate (32.80% vs 7.20%) | 809 | 227,758 | Benchmark uses the shared pool observed from Nov 2022 |
 | 2023 cohort rate (26.80% vs 4.90%) | 667 | 227,758 | Benchmark observed from Nov 2022 (see time-anchor caveat) |
 | 2024 cohort rate (17.90% vs 2.80%) | 632 | 227,758 | Benchmark observed from Nov 2022 (see time-anchor caveat) |
-| Median round size — funded only ($3.8M vs $1.8M) | 557 | 17,163 | Companies with at least one qualifying post-event VC round; round size as reported in Dealroom |
+| Median round size, funded only ($3.8M vs $1.8M) | 557 | 17,163 | Companies with at least one qualifying post-event VC round; round size as reported in Dealroom |
 
 ### The cap table premium (backed n behind each tier)
 
@@ -337,17 +337,17 @@ Population counts for every number, chart, and comparison in this report.
 
 Post-event investor acquisition (Slush companies only, n=2,108): Any new investor 28.90%; new top-10% VC 12.20%; new top-1% VC 4.40%; new US investor 7.00%; new international (non-European) VC 10.3%.
 
-Cross-border investor reach: European company with US investor — Slush 469, benchmark 10,177 (22.20% vs 4.50%). US company with European investor — Slush 50, benchmark 8,580 (37.00% vs 4.60%). The US→EU benchmark denominator is Dealroom's global US dataset (~185,800 companies), not the 229,866 European benchmark.
+Cross-border investor reach: European company with US investor: Slush 469, benchmark 10,177 (22.20% vs 4.50%). US company with European investor: Slush 50, benchmark 8,580 (37.00% vs 4.60%). The US→EU benchmark denominator is Dealroom's global US dataset (~185,800 companies), not the 229,866 European benchmark.
 
 ### Growth velocity (n behind each figure)
 
 | Chart / metric | Slush n | Benchmark n | Notes |
 |---|---|---|---|
-| Stage graduation — any transition (13.70% vs 5.40%) | 2,108 | 229,866 | % advancing at least one funding stage post-event |
+| Stage graduation, any transition (13.70% vs 5.40%) | 2,108 | 229,866 | % advancing at least one funding stage post-event |
 | Headcount growth (61.10% vs 49.40%) | 910 | 30,952 | Non-zero employee counts at both ends of the window; net positive change |
 | Grant / support-program received (23.80% vs 7.10%) | 2,108 | 229,866 | At least one grant, public program, or accelerator allocation post-event |
 
-### Graduation heatmap—Bootstrapped → First VC
+### Graduation heatmap: Bootstrapped → First VC
 
 | Cohort | Slush n | Benchmark n | Notes |
 |---|---|---|---|
@@ -355,7 +355,7 @@ Cross-border investor reach: European company with US investor — Slush 469, be
 | 2023 | 323 | 204,925 | Same scope; quarters from 1 Nov 2023; benchmark anchored to Nov 2022 (calendar windows differ) |
 | 2024 | 326 | 204,925 | Same scope; quarters from 1 Nov 2024; benchmark anchored to Nov 2022 (calendar windows differ) |
 
-### Graduation heatmap—Seed / Angel → Early VC
+### Graduation heatmap: Seed / Angel → Early VC
 
 | Cohort | Slush n | Benchmark n | Notes |
 |---|---|---|---|
@@ -369,7 +369,7 @@ Cross-border investor reach: European company with US investor — Slush 469, be
 
 | Match method | n | % of universe | Notes |
 |---|---|---|---|
-| Exact company name | 2,904 | 64.5% | Slush ticket name matches Dealroom name exactly (case-normalized) |
+| Exact company name | 2,904 | 64.5% | Slush ticket name matches Dealroom name exactly (case-normalised) |
 | Website domain | 478 | 10.6% | Domain from Slush website field matched against Dealroom website field |
 | Dealroom URL | 37 | 0.8% | Ticket data contained an explicit Dealroom profile URL |
 | Fuzzy name (confirmed) | 26 | 0.6% | High-similarity fuzzy match, manually reviewed and confirmed |

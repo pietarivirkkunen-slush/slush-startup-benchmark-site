@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Slush Startup Benchmark 2026</title>
-  <meta name="description" content="The Slush Startup Benchmark&mdash;a quantitative cohort report on startups that attend Slush.">
+  <title>Slush Impact Report Series — Startup Report 2026</title>
+  <meta name="description" content="Slush Impact Report Series — Startup Report 2026: a matched-benchmark study of 2,108 European startups against 229,866 peers.">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -238,6 +238,9 @@
       font-size: 17px;
       line-height: 1.8;
       color: var(--fg-muted);
+      text-align: justify;
+      hyphens: auto;
+      text-align-last: left;
     }
     .exec-summary p + p {
       margin-top: 1.25em;
@@ -246,8 +249,17 @@
     /* ── Attendee profile inline toggle ── */
     .profile-toggle {
       margin-top: 48px;
-      border-top: 1px solid var(--rule);
-      padding-top: 24px;
+      background: var(--bg-elev);
+      border: 1px solid var(--rule);
+      border-radius: 14px;
+      padding: 22px 26px;
+      transition: border-color 160ms ease, background 160ms ease;
+    }
+    .profile-toggle:hover {
+      border-color: rgba(255,255,255,0.18);
+    }
+    .profile-toggle[open] {
+      padding-bottom: 28px;
     }
     .profile-toggle summary {
       list-style: none;
@@ -255,22 +267,34 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 12px;
       user-select: none;
       outline: none;
       font-family: var(--font-heading);
-      font-weight: 500;
-      font-size: 13px;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 20px;
+      letter-spacing: -0.005em;
       color: var(--fg);
     }
     .profile-toggle summary::-webkit-details-marker { display: none; }
+    .profile-toggle summary .summary-hint {
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 13px;
+      color: var(--fg-dim);
+      letter-spacing: 0;
+      margin-left: auto;
+      margin-right: 14px;
+      text-transform: none;
+    }
+    .profile-toggle[open] summary .summary-hint { display: none; }
     .profile-toggle summary::after {
       content: '+';
       font-family: var(--font-heading);
-      font-size: 22px;
+      font-size: 30px;
       font-weight: 300;
       color: var(--fg-dim);
+      line-height: 1;
     }
     .profile-toggle[open] summary::after { content: '−'; }
     .profile-toggle-body { margin-top: 28px; }
@@ -351,7 +375,22 @@
       font-weight: 500;
       color: var(--fg);
       line-height: 1.4;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
     }
+    .li-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 11px;
+      height: 11px;
+      color: var(--fg-dim);
+      text-decoration: none;
+      transition: color 160ms ease;
+    }
+    .li-link:hover { color: var(--fg); }
+    .li-link svg { width: 100%; height: 100%; display: block; fill: currentColor; }
     .meta-sub {
       font-size: 12px;
       color: var(--fg-muted);
@@ -752,10 +791,10 @@
     <div class="hero-image" role="img" aria-label="Slush hero visual"></div>
     <div class="hero-overlay"></div>
     <div class="hero-content">
-      <div class="eyebrow">Slush Startup Report 2026</div>
-      <h1 id="hero-title">Slush startups raise more, raise from better investors, and grow faster than European peers</h1>
-      <div class="hero-meta" style="white-space: nowrap;">
-        A matched benchmark of 2,108 pre-Series B European startups, founded 2016 or later, against 229,866 peers.
+      <div class="eyebrow">Slush Impact Report Series &mdash; Startup Report 2026</div>
+      <h1 id="hero-title">Slush premium measured</h1>
+      <div class="hero-meta">
+        Slush startups raise more, from better investors, and grow faster than European peers. A matched benchmark study of 2k Slush startups against 230k European peers.
       </div>
     </div>
   </section>
@@ -764,7 +803,7 @@
   <section class="chapter" id="exec-summary" aria-labelledby="ch1-title">
     <div class="chapter-inner">
       <div class="chapter-number">Executive summary</div>
-      <h2 id="ch1-title">Slush companies outperform on every metric we measured</h2>
+      <h2 id="ch1-title">Slush companies outperform on every metric measured</h2>
 
       <div class="stat-grid">
 
@@ -782,7 +821,7 @@
         <div class="stat-box">
           <div class="stat-finding">Growth velocity</div>
           <div class="stat-number">2.5×</div>
-          <div class="stat-label">Funding stage graduation rate vs. comparable European companies</div>
+          <div class="stat-label">Funding stage graduation rate vs. matched European peers</div>
         </div>
 
 
@@ -791,28 +830,43 @@
       <div class="exec-meta-layout">
 
         <div class="exec-summary">
-          <p>Slush is Europe's largest startup event, held in Helsinki each November. This study asks a simple question: do the companies that attend go on to outperform comparable peers? We matched 2,108 first-time attendees from 2022, 2023, and 2024 against 229,866 European peers on stage, country, and founding year. Across fundraising, investor quality, and growth, the answer is the same.</p>
+          <p>Slush is the largest gathering of venture capital in Europe, held in Helsinki each November. The question this report asks is simple: do the companies that attend go on to outperform comparable peers? The study matches 2,108 first-time attendees from 2022, 2023, and 2024 against 229,866 European peers on stage, country, and founding year. Across fundraising, investor quality, and growth, the answer is the same.</p>
 
-          <p>Attendees raised institutional capital at 3.5× the rate of matched European peers. The premium holds in all three cohorts and every region tested. Among the 48% who turned up without prior backing, the post-event VC rate runs at 3.1× that of bootstrapped peers&mdash;a measurable catalyst on the path to first institutional capital.</p>
+          <p>Attendees raised institutional capital at 3.5× the rate of matched European peers. The premium holds in all three cohorts and every region tested. Among the 48% who turned up without prior backing, the post-event VC rate runs at 3.1× that of bootstrapped peers, a measurable catalyst on the path to first institutional capital.</p>
 
-          <p>The fund-quality gap is wider than the fundraising gap. Attendees are 7.0× more likely than peers to land a top-0.1% global VC&mdash;twice the headline premium. Cheques run larger, too: among funded companies, the median Slush round is 2.1× the size of a comparable peer round. The cross-border signal moves in both directions. European attendees gained a US investor at 5× the rate of peers; the ~135 US-domiciled attendees gained a European investor at 8× the rate of comparable US peers.</p>
+          <p>The fund-quality gap is wider than the fundraising gap. Attendees are 7.0× more likely than peers to land a top-0.1% global VC, twice the headline premium. Cheques run larger, too: among funded companies, the median Slush round is 2.1× the size of a comparable peer round. The cross-border signal moves in both directions. European attendees gained a US investor at 5× the rate of peers; the ~135 US-domiciled attendees gained a European investor at 8× the rate of comparable US peers.</p>
 
-          <p>The pattern extends past capital. The cohort advances at least one funding stage at 2.5× the rate of peers, grows headcount faster (61% vs 49% of those with measurable data), and picks up non-dilutive grants at 3.4× (24% vs 7%). <strong>The direction is identical across every operational measure.</strong> The findings are correlational: matching controls for stage, geography, and founding year, but cannot account for the ambition of founders who choose to attend.</p>
+          <p>The pattern extends past capital. The cohort advances at least one funding stage at 2.5× the rate of peers, grows headcount faster (61% vs 49% of those with measurable data), and picks up non-dilutive grants at 3.4× (24% vs 7%). The direction is identical across every operational measure. The findings are correlational: matching controls for stage, geography, and founding year, but causality cannot be proven from observational data alone.</p>
 
-          <p>Pressed for time? The full dataset, methodology, and caveats are also available as <a href="slush-startup-report-2026.md" download="slush-startup-report-2026.md">a plain-text file</a>&mdash;readable by humans and LLMs alike.</p>
+          <p>Pressed for time? The full dataset, methodology, and caveats are also available as <a href="slush-impact-report-startup-2026.md" download="slush-impact-report-startup-2026.md">a plain-text file</a>, readable by humans and LLMs alike.</p>
         </div>
 
         <aside class="meta-panel">
           <div class="meta-row">
             <div class="meta-label">Author</div>
-            <div class="meta-value">Pietari Virkkunen</div>
+            <div class="meta-value">
+              Pietari Virkkunen
+              <a class="li-link" href="https://www.linkedin.com/in/pietarivirkkunen/" target="_blank" rel="noopener" aria-label="Pietari Virkkunen on LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              </a>
+            </div>
             <div class="meta-sub">Researcher, Slush</div>
           </div>
           <div class="meta-row">
             <div class="meta-label">Contributors</div>
-            <div class="meta-value">Santtu Vaalamo</div>
+            <div class="meta-value">
+              Santtu Vaalamo
+              <a class="li-link" href="https://www.linkedin.com/in/santtuvaalamo/" target="_blank" rel="noopener" aria-label="Santtu Vaalamo on LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              </a>
+            </div>
             <div class="meta-sub">CGO, Slush</div>
-            <div class="meta-value" style="margin-top:10px;">Nelli Sillanpää</div>
+            <div class="meta-value" style="margin-top:10px;">
+              Nelli Sillanpää
+              <a class="li-link" href="https://www.linkedin.com/in/nelli-sillanp%C3%A4%C3%A4-40256028b/" target="_blank" rel="noopener" aria-label="Nelli Sillanpää on LinkedIn">
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.37V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+              </a>
+            </div>
             <div class="meta-sub">Head of Media &amp; PR, Slush</div>
           </div>
           <div class="meta-row">
@@ -829,7 +883,10 @@
         </aside>
 
       <details class="profile-toggle">
-        <summary>Who attends Slush?</summary>
+        <summary>
+          <span>Who attends Slush?</span>
+          <span class="summary-hint">4,501 paid attendees &middot; click to expand</span>
+        </summary>
         <div class="profile-toggle-body">
           <div class="profile-grid">
             <div class="profile-cell">
@@ -838,7 +895,7 @@
             </div>
             <div class="profile-cell">
               <div class="profile-val">~90%</div>
-              <div class="profile-key">Early stage&mdash;bootstrapped through seed&mdash;at first attendance</div>
+              <div class="profile-key">Early stage (bootstrapped through seed) at first attendance</div>
             </div>
             <div class="profile-cell">
               <div class="profile-val">3 in 4</div>
@@ -850,11 +907,11 @@
             </div>
           </div>
           <div class="profile-prose">
-            <p>Each November, Helsinki turns into one of the world's most concentrated early-stage venues. Thousands of founders, investors, and ecosystem players converge for three days of programming, meetings, and chance encounters. Half the startups in the room are pre-institutional: no VC round, no lead investor, just a product and a plane ticket. Median company age at first attendance is two years. Slush is built for exactly that moment&mdash;before the term sheet, before the proof, before the world is paying attention.</p>
+            <p>Each November, Helsinki turns into one of the world's most concentrated early-stage venues. Thousands of founders, investors, and ecosystem players converge for three days of programming, meetings, and chance encounters. Half the startups in the room are pre-institutional: no VC round, no lead investor, just a product and a plane ticket. Median company age at first attendance is two years. Slush is built for exactly that moment, before the term sheet, before the proof, before the world is paying attention.</p>
             <p>The investor side of the room is equally dense. More than 2,000 investors attend each year, from seed angels and regional VCs to partners at top-tier global funds and multi-stage growth shops. Corporate venture arms, accelerators, media, and ecosystem builders fill out the rest. It is one of the few venues where a zero-revenue founder and a partner at a top-10 global fund stand in the same building for three days, with no gatekeeping in between.</p>
-            <p>Slush is, at its core, a bet on Europe. European tech has spent a decade building on its own terms: deep technical talent, founder-first capital, and a growing cluster of breakout companies that have earned their place on any global stage. This study is Slush Research's attempt to put numbers to that conviction. What it shows is that founders who invest in their network&mdash;who show up, who put themselves in the room&mdash;go on to raise more, from better investors, and grow faster than peers who don't.</p>
+            <p>Slush is, at its core, a bet on Europe. European tech has spent a decade building on its own terms: deep technical talent, founder-first capital, and a growing cluster of breakout companies that have earned their place on any global stage. This report is Slush Research's attempt to put numbers to that conviction. What it shows is that founders who invest in their network, who show up, who put themselves in the room, go on to raise more, from better investors, and grow faster than peers who don't.</p>
           </div>
-          <p class="profile-note">Top industries: Enterprise SW · Fintech · AI &nbsp;·&nbsp; Full breakdown in <a href="#methodology">Methodology</a>.</p>
+          <p class="profile-note">Full breakdown in <a href="#methodology">Methodology</a>.</p>
         </div>
       </details>
       </div>
@@ -872,16 +929,16 @@
           Fundraising is the single most-cited bottleneck for early-stage European founders, named as the top struggle by nearly 60% of respondents in <a href="https://slush.org/newsroom/slush-startup-struggle-survey-2025" target="_blank" rel="noopener">Slush's 2025 Startup Struggle survey</a>. Attending Slush is strongly associated with closing that gap.
         </p>
         <p>
-          Attendees raise institutional capital at 3.5× the rate of comparable European peers&mdash;26.4% against 7.5%. The figure is drawn from 2,108 first-time attendees in the 2022, 2023, and 2024 cohorts, benchmarked against 229,866 European peers matched on founding year, country, and growth stage. The premium holds in every cohort and every region tested.
+          Attendees raise institutional capital at 3.5× the rate of comparable European peers: 26.4% against 7.5%. The figure is drawn from 2,108 first-time attendees in the 2022, 2023, and 2024 cohorts, benchmarked against 229,866 European peers matched on founding year, country, and growth stage. The premium holds in every cohort and every region tested.
         </p>
         <p>
-          The mix of starting positions explains the headline. The 2,108 attendees split nearly evenly into companies with no institutional capital at attendance (1,009, or 48%) and those already backed (1,099, or 52%). That balance is unusual: in the European benchmark, 89% of companies are bootstrapped. Among bootstrapped attendees, the post-event VC rate is 17%, against 5.6% for bootstrapped peers&mdash;a 3.1× premium. Among already-backed attendees, the follow-on rate is 35% against 23.2%.
+          The mix of starting positions explains the headline. The 2,108 attendees split nearly evenly into companies with no institutional capital at attendance (1,009, or 48%) and those already backed (1,099, or 52%). That balance is unusual: in the European benchmark, 89% of companies are bootstrapped. Among bootstrapped attendees, the post-event VC rate is 17%, against 5.6% for bootstrapped peers, a 3.1× premium. Among already-backed attendees, the follow-on rate is 35% against 23.2%.
         </p>
       </div>
 
       <div class="inline-charts two-col">
         <div class="chart-card">
-          <div class="chart-headline">First check, twice the premium</div>
+          <div class="chart-headline">First cheque, twice the premium</div>
           <div class="chart-subtitle">Post-event VC fundraising rate, by starting position</div>
           <div class="chart-canvas-wrap"><canvas id="chart-f1-split" height="190"></canvas></div>
           <div class="chart-legend">
@@ -910,7 +967,7 @@
           The premium is broad. It holds in every cohort, every European region, and every industry cluster measured. Early-stage companies outperform peers at 3.5×; breakout-stage companies at 1.8×. The association is positive across every segment analyzed.
         </p>
         <p>
-          It is not only frequency that shifts&mdash;deal size moves too. Among companies that raised post-event, the median Slush round was roughly twice the size of a comparable peer round. Measured on funded companies only, the figure should be read alongside the rate, not instead of it.
+          It is not only frequency that shifts; deal size moves too. Among companies that raised post-event, the median Slush round was roughly twice the size of a comparable peer round. Measured on funded companies only, the figure should be read alongside the rate, not instead of it.
         </p>
       </div>
 
@@ -929,11 +986,11 @@
   <section class="chapter" id="finding-2" aria-labelledby="ch3-title">
     <div class="chapter-inner">
       <div class="chapter-number">The cap table premium</div>
-      <h2 id="ch3-title">It is not just whether you raise&mdash;it is who you raise from</h2>
+      <h2 id="ch3-title">It is not just whether you raise. It is who you raise from.</h2>
 
       <div class="prose">
         <p>
-          Attendees are 7.0× more likely than matched European peers to be backed by a top-0.1% global VC (ranked by Dealroom's global investor index; see <a href="#methodology">Methodology</a>). The headline fundraising premium is 3.5×. <strong>The fund-quality premium is twice that.</strong> Slush companies are not just raising more often&mdash;they are raising from better funds, at a proportionally higher rate than the fundraising premium alone would predict.
+          Attendees are 7.0× more likely than matched European peers to be backed by a top-0.1% global VC (ranked by Dealroom's global investor index; see <a href="#methodology">Methodology</a>). The headline fundraising premium is 3.5×. <strong>The fund-quality premium is twice that.</strong> Slush companies are not just raising more often; they are raising from better funds, at a proportionally higher rate than the fundraising premium alone would predict.
         </p>
 
         <table class="method-table" style="margin-top: 24px; margin-bottom: 8px;">
@@ -954,7 +1011,7 @@
         </table>
 
         <p>
-          The premium widens as the tier narrows. A uniform lift across the ecosystem would produce flat ratios; instead, the ratio climbs from 5.1× at the top decile to 7.0× at the top 0.1%. The Slush cohort is not randomly distributed across the VC quality spectrum&mdash;it is concentrated toward the upper end of it.
+          The premium widens as the tier narrows. A uniform lift across the ecosystem would produce flat ratios; instead, the ratio climbs from 5.1× at the top decile to 7.0× at the top 0.1%. The Slush cohort is not randomly distributed across the VC quality spectrum; it is concentrated toward the upper end of it.
         </p>
       </div>
 
@@ -979,7 +1036,7 @@
 
       <div class="prose">
         <p>
-          Cross-border reach moves in step. European attendees are 5× more likely than peers to have a US investor on the cap table&mdash;22.2% against 4.5%. The pattern runs the other way too. Roughly 135 US-domiciled companies attended over the study period, tracked separately from the 2,108-company analysis; 37% of them picked up a European investor, against 4.6% of US peers&mdash;an 8× gap. The direction of causality cannot be settled from this data alone.
+          Cross-border reach moves in step. European attendees are 5× more likely than peers to have a US investor on the cap table: 22.2% against 4.5%. The pattern runs the other way too. Roughly 135 US-domiciled companies attended over the study period, tracked separately from the 2,108-company analysis; 37% of them picked up a European investor, against 4.6% of US peers, an 8× gap. The direction of causality cannot be settled from this data alone.
         </p>
       </div>
 
@@ -998,7 +1055,7 @@
 
       <div class="prose">
         <p>
-          Post-event acquisition rates anchor the timing precisely: each round dates after first attendance, and each investor is new to the cap table. On that basis, 28.9% of attendees added a new investor; 7% added a US investor; 12.2% added a top-10% global VC; and 4.4% added a top-1% global VC.
+          Post-event acquisition rates anchor the timing precisely: each round dates after first attendance, and each investor is new to the cap table. On that basis, 28.9% of attendees added a new investor; 7.0% added a US investor; 12.2% added a top-10% global VC; and 4.4% added a top-1% global VC.
         </p>
       </div>
 
@@ -1021,10 +1078,10 @@
 
       <div class="prose">
         <p>
-          Raising capital is not the only thing the cohort does faster. The premium shows up in stage progression, team growth, and non-dilutive funding&mdash;and it does so across all three cohorts.
+          Raising capital is not the only thing the cohort does faster. The premium shows up in stage progression, team growth, and non-dilutive funding, and it does so across all three cohorts.
         </p>
         <p>
-          Attendees advance at least one funding stage at 2.5× the rate of peers. 13.7% of the cohort moved up at least one stage&mdash;bootstrapped to seed, seed to early VC, early to growth&mdash;against 5.4% of peers. The graduation premium is widest at the bootstrapped layer: 3.7× in the 2022 cohort, which has three full years of post-event data and is the most mature reference point. The 2023 and 2024 cohorts show higher apparent premiums (4.2× and 5.7×), but shorter observation windows depress their benchmark comparisons; the figures are expected to converge as the data matures. In every cohort, the multiple narrows as the starting stage rises. The pattern mirrors the fundraising premium: the lift is largest where the starting position is lowest.
+          Attendees advance at least one funding stage at 2.5× the rate of peers. 13.7% of the cohort moved up at least one stage (bootstrapped to seed, seed to early VC, early to growth) against 5.4% of peers. The graduation premium is widest at the bootstrapped layer: 3.7× in the 2022 cohort, which has three full years of post-event data and is the most mature reference point. The 2023 and 2024 cohorts show higher apparent premiums (4.2× and 5.7×), but shorter observation windows depress their benchmark comparisons; the figures are expected to converge as the data matures. In every cohort, the multiple narrows as the starting stage rises. The pattern mirrors the fundraising premium: the lift is largest where the starting position is lowest.
         </p>
       </div>
 
@@ -1064,7 +1121,7 @@
 
       <div class="prose">
         <p>
-          Team growth follows the same pattern. 61% of attendees with measurable headcount data grew their teams in the observation window, against 49% of peers&mdash;a 1.2× premium. The signal is directional: Dealroom employee data is available for roughly 70% of companies in the population, and the comparison rests on the subset with non-zero values at both endpoints.
+          Team growth follows the same pattern. 61% of attendees with measurable headcount data grew their teams in the observation window, against 49% of peers, a 1.2× premium. The signal is directional: Dealroom employee data is available for roughly 70% of companies in the population, and the comparison rests on the subset with non-zero values at both endpoints.
         </p>
       </div>
 
@@ -1083,7 +1140,7 @@
 
       <div class="prose">
         <p>
-          Non-dilutive funding compounds the picture. 24% of attendees received a grant or support-program allocation post-event, against 7% of peers&mdash;a 3.4× premium. Grants are tracked separately from VC to avoid conflating dilutive and non-dilutive capital. For deep tech, climate, and research-intensive companies, non-dilutive funding typically runs alongside equity, not in place of it.
+          Non-dilutive funding compounds the picture. 24% of attendees received a grant or support-program allocation post-event, against 7% of peers, a 3.4× premium. Grants are tracked separately from VC to avoid conflating dilutive and non-dilutive capital. For deep tech, climate, and research-intensive companies, non-dilutive funding typically runs alongside equity, not in place of it.
         </p>
       </div>
 
@@ -1100,13 +1157,10 @@
         </div>
       </div>
 
-      <div class="prose">
-        <p>
-          <strong>Across every operational measure&mdash;fundraising rate, investor quality, stage progression, headcount growth, and grant allocation&mdash;Slush companies outperform the matched benchmark.</strong>
-        </p>
-      </div>
-
       <div class="prose" style="margin-top: 48px; padding-top: 48px; border-top: 1px solid var(--rule);">
+        <p>
+          Slush is designed to offer early-stage founders the opportunity for life-changing connections and inspiration, to show that the world's best can be, and is being, built from Europe. The Slush Impact Report is the first indication of the impact Slush can have on a startup's trajectory.
+        </p>
         <p>
           Slush 2026 takes place in Helsinki this November. Applications for the next cohort are open at <a href="https://slush.org" target="_blank" rel="noopener">slush.org</a>. The data suggests the flight is worth taking.
         </p>
@@ -1122,14 +1176,14 @@
         <summary>
           <div>
             <div class="chapter-number">Methodology</div>
-            <h2 id="ch5-title">What we measured, and how</h2>
+            <h2 id="ch5-title">What was measured, and how</h2>
           </div>
         </summary>
         <div class="chapter-toggle-body">
 
       <div class="prose">
         <p>
-          The analysis covers 2,108 European companies that attended Slush for the first time in 2022, 2023, or 2024&mdash;founded 2016 or later, pre-Series B at first attendance. The benchmark is 229,866 Dealroom-tracked European companies of the same vintage and stage, matched on founding year, country, and growth stage. For Slush companies, the observation window opens the day after first attendance; for benchmark peers, it covers the equivalent post-2022 period.
+          The analysis covers 2,108 European companies that attended Slush for the first time in 2022, 2023, or 2024, founded 2016 or later and pre-Series B at first attendance. The benchmark is 229,866 Dealroom-tracked European companies of the same vintage and stage, matched on founding year, country, and growth stage. For Slush companies, the observation window opens the day after first attendance; for benchmark peers, it covers the equivalent post-2022 period.
         </p>
         <p>
           The 2,108 companies are drawn from a paid-ticket universe of 4,501 unique companies across Europe and the US over the 2022–2025 events (de-duplicated to first attendance year per company). Europe-only, 2022–2024 cohorts, founded 2016 or later, and pre-Series B filters reduce that universe to the analysis population.
@@ -1268,7 +1322,7 @@
           Survivorship bias applies to both sides. Dealroom under-represents failed companies, which may inflate absolute fundraising rates on both sides but should not materially affect the ratios.
         </p>
         <p>
-          Stage-graduation time anchors differ between cohorts and benchmark. For Slush companies, quarters are measured from November 1 of the attendance year: Q4 for the 2022 cohort reaches November 2023; Q4 for the 2023 cohort reaches November 2024. The benchmark is a single pool anchored to November 1, 2022&mdash;every benchmark company's Q1–Q12 starts there, regardless of when it was founded or last raised. A 2023 or 2024 Slush row and the benchmark row therefore cover different calendar windows. The design measures relative pace, not performance within a shared calendar period.
+          Stage-graduation time anchors differ between cohorts and benchmark. For Slush companies, quarters are measured from November 1 of the attendance year: Q4 for the 2022 cohort reaches November 2023; Q4 for the 2023 cohort reaches November 2024. The benchmark is a single pool anchored to November 1, 2022; every benchmark company's Q1–Q12 starts there, regardless of when it was founded or last raised. A 2023 or 2024 Slush row and the benchmark row therefore cover different calendar windows. The design measures relative pace, not performance within a shared calendar period.
         </p>
       </div>
 
@@ -1332,7 +1386,7 @@
           <tr><td>2022 cohort rate (32.80% vs 7.20%)</td><td style="text-align:right;">809</td><td style="text-align:right;">227,758</td><td>% raised within the 2022 cohort's observation window; benchmark uses the same shared pool observed from Nov 2022</td></tr>
           <tr><td>2023 cohort rate (26.80% vs 4.90%)</td><td style="text-align:right;">667</td><td style="text-align:right;">227,758</td><td>% raised within the 2023 cohort's observation window; benchmark observed from Nov 2022 (see methodology caveat)</td></tr>
           <tr><td>2024 cohort rate (17.90% vs 2.80%)</td><td style="text-align:right;">632</td><td style="text-align:right;">227,758</td><td>% raised within the 2024 cohort's observation window; benchmark observed from Nov 2022 (see methodology caveat)</td></tr>
-          <tr><td>Median round size — funded companies only ($3.8M vs $1.8M)</td><td style="text-align:right;">557</td><td style="text-align:right;">17,163</td><td>Restricted to companies with at least one qualifying post-event VC round; round size as reported in Dealroom at time of extraction</td></tr>
+          <tr><td>Median round size, funded companies only ($3.8M vs $1.8M)</td><td style="text-align:right;">557</td><td style="text-align:right;">17,163</td><td>Restricted to companies with at least one qualifying post-event VC round; round size as reported in Dealroom at time of extraction</td></tr>
         </tbody>
       </table>
 
@@ -1363,7 +1417,7 @@
         <thead><tr><th>Cross-border investor reach</th><th style="text-align:right;">Slush n</th><th style="text-align:right;">Benchmark n</th><th>Notes</th></tr></thead>
         <tbody>
           <tr><td>European company with US investor (22.20% vs 4.50%)</td><td style="text-align:right;">469</td><td style="text-align:right;">10,177</td><td>n = companies with this investor configuration; rate = n ÷ total population (Slush 2,108 · Benchmark 229,866); investor geography from Dealroom headquarters field</td></tr>
-          <tr><td>US company with European investor (37.00% vs 4.60%)</td><td style="text-align:right;">50</td><td style="text-align:right;">8,580</td><td>Restricted to US-domiciled companies only; Slush denominator is the ~135 US-domiciled companies in the ticket universe; benchmark denominator is Dealroom's global US company dataset (~185,800 companies) — not the 229,866 European benchmark used elsewhere</td></tr>
+          <tr><td>US company with European investor (37.00% vs 4.60%)</td><td style="text-align:right;">50</td><td style="text-align:right;">8,580</td><td>Restricted to US-domiciled companies only; Slush denominator is the ~135 US-domiciled companies in the ticket universe; benchmark denominator is Dealroom's global US company dataset (~185,800 companies), not the 229,866 European benchmark used elsewhere</td></tr>
         </tbody>
       </table>
 
@@ -1372,23 +1426,23 @@
       <table class="method-table">
         <thead><tr><th>Chart / metric</th><th style="text-align:right;">Slush n</th><th style="text-align:right;">Benchmark n</th><th>Notes</th></tr></thead>
         <tbody>
-          <tr><td>Stage graduation — any transition (13.70% vs 5.40%)</td><td style="text-align:right;">2,108</td><td style="text-align:right;">229,866</td><td>% that advanced at least one funding stage after first attendance; counted transitions: bootstrapped→seed, seed→early VC, early VC→growth/late; must occur post-event</td></tr>
+          <tr><td>Stage graduation, any transition (13.70% vs 5.40%)</td><td style="text-align:right;">2,108</td><td style="text-align:right;">229,866</td><td>% that advanced at least one funding stage after first attendance; counted transitions: bootstrapped→seed, seed→early VC, early VC→growth/late; must occur post-event</td></tr>
           <tr><td>Headcount growth (61.10% vs 49.40%)</td><td style="text-align:right;">910</td><td style="text-align:right;">30,952</td><td>Restricted to companies with non-zero employee counts recorded in Dealroom at both the start and end of the observation window; measures net positive headcount change over that period</td></tr>
           <tr><td>Grant / support-program received (23.80% vs 7.10%)</td><td style="text-align:right;">2,108</td><td style="text-align:right;">229,866</td><td>At least one government grant, public program, or accelerator allocation recorded post-event; excludes VC equity rounds and debt; tracked separately to avoid conflating dilutive and non-dilutive capital</td></tr>
         </tbody>
       </table>
 
-      <div class="section-label" style="margin-top: 40px;">Graduation heatmap&mdash;Bootstrapped → First VC</div>
+      <div class="section-label" style="margin-top: 40px;">Graduation heatmap: Bootstrapped → First VC</div>
       <table class="method-table">
         <thead><tr><th>Cohort</th><th style="text-align:right;">Slush n</th><th style="text-align:right;">Benchmark n</th><th>Notes</th></tr></thead>
         <tbody>
           <tr><td>2022</td><td style="text-align:right;">360</td><td style="text-align:right;">204,925</td><td>Companies with no prior VC at first Slush attendance; graduated = first qualifying VC round post-event; quarters counted from 1 Nov 2022; benchmark is full bootstrapped pool anchored to Nov 2022</td></tr>
-          <tr><td>2023</td><td style="text-align:right;">323</td><td style="text-align:right;">204,925</td><td>Same scope; quarters counted from 1 Nov 2023; benchmark anchored to Nov 2022 (calendar windows differ — see methodology caveat)</td></tr>
-          <tr><td>2024</td><td style="text-align:right;">326</td><td style="text-align:right;">204,925</td><td>Same scope; quarters counted from 1 Nov 2024; benchmark anchored to Nov 2022 (calendar windows differ — see methodology caveat)</td></tr>
+          <tr><td>2023</td><td style="text-align:right;">323</td><td style="text-align:right;">204,925</td><td>Same scope; quarters counted from 1 Nov 2023; benchmark anchored to Nov 2022 (calendar windows differ; see methodology caveat)</td></tr>
+          <tr><td>2024</td><td style="text-align:right;">326</td><td style="text-align:right;">204,925</td><td>Same scope; quarters counted from 1 Nov 2024; benchmark anchored to Nov 2022 (calendar windows differ; see methodology caveat)</td></tr>
         </tbody>
       </table>
 
-      <div class="section-label" style="margin-top: 40px;">Graduation heatmap&mdash;Seed / Angel → Early VC</div>
+      <div class="section-label" style="margin-top: 40px;">Graduation heatmap: Seed / Angel → Early VC</div>
       <table class="method-table">
         <thead><tr><th>Cohort</th><th style="text-align:right;">Slush n</th><th style="text-align:right;">Benchmark n</th><th>Notes</th></tr></thead>
         <tbody>
@@ -1421,12 +1475,12 @@
           <tr><td>Europe-only filter</td><td style="text-align:right;">~3,320</td><td>Companies headquartered outside Europe (primarily US) removed · ~135 US-domiciled companies excluded; they appear separately in cross-border investor analysis</td></tr>
           <tr><td>Founding year ≥ 2016</td><td style="text-align:right;">~2,980</td><td>Companies founded before 2016 excluded to ensure a comparable benchmark pool; older companies are over-represented in the matched European universe</td></tr>
           <tr><td>Pre-Series B at first attendance</td><td style="text-align:right;">~2,780</td><td>Companies already at Series B or later stage at their first Slush attendance excluded; included in all other analyses but removed from stage-progression comparisons</td></tr>
-          <tr><td>2022–2024 cohorts only (exclude 2025)</td><td style="text-align:right;">2,108</td><td>2025 cohort excluded — insufficient post-event observation window (~6 months); enters the analysis in the 2027 edition</td></tr>
+          <tr><td>2022–2024 cohorts only (exclude 2025)</td><td style="text-align:right;">2,108</td><td>2025 cohort excluded due to insufficient post-event observation window (~6 months); enters the analysis in the 2027 edition</td></tr>
         </tbody>
       </table>
 
       <!-- GEOGRAPHIC BREAKDOWN -->
-      <div class="section-label" style="margin-top: 56px;">Geographic breakdown&mdash;analysis population</div>
+      <div class="section-label" style="margin-top: 56px;">Geographic breakdown: analysis population</div>
       <table class="method-table">
         <thead><tr><th>Country</th><th style="text-align:right;">Slush n</th><th style="text-align:right;">Share</th></tr></thead>
         <tbody>
@@ -1478,7 +1532,7 @@
   </section>
 
   <footer>
-    Slush Research&mdash;Startup Benchmark 2026
+    Slush Research · Impact Report Series · Startup Report 2026
   </footer>
 
   <!-- ── CHARTS ── -->
@@ -1690,51 +1744,6 @@
       }
     });
 
-    // ── Chart 5: stage graduation by starting position ───────────────
-    new Chart(document.getElementById('chart-f3-graduation'), {
-      type: 'bar',
-      data: {
-        labels: ['No prior VC', 'Seed / Angel', 'Early VC'],
-        datasets: [
-          {
-            label: 'Slush (2022)',
-            data: [20.6, 23.0, 10.3],
-            backgroundColor: SLUSH,
-            borderRadius: 3,
-            barPercentage: 0.5,
-            categoryPercentage: 0.82,
-            datalabels: {
-              anchor: 'end', align: 'end', offset: 4,
-              color: FG, font: { size: 11, weight: '700', family: FONT },
-              formatter: v => Math.round(v) + '%',
-            }
-          },
-          {
-            label: 'Peers',
-            data: [5.6, 11.9, 5.5],
-            backgroundColor: PEER,
-            borderRadius: 3,
-            barPercentage: 0.5,
-            categoryPercentage: 0.82,
-            datalabels: { display: false }
-          },
-        ]
-      },
-      options: {
-        indexAxis: 'y',
-        responsive: true, maintainAspectRatio: false,
-        plugins: {
-          legend: { display: false },
-          tooltip: { ...tooltip, callbacks: { label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%` } },
-          datalabels: {}
-        },
-        scales: {
-          x: { grid: { color: GRID }, border: { display: false }, ticks: { color: FG_DIM, callback: v => v + '%' }, max: 30 },
-          y: { grid: { display: false }, border: { display: false }, ticks: { color: FG_MUTED, font: { size: 11, weight: '500' } } }
-        }
-      }
-    });
-
     // ── Chart 6a: headcount growth ────────────────────────────────────
     new Chart(document.getElementById('chart-f3-headcount'), {
       type: 'bar',
@@ -1905,7 +1914,7 @@
     new Chart(document.getElementById('chart-f2-crossborder'), {
       type: 'bar',
       data: {
-        labels: ['EU co. + US investor', 'US co. + EU investor'],
+        labels: ['European co. + US investor', 'US co. + European investor'],
         datasets: [
           {
             label: 'Slush',
