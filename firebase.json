@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      ".agents/**",
+      ".github/**",
+      "serve.sh",
+      "skills-lock.json",
+      "firebase-debug.log",
+      "firebase-debug.*.log"
+    ]
+  }
+}
