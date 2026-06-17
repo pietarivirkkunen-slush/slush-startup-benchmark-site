@@ -36,6 +36,10 @@
   background-image: url('../../assets/hero-entrepreneurship-redefined-2020.jpg');
 }
 
+.hero-image--founder-factory-report-2025 {
+  background-image: url('../../assets/hero-founder-factory-report-2025.jpg');
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
