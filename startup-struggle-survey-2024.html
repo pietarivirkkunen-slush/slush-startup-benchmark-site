@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Struggle Survey 2024 — Slush Impact Report Series</title>
+  <meta name="description" content="Survey of 1,043 startup founders and 278 investors across Europe and the US on challenges, customer acquisition, trends, and regulation.">
+  <link rel="apple-touch-icon" href="assets/slush-s-icon.jpeg" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  <link rel="shortcut icon" type="image/jpeg" href="assets/logo.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+
+  <link rel="stylesheet" href="design-system/slush.css">
+</head>
+
+<body>
+
+  <nav class="topnav" aria-label="Chapter navigation">
+    <a class="topnav-brand" href="/" aria-label="Slush — Impact Report Series">
+      <img class="topnav-logo" src="assets/slush-logo.png" alt="Slush">
+      <span>Startup Struggle Survey 2024</span>
+    </a>
+    <span class="topnav-divider" aria-hidden="true"></span>
+    <ul class="topnav-links">
+      <li><a href="/">All reports</a></li>
+      <li><a href="#exec-summary">Summary</a></li>
+      <li><a href="#challenges">Challenges</a></li>
+      <li><a href="#founders-investors">Founders vs Investors</a></li>
+      <li><a href="#customer-acquisition">Customer acquisition</a></li>
+      <li><a href="#trends">Trends</a></li>
+      <li><a href="#regulation">Regulation</a></li>
+      <li><a href="#team-motivation">Team &amp; motivation</a></li>
+      <li><a href="#quotes">Quotes</a></li>
+      <li><a href="#data-explorer">Data</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-image" role="img" aria-label="Slush hero visual"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Slush Impact Report Series &mdash; Startup Struggle Survey 2024</div>
+      <h1 id="hero-title">What are founders struggling with?</h1>
+      <div class="hero-meta">
+        Survey of 1,043 startup founders and 278 investors across Europe and the US &middot; 2024
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXECUTIVE SUMMARY ── -->
+  <section class="chapter" id="exec-summary" aria-labelledby="ch1-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Executive summary</div>
+      <h2 id="ch1-title">1,043 founders and 278 investors on the startup struggle</h2>
+
+      <div class="stat-grid stat-grid--quad">
+        <div class="stat-box">
+          <div class="stat-finding">Founders surveyed</div>
+          <div class="stat-number">1,043</div>
+          <div class="stat-label">Startup founders across Europe and the US</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Investors surveyed</div>
+          <div class="stat-number">278</div>
+          <div class="stat-label">Active investors providing the capital-side perspective</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Top challenge</div>
+          <div class="stat-number">63%</div>
+          <div class="stat-label">Fundraising ranks as the most-cited top-3 challenge among founders</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Top trend</div>
+          <div class="stat-number">63.6%</div>
+          <div class="stat-label">Artificial intelligence is investors' most-cited future trend</div>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top: 64px;">Key insights</div>
+      <div class="insight-grid">
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Fundraising dominates founder struggles</div>
+          <p class="insight-card-desc">63% of founders cite fundraising as a top-3 challenge, followed by customer acquisition at 50%. The gap between capital needs and available funding remains the defining friction point.</p>
+        </div>
+        <div class="insight-card insight-card--warning">
+          <div class="insight-card-title">Founders and investors see different problems</div>
+          <p class="insight-card-desc">While founders rank fundraising first (35%), investors point to revenue growth (24%) as the biggest current challenge. Misaligned priorities may widen the funding gap.</p>
+        </div>
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Customer acquisition is a shared pain</div>
+          <p class="insight-card-desc">Nearly half of founders struggle to acquire customers. Converting prospects remains especially difficult, with 36% disagreeing they can do so effectively.</p>
+        </div>
+        <div class="insight-card insight-card--positive">
+          <div class="insight-card-title">AI is the consensus future bet</div>
+          <p class="insight-card-desc">Nearly two-thirds of investors name AI and machine learning as the biggest future trend, dwarfing climate change (11%) and all other categories combined.</p>
+        </div>
+        <div class="insight-card insight-card--warning">
+          <div class="insight-card-title">Regulation weighs heavier on investors</div>
+          <p class="insight-card-desc">Investors rate regulatory severity higher than founders across every category, with market access and compliance costs scoring above 3.2 on a 5-point scale.</p>
+        </div>
+      </div>
+
+      <div class="exec-meta-layout">
+        <div class="exec-summary">
+          <p>Our mission at Slush is to help founders change the world. To do that, we need to understand the key challenges they face. The Startup Struggle Survey is grassroots research into the most pressing difficulties on the founding journey — with 1,000+ founders and 250+ investors across Europe and the US, it is one of the largest studies of its kind.</p>
+          <p>We focused on breadth over depth: the mundane, everyday difficulties that hinder growth, regardless of stage, industry, business model, or region. What became clear is that startups struggle with existential problems. The primary challenges relate to financing operations — fundraising, customer acquisition, scaling, and revenue growth.</p>
+          <p>Our survey uncovered beliefs and biases, as well as hidden synergies and misalignments between founders' and investors' perspectives. This report is a snapshot of the present, but it helps us focus on what matters to founders at this moment.</p>
+        </div>
+
+        <aside class="meta-panel">
+          <div class="meta-row">
+            <div class="meta-label">Published</div>
+            <div class="meta-value">2024</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Respondents</div>
+            <div class="meta-value">1,043 founders + 278 investors</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Data source</div>
+            <div class="meta-value">Startup Struggle Survey 2024</div>
+            <div class="meta-sub">Built for journalistic analysis</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Series</div>
+            <div class="meta-value">
+              <a href="/">All reports</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TOP CHALLENGES ── -->
+  <section class="chapter" id="challenges" aria-labelledby="ch2-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Top challenges</div>
+      <h2 id="ch2-title">What are founders' top-3 challenges?</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Founders consistently identified fundraising (63%) as their biggest challenge, followed by customer acquisition (50%), scaling and growth (38%), and revenue growth (37%). When asked about their second and third biggest challenges, responses followed the same trend. People and culture-related issues were less of a focus — peer-to-peer support (2%), talent retention (3%), competition (5%), co-founder relations (5%), and personal motivation (5%) were the least commonly noted.</p>
+        <p>The results were relatively consistent across industries, suggesting that the challenges founders face are largely industry-agnostic. Customer acquisition took priority over fundraising in Cybersecurity, Education, Enterprise Software, and Travel &amp; Leisure. Scaling and growth were the main challenges in Marketing tech, and revenue growth was the most common concern in Proptech.</p>
+        <p>Fundraising remained the primary obstacle for startups with up to 20 employees. For companies with more than 20 employees, revenue growth took the lead. Customer acquisition was the second most pressing challenge for companies with fewer than 10 employees; after that, scaling and growth became more prominent. The balance between growth and profitability is a key challenge for companies with 20 to 100 employees.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Fundraising leads, customer acquisition close behind</div>
+          <div class="chart-subtitle">Multi-select top-3 · n=1,043 · % stating as top-3 challenge</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-challenges" height="480"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOUNDERS VS INVESTORS ── -->
+  <section class="chapter" id="founders-investors" aria-labelledby="ch3-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Founders vs investors</div>
+      <h2 id="ch3-title">Two sides of the same ecosystem, different priorities</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Founders identified fundraising as their biggest challenge, and investors agreed when asked about the challenges their portfolio companies are facing. But in contrast to founders, investors gave more weight to revenue growth — they saw fundraising and revenue growth as almost equally pressing, whereas founders were significantly more likely to highlight fundraising, with customer acquisition and revenue growth following behind.</p>
+        <p>Investors cited revenue growth as the main challenge that discourages them from investing. Growth-stage investors put more weight on it in comparison to early-stage investors, who were more likely to be discouraged due to challenges with customer acquisition. This correlates with what founders themselves identified: smaller companies struggled with customer acquisition in addition to fundraising, while larger companies struggled primarily with revenue growth and scaling.</p>
+        <p>Fundraising and revenue growth go hand in hand: in order to raise funding, you need to nail revenue growth. Where founders are focused on fundraising, revenue growth is the most common reason for investors not to invest — a dynamic that complicates an already challenging process. Prolonged fundraising may come at the expense of revenue growth, yet it is exactly revenue growth that investors want to see before making an investment decision.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Biggest current challenge: startups vs investors</div>
+          <div class="chart-subtitle">Single-select · grouped comparison</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-challenge-comparison" height="480"></canvas></div>
+          <div class="chart-legend" id="challenge-comparison-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="margin-top: 32px;">
+        <div class="chart-card">
+          <div class="chart-headline">What discourages investors from investing</div>
+          <div class="chart-subtitle">Multi-select · n=278 · % of investors</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-investor-discouragement" height="420"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CUSTOMER ACQUISITION ── -->
+  <section class="chapter" id="customer-acquisition" aria-labelledby="ch4-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Customer acquisition</div>
+      <h2 id="ch4-title">Founders confident at the top of the funnel, less so at conversion</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>While founders find it easy to identify new customers, converting prospects into paying customers remains challenging: 36% of respondents find it difficult to convert prospects into customers. User retention and user activation did not seem to pose significant challenges — only 12% found it difficult to retain customers and 21% found user activation challenging.</p>
+        <p>Finding a universal and therefore scalable solution to the problem is a constant struggle. As one founder put it, getting people to try new things is always difficult. The data below shows the full Likert distribution across four customer acquisition dimensions.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Customer acquisition confidence</div>
+          <div class="chart-subtitle">Likert scale · n=1,043 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-customer-acquisition" height="240"></canvas></div>
+          <div class="chart-legend" id="customer-acquisition-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ECOSYSTEM TRENDS ── -->
+  <section class="chapter" id="trends" aria-labelledby="ch5-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Ecosystem trends</div>
+      <h2 id="ch5-title">Investors bet overwhelmingly on AI</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Investors are optimistic that AI will be a disruptive force, much like the internet in the 1980s. Over 60% of investors saw artificial intelligence and machine learning as the biggest trend shaping the ecosystem. Many seem confident that AI is the catalyst of a new paradigm shift.</p>
+        <p>However, some founders worry that the fixation on AI distracts attention away from the core value of their product. The interest in AI makes fundraising increasingly difficult for companies building outside the AI space. When we asked founders what they would need to succeed, one expressed the need for &ldquo;more early-stage investors who aren't just caught up in AI hype.&rdquo;</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Investors' biggest future trend</div>
+          <div class="chart-subtitle">Single-select · n=278 · % of investors</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-trends" height="360"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── REGULATION ── -->
+  <section class="chapter" id="regulation" aria-labelledby="ch6-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Regulation</div>
+      <h2 id="ch6-title">Regulatory severity varies by role, region, and business model</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Investors viewed the impact of regulation to be more significant than founders across every regulatory category — but especially around financial regulations and intellectual property. The gap suggests that founders may not be fully considering the long-term impact of regulatory hurdles, which investors view as critical to future growth.</p>
+        <p>While founders are focused on building products and gaining traction, investors are more concerned about compliance risks — data protection, competition, and rising compliance costs — that can potentially slow or disrupt growth. If these regulatory challenges aren't addressed early, startups risk facing delays, penalties, or unexpected costs, especially as they scale or enter new markets.</p>
+        <p>For founders, regulatory concerns differ by sector, business model, and region. Medtech &amp; Pharma face the toughest regulatory hurdles, followed by Social Media &amp; Messaging, Fintech, Energy, and Biotech. C2C startups face tougher regulation than B2B and B2C startups, especially in market access, competition, taxation, and financial rules. EU-based startups systematically put more weight on regulatory challenges across every category — in particular data protection, privacy regulations (such as GDPR), and labor laws.</p>
+        <p>Respondents rated regulatory severity on a 1–5 scale (1 = not severe, 5 = very severe). Charts show mean scores, not percentages.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Startups vs investors: regulatory severity</div>
+          <div class="chart-subtitle">Mean score · 1–5 scale · grouped comparison</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-regulation-startups-investors" height="280"></canvas></div>
+          <div class="chart-legend" id="regulation-startups-investors-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="margin-top: 32px;">
+        <div class="chart-card">
+          <div class="chart-headline">EU vs non-EU: regulatory severity</div>
+          <div class="chart-subtitle">Mean score · 1–5 scale · grouped comparison</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-regulation-eu" height="280"></canvas></div>
+          <div class="chart-legend" id="regulation-eu-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="margin-top: 32px;">
+        <div class="chart-card">
+          <div class="chart-headline">By business model: regulatory severity</div>
+          <div class="chart-subtitle">Mean score · 1–5 scale · B2B vs B2C vs C2C</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-regulation-business-model" height="280"></canvas></div>
+          <div class="chart-legend" id="regulation-business-model-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TEAM & MOTIVATION ── -->
+  <section class="chapter" id="team-motivation" aria-labelledby="ch7-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Team &amp; motivation</div>
+      <h2 id="ch7-title">Co-founder dynamics and the founder mindset under pressure</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Many founders are ready to give up the new normal and return to the office. Some state that the only thing they would need is &ldquo;being able to put all the team together in a room.&rdquo; The concern is that remote work has made teams less productive and less collaborative, causing general demotivation. One founder said that &ldquo;the rise of remote work is destroying company bonds.&rdquo; Time zones are difficult to manage, and founders are increasingly worried about remote workers holding multiple jobs at the same time.</p>
+        <p>While most founders remain relatively confident in the ability of their co-founders to realize the full potential of their venture, 19% would choose a different co-founder if given the chance. Founders are most confident in their own ability (80%), more confident in their team's ability (71%) than in their co-founders' (66%). This reflects the complexity of finding the right partner — misalignments in vision, work ethic, or skill set can create friction that is difficult to foresee early on but critical to long-term success.</p>
+        <p>Despite all the challenges, founding a company is a passion project and founders would not choose differently. Over 90% of founders feel excited about their ventures. Despite struggles with work-life balance — reported by 35% — only 7% would choose a different path. Overworking, financial strain, and constant fundraising pressure are common struggles, but the drive to build something meaningful outweighs the challenges. 92% felt their work is meaningful, 80% said they would not choose differently, and for 85% motivation to build has either increased or remained the same over the past 12 months.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Co-founder relations</div>
+          <div class="chart-subtitle">Likert scale · n=1,043 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-cofounder-relations" height="280"></canvas></div>
+          <div class="chart-legend" id="cofounder-relations-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="margin-top: 32px;">
+        <div class="chart-card">
+          <div class="chart-headline">Personal motivation</div>
+          <div class="chart-subtitle">Likert scale · n=1,043 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-personal-motivation" height="420"></canvas></div>
+          <div class="chart-legend" id="personal-motivation-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── QUOTES ── -->
+  <section class="chapter" id="quotes" aria-labelledby="ch8-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">In their own words</div>
+      <h2 id="ch8-title">Selected open-ended responses from founders and investors</h2>
+
+      <div class="quote-grid">
+        <figure class="quote-card">
+          <blockquote>AI will change everything.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>The fundraising process takes too long, at the sacrifice of revenue growth.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>The rise of remote work is destroying company bonds.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>More early-stage investors who aren't just caught up in AI hype.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>AI is the number one investment field right now, and if you don't do AI, it's hard to raise capital even though you might have good traction.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>We cannot seem to find a repeatable way to acquire customers.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Getting people to try new things is always difficult.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>The fundraising environment is a bit tough for the moment, and the 2021 times are over. Now companies are required to focus more on profitability than growth.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>The ongoing negative sentiment about fundraising is creating a self-fulfilling prophecy where startups don't raise enough to grow, in turn hindering fundraising.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Being able to put all the team together in a room.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Remote culture is hard, across multiple time zones, for a small team.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Everybody wants to work remotely and keep multiple jobs at the expense of productivity.</blockquote>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DATA EXPLORER ── -->
+  <section class="chapter" id="data-explorer" aria-labelledby="ch9-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Data explorer</div>
+      <h2 id="ch9-title">Browse and sort raw survey data</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Select a survey question to view response categories, percentages, and distribution bars.</p>
+      </div>
+
+      <div class="explorer-tabs" id="explorer-tabs" role="tablist" aria-label="Survey questions"></div>
+
+      <div class="explorer-table-wrap">
+        <table class="method-table explorer-table" id="explorer-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th style="text-align:right;">Percentage</th>
+              <th style="text-align:right;">Responses</th>
+              <th>Distribution</th>
+            </tr>
+          </thead>
+          <tbody id="explorer-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="chart-source-line" style="margin-top: 16px;">Data source: Startup Struggle Survey 2024</div>
+    </div>
+  </section>
+
+  <footer>
+    Slush Research · Impact Report Series · Startup Struggle Survey 2024
+  </footer>
+
+  <script>
+  (function () {
+    Chart.register(ChartDataLabels);
+
+    const ds = getComputedStyle(document.documentElement);
+    const token = (name) => ds.getPropertyValue(name).trim();
+
+    const FG       = token('--color-text');
+    const FG_MUTED = token('--color-chart-axis');
+    const FG_DIM   = token('--color-chart-axis-dim');
+    const SLUSH    = token('--color-chart-slush');
+    const GRID     = token('--color-chart-grid');
+    const FONT     = token('--font-heading');
+
+    const SERIES_COLORS = [
+      token('--color-chart-series-1'),
+      token('--color-chart-series-2'),
+      token('--color-chart-series-3'),
+      token('--color-chart-series-4'),
+      token('--color-chart-series-5'),
+      token('--color-chart-series-6'),
+      token('--color-chart-series-7'),
+    ];
+
+    Chart.defaults.font.family = FONT;
+    Chart.defaults.font.size   = 11;
+    Chart.defaults.color       = FG_MUTED;
+
+    const tooltip = {
+      backgroundColor: token('--color-bg-elevated'),
+      borderColor:     token('--color-border'),
+      borderWidth:     1,
+      titleColor:      FG,
+      bodyColor:       FG_MUTED,
+      padding:         10,
+      cornerRadius:    8,
+    };
+
+    const LIKERT_LABELS = [
+      'Strongly disagree',
+      'Disagree',
+      'Neutral',
+      'Agree',
+      'Strongly agree',
+    ];
+
+    const DATA = {
+      challenges: [
+        { label: 'Fundraising', value: 0.630, count: 657 },
+        { label: 'Customer Acquisition', value: 0.496, count: 517 },
+        { label: 'Scaling and Growth', value: 0.381, count: 397 },
+        { label: 'Revenue Growth', value: 0.368, count: 384 },
+        { label: 'Technology Adoption', value: 0.161, count: 168 },
+        { label: 'Balancing Growth and Profitability', value: 0.149, count: 155 },
+        { label: 'Hiring', value: 0.122, count: 127 },
+        { label: 'User Activation', value: 0.107, count: 112 },
+        { label: 'Getting Useful Feedback on My Product', value: 0.088, count: 92 },
+        { label: 'Regulation', value: 0.086, count: 90 },
+        { label: 'Investor Relations', value: 0.081, count: 84 },
+        { label: 'Customer Retention', value: 0.069, count: 72 },
+        { label: 'Culture and Team Dynamics', value: 0.063, count: 66 },
+        { label: 'Personal Motivation', value: 0.052, count: 54 },
+        { label: 'Co-Founder Relations', value: 0.050, count: 52 },
+        { label: 'Competition', value: 0.049, count: 51 },
+        { label: 'Talent Retention', value: 0.030, count: 31 },
+        { label: 'Peer-to-Peer Support and Mentorship', value: 0.016, count: 17 },
+      ],
+      challengeComparison: [
+        { label: 'Fundraising', startups: 0.353, investors: 0.2433 },
+        { label: 'Customer Acquisition', startups: 0.194, investors: 0.1255 },
+        { label: 'Revenue Growth', startups: 0.136, investors: 0.2357 },
+        { label: 'Scaling and Growth', startups: 0.095, investors: 0.1445 },
+        { label: 'Balancing Growth and Profitability', startups: 0.032, investors: 0 },
+        { label: 'Technology Adoption', startups: 0.026, investors: 0.0152 },
+        { label: 'Hiring', startups: 0.023, investors: 0.0342 },
+        { label: 'Regulation', startups: 0.022, investors: 0 },
+        { label: 'User Activation', startups: 0.02, investors: 0.0114 },
+        { label: 'Customer Retention', startups: 0.018, investors: 0.038 },
+        { label: 'Co-Founder Relations', startups: 0.016, investors: 0.0076 },
+        { label: 'Investor Relations', startups: 0.015, investors: 0.0076 },
+        { label: 'Getting Useful Feedback on My Product', startups: 0.014, investors: 0 },
+        { label: 'Culture and Team Dynamics', startups: 0.013, investors: 0.0038 },
+        { label: 'Personal Motivation', startups: 0.011, investors: 0 },
+        { label: 'Competition', startups: 0.004, investors: 0 },
+        { label: 'Talent Retention', startups: 0.003, investors: 0.019 },
+        { label: 'Peer-to-Peer Support and Mentorship', startups: 0.003, investors: 0 },
+      ],
+      investorDiscouragement: [
+        { label: 'Revenue Growth', value: 0.4651, count: 129 },
+        { label: 'Scaling and Growth', value: 0.4083, count: 114 },
+        { label: 'Customer Acquisition', value: 0.3367, count: 94 },
+        { label: 'Fundraising', value: 0.2512, count: 70 },
+        { label: 'Competition', value: 0.2024, count: 56 },
+        { label: 'Culture and Team Dynamics', value: 0.1873, count: 52 },
+        { label: 'Technology Adoption', value: 0.1869, count: 52 },
+        { label: 'Balancing Growth and Profitability', value: 0.1760, count: 49 },
+        { label: 'Customer Retention', value: 0.1423, count: 40 },
+        { label: 'Personal Motivation', value: 0.1200, count: 33 },
+        { label: 'Co-Founder Relations', value: 0.0935, count: 26 },
+        { label: 'Hiring', value: 0.0709, count: 20 },
+        { label: 'Investor Relations', value: 0.0673, count: 19 },
+        { label: 'Talent Retention', value: 0.0639, count: 18 },
+        { label: 'User Activation', value: 0.0485, count: 13 },
+        { label: 'Peer-to-Peer Support and Mentorship', value: 0.0224, count: 6 },
+        { label: 'Regulation', value: 0, count: 0 },
+        { label: 'Getting Useful Feedback on Product', value: 0, count: 0 },
+      ],
+      customerAcquisition: [
+        { label: 'Identify new customers', stronglyDisagree: 0.018, disagree: 0.1079, neutral: 0.1718, agree: 0.4875, stronglyAgree: 0.2148 },
+        { label: 'Convert prospects to customers', stronglyDisagree: 0.0509, disagree: 0.3087, neutral: 0.3327, agree: 0.2418, stronglyAgree: 0.0659 },
+        { label: 'Retain existing customers', stronglyDisagree: 0.019, disagree: 0.1022, neutral: 0.3667, agree: 0.3477, stronglyAgree: 0.1643 },
+        { label: 'Activate users', stronglyDisagree: 0.0293, disagree: 0.181, neutral: 0.4115, agree: 0.3023, stronglyAgree: 0.0758 },
+      ],
+      trends: [
+        { label: 'Artificial Intelligence and Machine Learning', value: 0.6360, count: 177 },
+        { label: 'Climate Change', value: 0.1066, count: 30 },
+        { label: 'Geopolitical Dynamics', value: 0.0625, count: 17 },
+        { label: 'Regulatory Changes', value: 0.0515, count: 14 },
+        { label: 'Sustainability', value: 0.0404, count: 11 },
+        { label: 'Globalization and Emerging Markets', value: 0.0221, count: 6 },
+        { label: 'Supply Chain Resilience', value: 0.0184, count: 5 },
+        { label: 'Workforce Automation', value: 0.0184, count: 5 },
+        { label: 'Political Instability', value: 0.0147, count: 4 },
+        { label: 'Cybersecurity', value: 0.0110, count: 3 },
+        { label: 'Energy Availability', value: 0.0074, count: 2 },
+        { label: 'Data Privacy and Protection', value: 0.0074, count: 2 },
+        { label: 'Progressive Social Movements', value: 0, count: 0 },
+      ],
+      regulationStartupsInvestors: [
+        { label: 'Data Protection (GDPR)', startups: 2.76, investors: 3.17 },
+        { label: 'Labour Laws', startups: 2.57, investors: 3.10 },
+        { label: 'Taxation', startups: 2.74, investors: 3.01 },
+        { label: 'IPP', startups: 2.63, investors: 3.21 },
+        { label: 'Financial Regulations', startups: 2.47, investors: 3.06 },
+        { label: 'Market Access', startups: 2.69, investors: 3.28 },
+        { label: 'Compliance Costs', startups: 2.78, investors: 3.23 },
+      ],
+      regulationEu: [
+        { label: 'Data Protection (GDPR)', eu: 2.80, nonEu: 2.53 },
+        { label: 'Labour Laws', eu: 2.64, nonEu: 2.26 },
+        { label: 'Taxation', eu: 2.71, nonEu: 2.66 },
+        { label: 'IPP', eu: 2.65, nonEu: 2.54 },
+        { label: 'Financial Regulations', eu: 2.46, nonEu: 2.47 },
+        { label: 'Market Access', eu: 2.71, nonEu: 2.56 },
+        { label: 'Compliance Costs', eu: 2.76, nonEu: 2.70 },
+      ],
+      regulationBusinessModel: [
+        { label: 'Financial Regulations', b2b: 2.44, b2c: 2.58, c2c: 3.33 },
+        { label: 'Labour Laws', b2b: 2.56, b2c: 2.66, c2c: 2.67 },
+        { label: 'IPP', b2b: 2.63, b2c: 2.61, c2c: 3.00 },
+        { label: 'Market Access', b2b: 2.67, b2c: 2.77, c2c: 3.67 },
+        { label: 'Taxation', b2b: 2.70, b2c: 2.89, c2c: 3.67 },
+        { label: 'Data Protection (GDPR)', b2b: 2.73, b2c: 2.86, c2c: 3.17 },
+        { label: 'Compliance Costs', b2b: 2.79, b2c: 2.76, c2c: 3.33 },
+      ],
+      cofounderRelations: [
+        { label: 'Team confidence', stronglyDisagree: 0.0133, disagree: 0.0729, neutral: 0.1992, agree: 0.4117, stronglyAgree: 0.3029 },
+        { label: 'Own ability', stronglyDisagree: 0.0072, disagree: 0.0587, neutral: 0.1411, agree: 0.4253, stronglyAgree: 0.3677 },
+        { label: 'Co-founders ability', stronglyDisagree: 0.0332, disagree: 0.0675, neutral: 0.2399, agree: 0.3375, stronglyAgree: 0.3219 },
+        { label: 'Would found with different people', stronglyDisagree: 0.3261, disagree: 0.2277, neutral: 0.2526, agree: 0.1315, stronglyAgree: 0.0621 },
+      ],
+      personalMotivation: [
+        { label: 'Excited about work', stronglyDisagree: 0.0072, disagree: 0.0215, neutral: 0.0736, agree: 0.317, stronglyAgree: 0.5808 },
+        { label: 'Doing something meaningful', stronglyDisagree: 0.0062, disagree: 0.0186, neutral: 0.0557, agree: 0.2845, stronglyAgree: 0.6351 },
+        { label: 'Important positive impact', stronglyDisagree: 0.0052, disagree: 0.0197, neutral: 0.0942, agree: 0.2888, stronglyAgree: 0.5921 },
+        { label: 'Motivation decreased (12 mo)', stronglyDisagree: 0.3409, disagree: 0.2844, neutral: 0.1786, agree: 0.1427, stronglyAgree: 0.0534 },
+        { label: 'Motivation increased (12 mo)', stronglyDisagree: 0.0339, disagree: 0.115, neutral: 0.2639, agree: 0.2885, stronglyAgree: 0.2988 },
+        { label: 'Work-life balance', stronglyDisagree: 0.1057, disagree: 0.2394, neutral: 0.2456, agree: 0.2777, stronglyAgree: 0.1316 },
+        { label: 'Would not have become founder', stronglyDisagree: 0.5894, disagree: 0.211, neutral: 0.1299, agree: 0.0489, stronglyAgree: 0.0208 },
+      ],
+      foundingYear: [
+        { label: 'Before 2014', value: 0.035, count: 36 },
+        { label: '2014', value: 0.017, count: 18 },
+        { label: '2015', value: 0.019, count: 20 },
+        { label: '2016', value: 0.041, count: 43 },
+        { label: '2017', value: 0.059, count: 61 },
+        { label: '2018', value: 0.058, count: 60 },
+        { label: '2019', value: 0.109, count: 113 },
+        { label: '2020', value: 0.123, count: 128 },
+        { label: '2021', value: 0.131, count: 136 },
+        { label: '2022', value: 0.169, count: 175 },
+        { label: '2023', value: 0.153, count: 159 },
+        { label: '2024', value: 0.086, count: 89 },
+      ],
+      numFounders: [
+        { label: '1', value: 0.167, count: 170 },
+        { label: '2', value: 0.416, count: 423 },
+        { label: '3', value: 0.260, count: 264 },
+        { label: '4', value: 0.097, count: 99 },
+        { label: '5+', value: 0.059, count: 60 },
+      ],
+      repeatFounder: [
+        { label: 'Yes', value: 0.593, count: 610 },
+        { label: 'No', value: 0.407, count: 419 },
+      ],
+      businessModel: [
+        { label: 'B2B', value: 0.733, count: 753 },
+        { label: 'B2C', value: 0.195, count: 200 },
+        { label: 'C2C', value: 0.009, count: 9 },
+        { label: 'Other', value: 0.063, count: 65 },
+      ],
+      firstFunding: [
+        { label: 'Before 2014', value: 0.026, count: 24 },
+        { label: '2014', value: 0.005, count: 5 },
+        { label: '2015', value: 0.007, count: 6 },
+        { label: '2016', value: 0.026, count: 24 },
+        { label: '2017', value: 0.043, count: 39 },
+        { label: '2018', value: 0.055, count: 50 },
+        { label: '2019', value: 0.068, count: 62 },
+        { label: '2020', value: 0.105, count: 96 },
+        { label: '2021', value: 0.122, count: 112 },
+        { label: '2022', value: 0.177, count: 162 },
+        { label: '2023', value: 0.170, count: 156 },
+        { label: '2024', value: 0.197, count: 181 },
+      ],
+      investorIndustries: [
+        { label: 'Enterprise Software', value: 0.284, count: 79 },
+        { label: 'Deeptech', value: 0.270, count: 75 },
+        { label: 'Climate', value: 0.234, count: 65 },
+        { label: 'Fintech & Insurance', value: 0.169, count: 47 },
+        { label: 'Cleantech', value: 0.165, count: 46 },
+        { label: 'Health & Wellbeing', value: 0.122, count: 34 },
+        { label: 'Cybersecurity', value: 0.112, count: 31 },
+        { label: 'Energy', value: 0.104, count: 29 },
+        { label: 'Analytics', value: 0.083, count: 23 },
+        { label: 'Life Sciences', value: 0.079, count: 22 },
+      ],
+      investorFirmFoundingYear: [
+        { label: 'Before 2014', value: 0.271, count: 75 },
+        { label: '2014', value: 0.032, count: 9 },
+        { label: '2015', value: 0.032, count: 9 },
+        { label: '2016', value: 0.090, count: 25 },
+        { label: '2017', value: 0.112, count: 31 },
+        { label: '2018', value: 0.072, count: 20 },
+        { label: '2019', value: 0.087, count: 24 },
+        { label: '2020', value: 0.072, count: 20 },
+        { label: '2021', value: 0.072, count: 20 },
+        { label: '2022', value: 0.076, count: 21 },
+        { label: '2023', value: 0.043, count: 12 },
+        { label: '2024', value: 0.040, count: 11 },
+      ],
+      investorFundsRaised: [
+        { label: '1', value: 0.401, count: 111 },
+        { label: '2', value: 0.271, count: 75 },
+        { label: '3', value: 0.100, count: 28 },
+        { label: '4', value: 0.056, count: 16 },
+        { label: '5', value: 0.033, count: 9 },
+        { label: '6+', value: 0.138, count: 38 },
+      ],
+    };
+
+    const EXPLORER_QUESTIONS = [
+      { key: 'foundingYear', label: 'Company founding year' },
+      { key: 'numFounders', label: 'Number of founders' },
+      { key: 'repeatFounder', label: 'Repeat founder' },
+      { key: 'businessModel', label: 'Business model' },
+      { key: 'firstFunding', label: 'First funding year' },
+      { key: 'investorIndustries', label: 'Investor industries' },
+      { key: 'investorFirmFoundingYear', label: 'Investor firm founding year' },
+      { key: 'investorFundsRaised', label: 'Investor funds raised' },
+    ];
+
+    function truncateLabel(label, max) {
+      return label.length > max ? label.slice(0, max) + '…' : label;
+    }
+
+    function makeHorizontalBarChart(canvasId, items, height) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return null;
+      const wrap = canvas.parentElement;
+      if (height) wrap.style.height = height + 'px';
+
+      const labels = items.map(d => truncateLabel(d.label, 36)).reverse();
+      const values = items.map(d => d.value * 100).reverse();
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: SLUSH,
+            borderRadius: 3,
+            barPercentage: 0.62,
+            datalabels: {
+              anchor: 'end', align: 'end', offset: 4,
+              color: FG, font: { size: 11, weight: '700', family: FONT },
+              formatter: v => Math.round(v) + '%',
+            },
+          }],
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: ctx => {
+                  const item = items[items.length - 1 - ctx.dataIndex];
+                  return ` ${Math.round(ctx.raw)}% (${item.count} responses)`;
+                },
+              },
+            },
+            datalabels: {},
+          },
+          scales: {
+            x: {
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, callback: v => v + '%' },
+              max: Math.ceil(Math.max(...values) / 5) * 5 + 5,
+            },
+            y: {
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    const STAGES = [
+      { key: 'total', label: 'Total' },
+      { key: 'bootstrapped', label: 'Bootstrapped' },
+      { key: 'firstRound', label: 'Raising First Round' },
+      { key: 'preSeed', label: 'Raising Pre-seed' },
+      { key: 'seed', label: 'Raising Seed' },
+      { key: 'seriesA', label: 'Raising Series A' },
+      { key: 'seriesBPlus', label: 'Raising Series B+' },
+    ];
+
+    function stageColorIndex(key) {
+      return STAGES.findIndex(s => s.key === key);
+    }
+
+    function buildComparisonChart(canvasId, toggleContainerId, legendContainerId, rows, activeKeys) {
+      const canvas = document.getElementById(canvasId);
+      const toggleContainer = document.getElementById(toggleContainerId);
+      const legendContainer = document.getElementById(legendContainerId);
+      let active = [...activeKeys];
+      let chart;
+
+      function renderLegend() {
+        legendContainer.innerHTML = active.map(key => {
+          const stage = STAGES.find(s => s.key === key);
+          const idx = stageColorIndex(key);
+          const color = SERIES_COLORS[idx];
+          return `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${color}"></span>${stage.label}</span>`;
+        }).join('');
+      }
+
+      function buildDatasets(keys) {
+        return keys.map(key => {
+          const idx = stageColorIndex(key);
+          const stage = STAGES.find(s => s.key === key);
+          return {
+            label: stage.label,
+            data: rows.map(r => r[key] * 100),
+            backgroundColor: SERIES_COLORS[idx],
+            borderRadius: 2,
+            barPercentage: 0.72,
+          };
+        });
+      }
+
+      function updateChart() {
+        const labels = rows.map(r => truncateLabel(r.label, 42));
+        if (chart) {
+          chart.data.labels = labels;
+          chart.data.datasets = buildDatasets(active);
+          chart.update();
+        } else {
+          chart = new Chart(canvas, {
+            type: 'bar',
+            data: {
+              labels,
+              datasets: buildDatasets(active),
+            },
+            options: {
+              indexAxis: 'y',
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  ...tooltip,
+                  callbacks: {
+                    label: c => ` ${c.dataset.label}: ${Math.round(c.raw)}%`,
+                  },
+                },
+                datalabels: { display: false },
+              },
+              scales: {
+                x: {
+                  grid: { color: GRID },
+                  border: { display: false },
+                  ticks: { color: FG_DIM, callback: v => v + '%' },
+                  max: 100,
+                },
+                y: {
+                  grid: { display: false },
+                  border: { display: false },
+                  ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+                },
+              },
+            },
+          });
+        }
+        renderLegend();
+      }
+
+      STAGES.forEach(stage => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'toggle-pill' + (active.includes(stage.key) ? ' is-active' : '');
+        btn.textContent = stage.label;
+        btn.dataset.key = stage.key;
+        btn.addEventListener('click', () => {
+          if (active.includes(stage.key)) {
+            if (active.length === 1) return;
+            active = active.filter(k => k !== stage.key);
+          } else {
+            active = [...active, stage.key];
+          }
+          toggleContainer.querySelectorAll('.toggle-pill').forEach(pill => {
+            pill.classList.toggle('is-active', active.includes(pill.dataset.key));
+          });
+          updateChart();
+        });
+        toggleContainer.appendChild(btn);
+      });
+
+      updateChart();
+      return chart;
+    }
+
+    function buildTwoSeriesComparisonChart(canvasId, legendContainerId, rows, keyA, keyB, labelA, labelB) {
+      const canvas = document.getElementById(canvasId);
+      const legendContainer = document.getElementById(legendContainerId);
+      const seriesDefs = [
+        { key: keyA, label: labelA },
+        { key: keyB, label: labelB },
+      ];
+
+      legendContainer.innerHTML = seriesDefs.map((s, idx) =>
+        `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${SERIES_COLORS[idx]}"></span>${s.label}</span>`
+      ).join('');
+
+      const labels = rows.map(r => truncateLabel(r.label, 42));
+      const datasets = seriesDefs.map((s, idx) => ({
+        label: s.label,
+        data: rows.map(r => r[s.key] * 100),
+        backgroundColor: SERIES_COLORS[idx],
+        borderRadius: 2,
+        barPercentage: 0.72,
+      }));
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: { labels, datasets },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: c => ` ${c.dataset.label}: ${(c.raw).toFixed(1)}%`,
+              },
+            },
+            datalabels: { display: false },
+          },
+          scales: {
+            x: {
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, callback: v => v + '%' },
+              max: Math.ceil(Math.max(...datasets.flatMap(d => d.data)) / 5) * 5 + 5,
+            },
+            y: {
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    function buildScoreComparisonChart(canvasId, legendContainerId, rows, seriesDefs, maxScale) {
+      const canvas = document.getElementById(canvasId);
+      const legendContainer = document.getElementById(legendContainerId);
+
+      legendContainer.innerHTML = seriesDefs.map((s, idx) =>
+        `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${SERIES_COLORS[idx]}"></span>${s.label}</span>`
+      ).join('');
+
+      const labels = rows.map(r => truncateLabel(r.label, 42));
+      const datasets = seriesDefs.map((s, idx) => ({
+        label: s.label,
+        data: rows.map(r => r[s.key]),
+        backgroundColor: SERIES_COLORS[idx],
+        borderRadius: 2,
+        barPercentage: 0.72,
+      }));
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: { labels, datasets },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: c => ` ${c.dataset.label}: ${c.raw.toFixed(2)}`,
+              },
+            },
+            datalabels: { display: false },
+          },
+          scales: {
+            x: {
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM },
+              min: 0,
+              max: maxScale,
+            },
+            y: {
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    function renderLikertLegend(legendContainerId) {
+      const legendContainer = document.getElementById(legendContainerId);
+      if (!legendContainer) return;
+      legendContainer.innerHTML = LIKERT_LABELS.map((label, idx) =>
+        `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${SERIES_COLORS[idx]}"></span>${label}</span>`
+      ).join('');
+    }
+
+    function makeStackedLikertChart(canvasId, rows, height) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return null;
+      const wrap = canvas.parentElement;
+      if (height) wrap.style.height = height + 'px';
+
+      const labels = rows.map(r => truncateLabel(r.label, 42)).reverse();
+      const keys = ['stronglyDisagree', 'disagree', 'neutral', 'agree', 'stronglyAgree'];
+
+      const datasets = keys.map((key, idx) => ({
+        label: LIKERT_LABELS[idx],
+        data: rows.map(r => r[key] * 100).reverse(),
+        backgroundColor: SERIES_COLORS[idx],
+        borderRadius: 0,
+        barPercentage: 0.72,
+        datalabels: {
+          display: ctx => ctx.dataset.data[ctx.dataIndex] >= 5,
+          color: FG,
+          font: { size: 9, weight: '700', family: FONT },
+          formatter: v => Math.round(v) + '%',
+        },
+      }));
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: { labels, datasets },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%`,
+              },
+            },
+            datalabels: {},
+          },
+          scales: {
+            x: {
+              stacked: true,
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, callback: v => v + '%' },
+              max: 100,
+            },
+            y: {
+              stacked: true,
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    makeHorizontalBarChart('chart-challenges', DATA.challenges, 480);
+
+    buildTwoSeriesComparisonChart(
+      'chart-challenge-comparison',
+      'challenge-comparison-legend',
+      DATA.challengeComparison,
+      'startups',
+      'investors',
+      'Startups',
+      'Investors'
+    );
+
+    makeHorizontalBarChart('chart-investor-discouragement', DATA.investorDiscouragement, 420);
+
+    makeStackedLikertChart('chart-customer-acquisition', DATA.customerAcquisition, 240);
+    renderLikertLegend('customer-acquisition-legend');
+
+    makeHorizontalBarChart('chart-trends', DATA.trends, 360);
+
+    buildScoreComparisonChart(
+      'chart-regulation-startups-investors',
+      'regulation-startups-investors-legend',
+      DATA.regulationStartupsInvestors,
+      [
+        { key: 'startups', label: 'Startups' },
+        { key: 'investors', label: 'Investors' },
+      ],
+      4
+    );
+
+    buildScoreComparisonChart(
+      'chart-regulation-eu',
+      'regulation-eu-legend',
+      DATA.regulationEu,
+      [
+        { key: 'eu', label: 'EU' },
+        { key: 'nonEu', label: 'Non-EU' },
+      ],
+      4
+    );
+
+    buildScoreComparisonChart(
+      'chart-regulation-business-model',
+      'regulation-business-model-legend',
+      DATA.regulationBusinessModel,
+      [
+        { key: 'b2b', label: 'B2B' },
+        { key: 'b2c', label: 'B2C' },
+        { key: 'c2c', label: 'C2C' },
+      ],
+      4
+    );
+
+    makeStackedLikertChart('chart-cofounder-relations', DATA.cofounderRelations, 280);
+    renderLikertLegend('cofounder-relations-legend');
+
+    makeStackedLikertChart('chart-personal-motivation', DATA.personalMotivation, 420);
+    renderLikertLegend('personal-motivation-legend');
+
+    // Data explorer
+    const tabsEl = document.getElementById('explorer-tabs');
+    const tbodyEl = document.getElementById('explorer-tbody');
+    let activeQuestion = EXPLORER_QUESTIONS[0].key;
+
+    function renderExplorerTable(key) {
+      const rows = DATA[key];
+      tbodyEl.innerHTML = rows.map(row => {
+        const pct = Math.round(row.value * 100);
+        return `<tr>
+          <td>${row.label}</td>
+          <td style="text-align:right;">${pct}%</td>
+          <td style="text-align:right;">${row.count}</td>
+          <td><div class="dist-bar"><div class="dist-bar-fill" style="width:${pct}%"></div></div></td>
+        </tr>`;
+      }).join('');
+    }
+
+    EXPLORER_QUESTIONS.forEach(q => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'toggle-pill' + (q.key === activeQuestion ? ' is-active' : '');
+      btn.textContent = q.label;
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-selected', q.key === activeQuestion ? 'true' : 'false');
+      btn.addEventListener('click', () => {
+        activeQuestion = q.key;
+        tabsEl.querySelectorAll('.toggle-pill').forEach(pill => {
+          const isActive = pill === btn;
+          pill.classList.toggle('is-active', isActive);
+          pill.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+        renderExplorerTable(activeQuestion);
+      });
+      tabsEl.appendChild(btn);
+    });
+
+    renderExplorerTable(activeQuestion);
+  })();
+  </script>
+
+</body>
+</html>

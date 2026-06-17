@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Startup Struggle Survey 2025 — Slush Impact Report Series</title>
+  <meta name="description" content="Survey of 607 early-stage European startup founders on challenges, fundraising, customer acquisition, talent, and founder resilience.">
+  <link rel="apple-touch-icon" href="assets/slush-s-icon.jpeg" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  <link rel="shortcut icon" type="image/jpeg" href="assets/logo.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+
+  <link rel="stylesheet" href="design-system/slush.css">
+</head>
+
+<body>
+
+  <nav class="topnav" aria-label="Chapter navigation">
+    <a class="topnav-brand" href="/" aria-label="Slush — Impact Report Series">
+      <img class="topnav-logo" src="assets/slush-logo.png" alt="Slush">
+      <span>Startup Struggle Survey 2025</span>
+    </a>
+    <span class="topnav-divider" aria-hidden="true"></span>
+    <ul class="topnav-links">
+      <li><a href="/">All reports</a></li>
+      <li><a href="#exec-summary">Summary</a></li>
+      <li><a href="#challenges">Challenges</a></li>
+      <li><a href="#yoy">Year-over-year</a></li>
+      <li><a href="#fundraising">Fundraising</a></li>
+      <li><a href="#customer-acquisition">Customer acquisition</a></li>
+      <li><a href="#talent">Talent</a></li>
+      <li><a href="#resilience">Resilience</a></li>
+      <li><a href="#funding-stage">Funding stage</a></li>
+      <li><a href="#industries">Industries</a></li>
+      <li><a href="#europe-hope">Hope for Europe</a></li>
+      <li><a href="#quotes">Quotes</a></li>
+      <li><a href="#looking-ahead">Looking ahead</a></li>
+      <li><a href="#data-explorer">Data</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-image" role="img" aria-label="Slush hero visual"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Slush Impact Report Series &mdash; Startup Struggle Survey 2025</div>
+      <h1 id="hero-title">What's holding European founders back in 2025?</h1>
+      <div class="hero-meta">
+        Survey of 607 early-stage European startup founders &middot; Q1 2025
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXECUTIVE SUMMARY ── -->
+  <section class="chapter" id="exec-summary" aria-labelledby="ch1-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Executive summary</div>
+      <h2 id="ch1-title">607 early-stage founders on the European startup struggle</h2>
+
+      <div class="stat-grid stat-grid--quad">
+        <div class="stat-box">
+          <div class="stat-finding">Respondents</div>
+          <div class="stat-number">607</div>
+          <div class="stat-label">Early-stage European startup founders surveyed in Q1 2025</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Top challenge</div>
+          <div class="stat-number">58.1%</div>
+          <div class="stat-label">Fundraising ranks as the most-cited top concern among founders</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Customer acquisition</div>
+          <div class="stat-number">~50%</div>
+          <div class="stat-label">Customer acquisition remains a persistent top-3 challenge</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Founder conviction</div>
+          <div class="stat-number">81%</div>
+          <div class="stat-label">Would not change their decision to become a founder</div>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top: 64px;">Key insights</div>
+      <div class="insight-grid">
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Fundraising still #1, but easing slightly</div>
+          <p class="insight-card-desc">58.1% of founders cite fundraising as a top concern, down from 63% in 2024. Capital remains the defining friction, though the intensity has softened marginally year-over-year.</p>
+        </div>
+        <div class="insight-card insight-card--warning">
+          <div class="insight-card-title">Revenue growth surges +16pp YoY</div>
+          <p class="insight-card-desc">Revenue growth jumped from 36.8% to 52.8% as a top concern — the largest shift in the survey. Founders are increasingly focused on proving traction and profitability.</p>
+        </div>
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Customer acquisition holds steady</div>
+          <p class="insight-card-desc">Customer acquisition sits at 50%, virtually unchanged from 49.6% in 2024. Founders remain confident identifying prospects but struggle to convert them.</p>
+        </div>
+        <div class="insight-card insight-card--positive">
+          <div class="insight-card-title">Founder resilience remains strong</div>
+          <p class="insight-card-desc">81% would not change their founding decision, 87% say positive impact matters, and 68% are confident in their team's ability — despite a tougher funding environment.</p>
+        </div>
+        <div class="insight-card insight-card--warning">
+          <div class="insight-card-title">Motivation is growing, not shrinking</div>
+          <p class="insight-card-desc">A 6.8 percentage-point increase in founders strongly agreeing their motivation grew over the past 12 months signals enduring commitment even as external conditions tighten.</p>
+        </div>
+      </div>
+
+      <div class="exec-meta-layout">
+        <div class="exec-summary">
+          <p>Our mission at Slush is to help founders change the world. The Startup Struggle Survey 2025 is our second edition of grassroots-level research into the most pressing challenges of building a startup in Europe. With over 600 responses from early-stage founders across the continent, this report captures the pulse of Europe's startup community — the most pressing challenges, the sources of optimism, and the realities of building a company in today's landscape.</p>
+          <p>What we're most interested in are the seemingly mundane, everyday friction points that hinder progress: the things that don't make headlines, but hold companies back. While some struggles are timeless — capital, hiring, growth — others shift subtly each year. This report is a snapshot of the present.</p>
+          <p>What became immediately clear is that the biggest struggles in 2025 are existential — funding and growth. Fundraising is still the top concern for 58.1% of founders, though slightly down from last year's 63%. But what's more striking is the surge in concerns around revenue growth, which jumped nearly 16 percentage points year-over-year — even when capital is raised, turning that capital into sustainable growth is far from straightforward.</p>
+        </div>
+
+        <aside class="meta-panel">
+          <div class="meta-row">
+            <div class="meta-label">Published</div>
+            <div class="meta-value">Q1 2025</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Respondents</div>
+            <div class="meta-value">607 founders</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Data source</div>
+            <div class="meta-value">Startup Struggle Survey 2025</div>
+            <div class="meta-sub">Built for journalistic analysis</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Series</div>
+            <div class="meta-value">
+              <a href="/">All reports</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TOP CHALLENGES ── -->
+  <section class="chapter" id="challenges" aria-labelledby="ch2-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Top challenges</div>
+      <h2 id="ch2-title">What are founders' top concerns in 2025?</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Fundraising remains the most pressing challenge for founders in 2025, though slightly less dominant than last year at 58.1%, down from 63% in 2024. Customer acquisition held steady at just over 50%, showing that despite evolving tactics and tools, acquiring and retaining users continues to be a stubborn hurdle.</p>
+        <p>But the most striking shift is the surge in concerns around revenue growth, which jumped nearly 16 percentage points year-over-year. It signals a growing struggle: even when capital is raised, turning that capital into sustainable growth is far from straightforward. These numbers reflect what we hear daily — the rules of the game may be changing, but the stakes have never been higher.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Fundraising leads, revenue growth surges into second</div>
+          <div class="chart-subtitle">Multi-select top concern · n=607 · % stating as top concern</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-challenges" height="480"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── YEAR-OVER-YEAR ── -->
+  <section class="chapter" id="yoy" aria-labelledby="ch3-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Year-over-year</div>
+      <h2 id="ch3-title">2024 vs 2025: shifting priorities among European founders</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Comparing the top challenge metrics year-over-year reveals a clear pivot: fundraising pressure is easing while revenue growth expectations are rising sharply. Customer acquisition has held virtually steady — a persistent friction point that neither improved nor worsened between 2024 and 2025.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Key challenge metrics: 2024 vs 2025</div>
+          <div class="chart-subtitle">% citing as top concern · grouped comparison</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-yoy" height="280"></canvas></div>
+          <div class="chart-legend" id="yoy-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2024 &amp; 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FUNDRAISING ── -->
+  <section class="chapter" id="fundraising" aria-labelledby="ch4-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Fundraising</div>
+      <h2 id="ch4-title">A tougher capital environment, but not without hope</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Fundraising remains the most pressing challenge for founders in 2025, though slightly less dominant than last year. Only 18% of founders state that it would be easy for them to raise funding right now if they wanted to, while 57% actively disagree — marking a 7.6 percentage point increase in those who find it harder to raise capital compared to 2024.</p>
+        <p>Forming investor relationships is getting tougher in 2025, with a 6.6 percentage point drop in founders reporting challenges connecting with new investors compared to 2024. Founders consistently point to a core tension: in a market where generating growth is difficult, it's even harder to raise capital — because growth is exactly what investors expect. That creates a paradox.</p>
+        <p>Founders face mounting pressure to demonstrate a clear path to profitability and capital efficiency, rather than just chasing rapid expansion. European founders also face regional headwinds. European investors are perceived as more risk-averse than their U.S. counterparts — especially in deeptech, where long cycles and uncertain returns scare off more conservative capital. And in the AI space, oversaturation has made it harder than ever to stand out. In 2025, founders are clearly navigating a tougher, slower, and more selective investment climate.</p>
+      </div>
+
+      <div class="inline-charts two-col">
+        <div class="chart-card">
+          <div class="chart-headline">How founders feel about raising funding</div>
+          <div class="chart-subtitle">Likert agreement · n=607 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-fundraising-ease" height="160"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-headline">Investor relationships getting tougher</div>
+          <div class="chart-subtitle">Year-over-year shifts in fundraising sentiment</div>
+          <div class="stat-grid" style="margin-top: 32px;">
+            <div class="stat-box">
+              <div class="stat-finding">Connecting with new investors</div>
+              <div class="stat-number">−6.6pp</div>
+              <div class="stat-label">Drop in challenges connecting with new investors vs 2024</div>
+            </div>
+            <div class="stat-box">
+              <div class="stat-finding">Harder to raise funding</div>
+              <div class="stat-number">+7.6pp</div>
+              <div class="stat-label">Increase in founders finding it harder to raise vs 2024</div>
+            </div>
+          </div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CUSTOMER ACQUISITION ── -->
+  <section class="chapter" id="customer-acquisition" aria-labelledby="ch5-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Customer acquisition</div>
+      <h2 id="ch5-title">Confident at the top of the funnel, struggling at conversion</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>While 68% of founders say it's easy to identify new prospects, only 30% say it's easy to convert them. The gap between visibility and traction is where momentum dies. Limited resources force constant trade-offs between building the product and executing effective go-to-market strategies.</p>
+        <p>The growth landscape has shifted. Rising customer acquisition costs, intensifying competition, and rapidly evolving market expectations are making revenue growth harder to achieve — and even harder to sustain. In 2025, startups must be more strategic than ever — refining their value propositions, optimizing conversion funnels, and focusing not just on acquisition, but on retention and building companies that last.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Customer acquisition confidence</div>
+          <div class="chart-subtitle">Agreement rate · n=607 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-customer-acquisition" height="160"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HIRING & TALENT ── -->
+  <section class="chapter" id="talent" aria-labelledby="ch6-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Hiring &amp; talent</div>
+      <h2 id="ch6-title">Technical talent remains harder to attract than non-technical</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Despite the spotlight often falling on funding and growth, talent remains a quiet but persistent challenge. In 2025, 20% of founders report difficulty attracting technical talent, and 12% report the same for non-technical roles — numbers nearly identical to last year. The consistency doesn't mean the challenge is small — it means it's stubborn.</p>
+        <p>For technical roles, especially in AI, competition is fierce. Startups are going head-to-head with tech giants that offer high salaries, extensive perks, and the perception of long-term stability. But beyond skills and salaries, founders are increasingly focused on mindset. It's a struggle to find people who not only have the technical know-how but also the cultural alignment, drive, and accountability required in an early-stage team.</p>
+        <p>The challenge is twofold: hiring fast enough to support growth, while maintaining a high bar for motivation, ownership, and cultural fit. In some cases, founders pointed to a deeper issue: a lack of ambition to grow new globally competitive businesses. In 2025, the talent challenge isn't just about hiring — it's about finding people who believe in the mission, thrive in uncertainty, and are ready to help push the company forward.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Difficulty attracting talent</div>
+          <div class="chart-subtitle">Agreement rate · n=607 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-talent" height="160"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOUNDER RESILIENCE ── -->
+  <section class="chapter" id="resilience" aria-labelledby="ch7-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Founder resilience</div>
+      <h2 id="ch7-title">Conviction and purpose remain high under pressure</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Behind every company is a founder carrying the weight of everything. And yet, motivation in 2025 remains strong. Founding a company is truly a passion job and the belief in doing meaningful work is more than just a nice-to-have. Motivation appears to be strengthening overall, with a 6.8% increase in founders who strongly agree their drive to build has grown. Even co-founder alignment is trending positively, with fewer founders saying they'd choose different people if starting over.</p>
+        <p>Still, the emotional toll is very real. Founders spoke of the stress that comes from wearing too many hats, constantly navigating an uncertain future, and trying to balance purpose with the pressure to build a profitable business. In 2025, founder resilience isn't about having all the answers — it's about staying in the game, fueled by mission, belief, and the drive to move forward, even when the path is unclear.</p>
+      </div>
+
+      <div class="stat-grid stat-grid--quad">
+        <div class="stat-box">
+          <div class="stat-finding">Team confidence</div>
+          <div class="stat-number">68%</div>
+          <div class="stat-label">Confident in their team's ability to execute</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">No regrets</div>
+          <div class="stat-number">81%</div>
+          <div class="stat-label">Would not change their decision to become a founder</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Positive impact</div>
+          <div class="stat-number">87%</div>
+          <div class="stat-label">Say creating a positive impact is important to them</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Growing motivation</div>
+          <div class="stat-number">+6.8pp</div>
+          <div class="stat-label">Increase in founders strongly agreeing motivation grew (12 mo)</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="margin-top: 32px;">
+        <div class="chart-card">
+          <div class="chart-headline">Founder mindset indicators</div>
+          <div class="chart-subtitle">Agreement rate · n=607 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-resilience" height="200"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FUNDING STAGE ── -->
+  <section class="chapter" id="funding-stage" aria-labelledby="ch8-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Funding stage</div>
+      <h2 id="ch8-title">Most respondents are pre-funding</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>This report is based on 607 responses from early-stage European startup founders collected in Q1 2025. The average company was founded in 2021, making them approximately 4 years old at the time of the survey. On average, founding teams consist of 2.5 founders, with 60.17% reporting at least one repeat founder. The majority — 68.37% — have not yet raised external funding.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Company funding stage</div>
+          <div class="chart-subtitle">Single-select · n=607 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-funding-stage" height="320"></canvas></div>
+          <div class="chart-legend" id="funding-stage-legend"></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TOP INDUSTRIES ── -->
+  <section class="chapter" id="industries" aria-labelledby="ch9-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Top industries</div>
+      <h2 id="ch9-title">Enterprise software and deeptech lead the cohort</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>The survey cohort reflects a diverse mix of industries, stages, and founder backgrounds — offering a grounded view into the realities of building a startup in Europe in 2025. Enterprise software leads industry representation, followed by deeptech, gaming, fintech, and health &amp; wellbeing.</p>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Top industries represented</div>
+          <div class="chart-subtitle">Multi-select · n=607 · % of founders</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-industries" height="280"></canvas></div>
+          <div class="chart-source-line">Startup Struggle Survey 2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── HOPE FOR EUROPE ── -->
+  <section class="chapter" id="europe-hope" aria-labelledby="ch10-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Hope for Europe</div>
+      <h2 id="ch10-title">Is there hope for European tech?</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>For all the challenges outlined in this report, one question lingers: Is there hope for European tech? The answer from founders is a resounding — if nuanced — yes. There's a quiet confidence brewing beneath the surface. Founders point to signs that Europe is maturing in all the right ways: a new wave of second-time founders reinvesting their capital and experience back into the ecosystem; a growing bench of VCs who don't just bring money, but conviction; and an operator-to-founder flywheel that's finally kicking in.</p>
+        <p>The optimism goes beyond infrastructure. Europe's talent pool is elite — world-class researchers, engineers, and product minds are staying here to build. Our universities and research institutions are producing cutting-edge work, especially in AI, biotech, and quantum. And more founders are thinking globally from Day 1 — bolder, more technical, and more mission-driven than ever before.</p>
+        <p>What gives many hope is Europe's deeper sense of purpose. Founders speak with pride about building companies grounded in ethics, inclusion, and responsibility. There's a belief that Europe can define a new kind of tech model: one that's sustainable, values-driven, and globally competitive.</p>
+        <p>That belief is tested by real concerns. Europe's fragmented regulatory landscape is a recurring frustration — founders feel like they're building five companies at once just to operate across borders. The mindset around risk is still too cautious. Deep tech startups struggle to find late-stage capital, and female founders still face systemic barriers to networks and visibility. For some, &ldquo;European tech&rdquo; still feels like an abstract idea, fractured across national lines.</p>
+        <p>And yet, resilience is a theme that runs throughout. In a world defined by uncertainty, European founders continue to build. They're navigating bureaucracy, pushing through risk aversion, and rewriting the playbook in real time. There's hope in the momentum that's building, even if the system isn't perfect yet. If the 2020s have proven anything, it's that Europe is capable of adaptation. These struggles are real, but they are not excuses — they are a call to action.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── QUOTES ── -->
+  <section class="chapter" id="quotes" aria-labelledby="ch11-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">In their own words</div>
+      <h2 id="ch11-title">Selected open-ended responses from founders</h2>
+
+      <div class="quote-grid">
+        <figure class="quote-card">
+          <blockquote>Nobody seems to know how to do GTM. It's all trial and error.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Everything that worked 10 years ago doesn't necessarily work today.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>We have the talent, the ethics, and the vision. Now the belief is catching up.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Like running against a wall every day.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>I care about attitude — skills can be taught.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>There seems to be a lack of ambition to grow new globally competitive businesses.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>But then again, I will never know if I don't try.</blockquote>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── LOOKING AHEAD ── -->
+  <section class="chapter" id="looking-ahead" aria-labelledby="ch12-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Looking ahead</div>
+      <h2 id="ch12-title">A map of where support is needed most</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>The Startup Struggle Survey 2025 is not just a snapshot of founder pain — it's a map of where support is needed most. What we've heard from hundreds of founders across Europe is both sobering and energizing: the struggle is real, but so is the determination. Founders are under immense pressure — to grow, to raise, to hire, to deliver — but they are not giving up. They're more mission-driven, more globally ambitious, and more focused than ever on building meaningful companies in a challenging world.</p>
+        <p>At Slush, we don't believe in sugarcoating the founder journey. We believe in meeting it head-on — with speed, velocity and a respect for the people building the future. Slush is the world's leading startup event and the largest gathering of venture capital, bringing over $4 trillion in assets under management to Helsinki for one week. But more than that, it's a platform for pushing the ecosystem forward — for asking the hard questions and creating space for the next wave of bold ideas.</p>
+        <p>In 2025, we're doubling down on our goal: making Europe the best place to build and scale companies.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DATA EXPLORER ── -->
+  <section class="chapter" id="data-explorer" aria-labelledby="ch13-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Data explorer</div>
+      <h2 id="ch13-title">Browse and sort raw survey data</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Select a survey question to view response categories, percentages, and distribution bars.</p>
+      </div>
+
+      <div class="explorer-tabs" id="explorer-tabs" role="tablist" aria-label="Survey questions"></div>
+
+      <div class="explorer-table-wrap">
+        <table class="method-table explorer-table" id="explorer-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th style="text-align:right;">Percentage</th>
+              <th style="text-align:right;">Responses</th>
+              <th>Distribution</th>
+            </tr>
+          </thead>
+          <tbody id="explorer-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="chart-source-line" style="margin-top: 16px;">Data source: Startup Struggle Survey 2025</div>
+    </div>
+  </section>
+
+  <footer>
+    Slush Research · Impact Report Series · Startup Struggle Survey 2025
+  </footer>
+
+  <script>
+  (function () {
+    Chart.register(ChartDataLabels);
+
+    const ds = getComputedStyle(document.documentElement);
+    const token = (name) => ds.getPropertyValue(name).trim();
+
+    const FG       = token('--color-text');
+    const FG_MUTED = token('--color-chart-axis');
+    const FG_DIM   = token('--color-chart-axis-dim');
+    const SLUSH    = token('--color-chart-slush');
+    const GRID     = token('--color-chart-grid');
+    const FONT     = token('--font-heading');
+
+    const SERIES_COLORS = [
+      token('--color-chart-series-1'),
+      token('--color-chart-series-2'),
+      token('--color-chart-series-3'),
+      token('--color-chart-series-4'),
+      token('--color-chart-series-5'),
+      token('--color-chart-series-6'),
+      token('--color-chart-series-7'),
+    ];
+
+    Chart.defaults.font.family = FONT;
+    Chart.defaults.font.size   = 11;
+    Chart.defaults.color       = FG_MUTED;
+
+    const tooltip = {
+      backgroundColor: token('--color-bg-elevated'),
+      borderColor:     token('--color-border'),
+      borderWidth:     1,
+      titleColor:      FG,
+      bodyColor:       FG_MUTED,
+      padding:         10,
+      cornerRadius:    8,
+    };
+
+    const N = 607;
+
+    const DATA = {
+      topChallenges: [
+        { label: 'Fundraising', value: 0.581, count: 353 },
+        { label: 'Revenue Growth', value: 0.528, count: 320 },
+        { label: 'Customer Acquisition', value: 0.500, count: 304 },
+        { label: 'Scaling and Growth', value: 0.350, count: 212 },
+        { label: 'Balancing Growth and Profitability', value: 0.180, count: 109 },
+        { label: 'Technology Adoption', value: 0.140, count: 85 },
+        { label: 'Hiring', value: 0.120, count: 73 },
+        { label: 'User Activation', value: 0.100, count: 61 },
+        { label: 'Getting Useful Feedback on My Product', value: 0.085, count: 52 },
+        { label: 'Regulation', value: 0.080, count: 49 },
+        { label: 'Investor Relations', value: 0.075, count: 46 },
+        { label: 'Customer Retention', value: 0.065, count: 39 },
+      ],
+      yoyComparison: [
+        { label: 'Fundraising', y2024: 0.630, y2025: 0.581 },
+        { label: 'Customer Acquisition', y2024: 0.496, y2025: 0.500 },
+        { label: 'Revenue Growth', y2024: 0.368, y2025: 0.528 },
+        { label: 'Scaling and Growth', y2024: 0.381, y2025: 0.350 },
+      ],
+      fundraisingEase: [
+        { label: 'Would be easy to raise funding', value: 0.18, count: 109 },
+        { label: 'Actively disagree (hard to raise)', value: 0.57, count: 346 },
+      ],
+      customerAcquisition: [
+        { label: 'Easy to identify new prospects', value: 0.68, count: 413 },
+        { label: 'Easy to convert prospects', value: 0.30, count: 182 },
+      ],
+      talent: [
+        { label: 'Difficulty attracting technical talent', value: 0.20, count: 121 },
+        { label: 'Difficulty attracting non-technical talent', value: 0.12, count: 73 },
+      ],
+      resilience: [
+        { label: 'Confident in team ability', value: 0.68, count: 413 },
+        { label: 'Would not change founding decision', value: 0.81, count: 492 },
+        { label: 'Positive impact matters', value: 0.87, count: 528 },
+      ],
+      fundingStage: [
+        { label: 'No funding', value: 0.6837, count: 415 },
+        { label: 'Seed', value: 0.2339, count: 142 },
+        { label: 'Series A or later', value: 0.0824, count: 50 },
+      ],
+      topIndustries: [
+        { label: 'Enterprise Software', value: 0.1186, count: 72 },
+        { label: 'Deeptech', value: 0.0791, count: 48 },
+        { label: 'Gaming', value: 0.0610, count: 37 },
+        { label: 'Fintech & Insurance Tech', value: 0.0593, count: 37 },
+        { label: 'Health & Wellbeing', value: 0.0511, count: 31 },
+      ],
+    };
+
+    const EXPLORER_QUESTIONS = [
+      { key: 'topChallenges', label: 'Top challenges' },
+      { key: 'fundingStage', label: 'Funding stage' },
+      { key: 'topIndustries', label: 'Top industries' },
+    ];
+
+    function truncateLabel(label, max) {
+      return label.length > max ? label.slice(0, max) + '…' : label;
+    }
+
+    function makeHorizontalBarChart(canvasId, items, height) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return null;
+      const wrap = canvas.parentElement;
+      if (height) wrap.style.height = height + 'px';
+
+      const labels = items.map(d => truncateLabel(d.label, 36)).reverse();
+      const values = items.map(d => d.value * 100).reverse();
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: SLUSH,
+            borderRadius: 3,
+            barPercentage: 0.62,
+            datalabels: {
+              anchor: 'end', align: 'end', offset: 4,
+              color: FG, font: { size: 11, weight: '700', family: FONT },
+              formatter: v => Math.round(v) + '%',
+            },
+          }],
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: ctx => {
+                  const item = items[items.length - 1 - ctx.dataIndex];
+                  return ` ${Math.round(ctx.raw)}% (${item.count} responses)`;
+                },
+              },
+            },
+            datalabels: {},
+          },
+          scales: {
+            x: {
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, callback: v => v + '%' },
+              max: Math.ceil(Math.max(...values) / 5) * 5 + 5,
+            },
+            y: {
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    function buildTwoSeriesComparisonChart(canvasId, legendContainerId, rows, keyA, keyB, labelA, labelB) {
+      const canvas = document.getElementById(canvasId);
+      const legendContainer = document.getElementById(legendContainerId);
+      const seriesDefs = [
+        { key: keyA, label: labelA },
+        { key: keyB, label: labelB },
+      ];
+
+      legendContainer.innerHTML = seriesDefs.map((s, idx) =>
+        `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${SERIES_COLORS[idx]}"></span>${s.label}</span>`
+      ).join('');
+
+      const labels = rows.map(r => truncateLabel(r.label, 42));
+      const datasets = seriesDefs.map((s, idx) => ({
+        label: s.label,
+        data: rows.map(r => r[s.key] * 100),
+        backgroundColor: SERIES_COLORS[idx],
+        borderRadius: 2,
+        barPercentage: 0.72,
+      }));
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: { labels, datasets },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: c => ` ${c.dataset.label}: ${(c.raw).toFixed(1)}%`,
+              },
+            },
+            datalabels: { display: false },
+          },
+          scales: {
+            x: {
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, callback: v => v + '%' },
+              max: Math.ceil(Math.max(...datasets.flatMap(d => d.data)) / 5) * 5 + 5,
+            },
+            y: {
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    function makeDoughnutChart(canvasId, legendContainerId, items) {
+      const canvas = document.getElementById(canvasId);
+      const legendContainer = document.getElementById(legendContainerId);
+      if (!canvas) return null;
+
+      const labels = items.map(d => d.label);
+      const values = items.map(d => d.value * 100);
+      const colors = items.map((_, idx) => SERIES_COLORS[idx]);
+
+      legendContainer.innerHTML = items.map((item, idx) =>
+        `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${colors[idx]}"></span>${item.label} (${(item.value * 100).toFixed(1)}%)</span>`
+      ).join('');
+
+      return new Chart(canvas, {
+        type: 'doughnut',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: colors,
+            borderWidth: 0,
+            datalabels: {
+              color: FG,
+              font: { size: 12, weight: '700', family: FONT },
+              formatter: (v) => v.toFixed(1) + '%',
+            },
+          }],
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '55%',
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: ctx => {
+                  const item = items[ctx.dataIndex];
+                  return ` ${item.label}: ${ctx.raw.toFixed(1)}% (${item.count} responses)`;
+                },
+              },
+            },
+            datalabels: {},
+          },
+        },
+      });
+    }
+
+    makeHorizontalBarChart('chart-challenges', DATA.topChallenges, 480);
+
+    buildTwoSeriesComparisonChart(
+      'chart-yoy',
+      'yoy-legend',
+      DATA.yoyComparison,
+      'y2024',
+      'y2025',
+      '2024',
+      '2025'
+    );
+
+    makeHorizontalBarChart('chart-fundraising-ease', DATA.fundraisingEase, 160);
+    makeHorizontalBarChart('chart-customer-acquisition', DATA.customerAcquisition, 160);
+    makeHorizontalBarChart('chart-talent', DATA.talent, 160);
+    makeHorizontalBarChart('chart-resilience', DATA.resilience, 200);
+    makeDoughnutChart('chart-funding-stage', 'funding-stage-legend', DATA.fundingStage);
+    makeHorizontalBarChart('chart-industries', DATA.topIndustries, 280);
+
+    // Data explorer
+    const tabsEl = document.getElementById('explorer-tabs');
+    const tbodyEl = document.getElementById('explorer-tbody');
+    let activeQuestion = EXPLORER_QUESTIONS[0].key;
+
+    function renderExplorerTable(key) {
+      const rows = DATA[key];
+      tbodyEl.innerHTML = rows.map(row => {
+        const pct = Math.round(row.value * 1000) / 10;
+        const pctDisplay = Number.isInteger(pct) ? pct : pct.toFixed(1);
+        const barWidth = Math.round(row.value * 100);
+        return `<tr>
+          <td>${row.label}</td>
+          <td style="text-align:right;">${pctDisplay}%</td>
+          <td style="text-align:right;">${row.count}</td>
+          <td><div class="dist-bar"><div class="dist-bar-fill" style="width:${barWidth}%"></div></div></td>
+        </tr>`;
+      }).join('');
+    }
+
+    EXPLORER_QUESTIONS.forEach(q => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'toggle-pill' + (q.key === activeQuestion ? ' is-active' : '');
+      btn.textContent = q.label;
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-selected', q.key === activeQuestion ? 'true' : 'false');
+      btn.addEventListener('click', () => {
+        activeQuestion = q.key;
+        tabsEl.querySelectorAll('.toggle-pill').forEach(pill => {
+          const isActive = pill === btn;
+          pill.classList.toggle('is-active', isActive);
+          pill.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+        renderExplorerTable(activeQuestion);
+      });
+      tabsEl.appendChild(btn);
+    });
+
+    renderExplorerTable(activeQuestion);
+  })();
+  </script>
+
+</body>
+</html>
