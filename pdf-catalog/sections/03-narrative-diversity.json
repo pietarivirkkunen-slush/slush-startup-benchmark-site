@@ -1,0 +1,416 @@
+{
+  "id": "03-narrative-diversity",
+  "title": "Narrative 1: Diverse & Inclusive Future",
+  "eyebrow": "Narrative 1",
+  "type": "narrative",
+  "pages": [18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43],
+  "intro_text": "Diversity and inclusion have received their fair share of attention in the ecosystem over the past few years, and for good reason. Last year, our joint research piece with Atomico, State of European Tech, showed that 78% of founders and 84% of VCs agree that \u201cthe focus on creating a more diverse and inclusive European tech ecosystem is important\u201d. At the same time, founders and employees of European tech startups took a pretty grim view of the current state of things. Only 17% of women and 29% of men thought that the \u201cecosystem provides equal opportunity for people of all demographics, backgrounds, and experiences\u201d. Across genders, 34% of those who lived comfortably prior to founding their company agreed, contrasted with 19% of those who started from a lower socioeconomic footing. These sentiments are not just conjecture; all-male teams received 92% of the continent\u2019s total venture funding in 2019, with regressive development over the past five years. Shockingly, all-female teams raised just three of the 745 reported rounds of over $10M in Europe in 2019. This is not reflective of the wider founder pool. 21% of founders that responded to the State of European Tech survey in 2019 self-identified as women.",
+  "sub_sections": [
+    {
+      "title": "OPENING / OVERVIEW",
+      "pages": [18, 19, 20, 21],
+      "body": "Diversity and inclusion have received their fair share of attention in the ecosystem over the past few years, and for good reason. Last year, our joint research piece with Atomico, State of European Tech, showed that 78% of founders and 84% of VCs agree that \u201cthe focus on creating a more diverse and inclusive European tech ecosystem is important\u201d. At the same time, founders and employees of European tech startups took a pretty grim view of the current state of things. Only 17% of women and 29% of men thought that the \u201cecosystem provides equal opportunity for people of all demographics, backgrounds, and experiences\u201d. Across genders, 34% of those who lived comfortably prior to founding their company agreed, contrasted with 19% of those who started from a lower socioeconomic footing. These sentiments are not just conjecture; all-male teams received 92% of the continent\u2019s total venture funding in 2019, with regressive development over the past five years. Shockingly, all-female teams raised just three of the 745 reported rounds of over $10M in Europe in 2019. This is not reflective of the wider founder pool. 21% of founders that responded to the State of European Tech survey in 2019 self-identified as women. The homogeneity of the European ecosystem is evident along a plethora of other axes as well. According to the 2019 State of European Tech survey, more than 7 in 8 people working for European startups self-identify as Caucasian or White. Out of founder respondents to the same survey, 82% had received a university degree, and just 8% had never enrolled at university. This is not representative of the European population. According to Eurostat, the share of the EU-28 population aged 25\u201354 that has attained a tertiary degree or higher is 35%. Within the founding teams that feature a university graduate, the demographic is further skewed towards select fields of study. 93% of these teams include a founder who received a technical or business degree, whereas only 36% feature a founder who studied some other major. According to Eurostat, this compares to just 43% of European tertiary education graduates in 2017 that were from technical, business or legal programs. In other words, while most of us are on the same page about the need for increased diversity, European founders still represent a very specific subset of the continent\u2019s population, and opportunities are unequal within that subset. At the same time, Western and Northern Europe face a persistent talent problem, as indicated by the high percentage of Slush startups listing talent among their biggest challenges. This gap won\u2019t be filled just by increasing the cross-border mobility of skilled people. European startups urgently need more talent in absolute terms. For that, we need an inclusive ecosystem, which embodies ideals that attract an increasing number of different kinds of people. Notably, many of our interviewees alluded to the fact that the discussion around diversity tends to one-dimensionally focus on gender.",
+      "key_stats": [
+        { "value": "78%", "label": "of founders agree the focus on creating a more diverse and inclusive European tech ecosystem is important" },
+        { "value": "84%", "label": "of VCs agree the focus on creating a more diverse and inclusive European tech ecosystem is important" },
+        { "value": "17%", "label": "of women thought the ecosystem provides equal opportunity for people of all demographics, backgrounds, and experiences" },
+        { "value": "29%", "label": "of men thought the ecosystem provides equal opportunity for people of all demographics, backgrounds, and experiences" },
+        { "value": "92%", "label": "of the continent\u2019s total venture funding in 2019 went to all-male teams" },
+        { "value": "3 of 745", "label": "rounds of over $10M in Europe in 2019 went to all-female teams" },
+        { "value": "21%", "label": "of founders who responded to the State of European Tech survey in 2019 self-identified as women" },
+        { "value": "7 in 8", "label": "people working for European startups self-identify as Caucasian or White" },
+        { "value": "82%", "label": "of founders had received a university degree" },
+        { "value": "8%", "label": "of founders had never enrolled at university" },
+        { "value": "35%", "label": "of the EU-28 population aged 25\u201354 has attained a tertiary degree or higher (Eurostat)" },
+        { "value": "93%", "label": "of graduate-founder teams include a founder who received a technical or business degree" },
+        { "value": "36%", "label": "of graduate-founder teams feature a founder who studied a non-technical/non-business major" },
+        { "value": "43%", "label": "of European tertiary education graduates in 2017 were from technical, business or legal programs (Eurostat)" }
+      ],
+      "quotes": [
+        {
+          "text": "There is a massive lack of diversity, particularly in founding teams, in terms of educational background, gender and age.",
+          "attribution": "\u2014 Operator"
+        }
+      ]
+    },
+    {
+      "title": "INCREASING DIVERSITY ENHANCES AND EXPANDS THE ECOSYSTEM\u2019S PROBLEM-SOLVING CAPACITY",
+      "pages": [22, 23, 24, 25],
+      "body": "Diverse teams perform better. When asked about that statement, almost 90% of respondents to the State of European Tech survey in 2018 agreed. In fact, the question received the highest level of unanimity in that year\u2019s survey. This is backed up by quantitative evidence from BCG and MassChallenge, who found that companies with a woman on the founding team delivered twice as much revenue per dollar invested than those run solely by men. The same seems to be true for startups that come to Slush. In our 2019 cohort, startups of comparable age whose application was submitted by a woman (usually one of the founders) had received less funding on average, but done more with the money, generating more revenue per euro of funding and per employee. However, just as importantly, a lack of diversity limits the problem set that the ecosystem solves for. Founders address problems that concern them directly, and talent gravitates towards companies whose products excite them. An indicative example of this phenomenon is medicine, which, as The Guardian pointed out, has a long history of discriminating against female health. On ResearchGate, a research database, there are five times as many papers about erectile dysfunction \u2014 a condition affecting 19% of men \u2014 than on premenstrual syndrome, which affects 90% of women. Interestingly, in our 2019 cohort, while gender diversity was poor across the board, startups whose application was submitted by a woman were far more likely to work in verticals such as social entrepreneurship, biotech, education, health and foodtech. When homogeneous teams do solve problems for all of humanity, they risk creating products that only work for some, or are outright discriminatory. For example, Deloitte points out that the automotive industry remains very male-dominated to date. As TechCrunch writes, it\u2019s difficult not to imagine a causality between that and the fact that, for long, crash test dummies were modeled after the average male height, weight and stature. The risk of creating biased solutions increases further in an age where startups are selling to a global market from the get go. Data on our 2019 cohort shows the stunning extent to which this is the case. 34% of European startups were targeting a market outside of the continent already in their founding year. For four-year-old startups, that percentage jumped to 57%. Having a diverse set of perspectives is of particular importance when creating products for a nuanced pool of customers. The 2020s present a huge opportunity for young ventures to tap into underexplored verticals and customer segments. Previous patterns of success will break down, and investors will have to look beyond current, saturated spaces for asymmetric success. By the end of the 2020s, people won\u2019t only consider diversity the right thing to do, but the only way to be successful.",
+      "key_stats": [
+        { "value": "~90%", "label": "of respondents to State of European Tech 2018 agreed that diverse teams perform better" },
+        { "value": "2x", "label": "as much revenue per dollar invested delivered by companies with a woman on the founding team vs. all-male teams (BCG/MassChallenge)" },
+        { "value": "5x", "label": "more papers about erectile dysfunction (affecting 19% of men) than premenstrual syndrome (affecting 90% of women) on ResearchGate" },
+        { "value": "34%", "label": "of European startups were targeting a market outside of the continent already in their founding year" },
+        { "value": "57%", "label": "of four-year-old European startups were targeting a market outside the continent" }
+      ],
+      "quotes": [
+        {
+          "text": "Diversity is defined as something like 16 factors, but when talking about it, we tend to use origin, race or sex as proxies, because they\u2019re easier to grasp.",
+          "attribution": "\u2014 Investor"
+        },
+        {
+          "text": "I don\u2019t think anyone in this world should have doubts about the benefits of gender, racial and religious diversity. I think it makes you better in terms of efficiency, operations, and ultimately, in terms of revenue.",
+          "attribution": "\u2014 Operator"
+        },
+        {
+          "text": "If the whole employee base is too homogeneous, it will drive the company in a certain direction and some viewpoints will go underexplored.",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "Entrepreneurs don\u2019t see problems that don\u2019t concern them directly. For example, there is very little work around the problems of elderly people.",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "If you\u2019re building a global platform, it can\u2019t be run only by Californian/Nordic hoodiemen. You have to have a global team that understands all relevant cultures and worldwide nuances.",
+          "attribution": "\u2014 Investor"
+        },
+        {
+          "text": "Stereotypical white-male, 25, Oxbridge type founding teams produce very few massive successes, so clearly diversity is of functional value. You see a very limited problem set if you\u2019re fresh out of Oxbridge.",
+          "attribution": "\u2014 Founder"
+        }
+      ]
+    },
+    {
+      "title": "SYSTEMIC CHANGES ELSEWHERE IN SOCIETY ARE NEEDED TO BUILD A DIVERSE TALENT POOL",
+      "pages": [26, 27, 28, 29, 30],
+      "body": "When examining actions that can be taken to increase diversity, it\u2019s worth noting that systemic challenges arise before talent enters the workforce. Microsoft surveyed 11,500 young women across 12 European countries, finding that girls aged 11\u201312 are just as interested in STEM (science, technology, engineering and mathematics) as boys, but that interest drops significantly once they turn 15\u201316. At that age, just 5% of girls report that they expect to have a career in computing or engineering, compared to 18% of boys, according to the OECD. This is not driven by performance\u2014in the PISA assessment, which is taken at that age, girls and boys perform comparably in natural sciences. The results of this are evident in higher education. In the OECD countries, fewer than 1 in 3 engineering graduates are women. In computer science, the number is even lower, below 1 in 5. However, the startup ecosystem\u2019s diversity metrics are grim even compared to those of surrounding society. At Slush 2019, less than 20% of all C-level startup attendees were female, with even lower numbers in technical positions. What\u2019s more, lacking diversity is not a one-way street. Microsoft found that the declining interest of young women is driven by their awareness that they wouldn\u2019t be treated equally in the STEM workplace. In a separate study, Microsoft noted that the number of girls interested in STEM almost doubles when they have a role model to look up to. It is imperative for startups to provide those role models. Our analysis shows that just 7 of the 166 founders of European tech unicorns established since 2008 are women; a deplorable figure in an ecosystem whose narratives of success often fail to accommodate for anyone but the people at the top. What\u2019s more, even when women are part of founding teams, they are less likely than men to serve as CEO, as evidenced by data on founders at Slush 2019. The likelihood to found a company is also slanted towards select academic institutions. According to Dealroom\u2019s data, 13% of European pre-seed companies have a founder that studied at one of just 15 universities; a striking number considering that the EU estimates there to be 4000 higher education establishments on the continent. Since admission to some of these institutions is notoriously skewed, the ecosystem inherits a homogeneous founder pool. For example, as the Guardian writes, privately educated children make up just 7% of the student body in the UK, yet win over 30% of undergraduate places at Oxford and Cambridge. However, once again, instead of flattening out those differences as ventures mature, the ecosystem heightens them. Beyond Series B, 30% of European companies have a top 15 university alumna on their founding team. On a similar note, it\u2019s extremely hard to be innovative if you have to worry about livelihood. The Quarterly Journal of Economics analyzed 1.2 million inventors in the US. They found that children from families in the highest income percentile are 10 times more likely to hold a patent than those from low or middle-income families, and that the gap persists among people with similar results in early childhood math tests. That study also pointed to the importance of role models, finding that those exposed to innovation as children were more likely to become inventors themselves. Over here in Europe, out of founder respondents to the State of European Tech survey in 2019, 80% were financially well off immediately prior to founding their company. This compares to 39% of the EU-28 population, according to Eurostat. Furthermore, the share of founders who had raised external capital was higher among those that started out with better socioeconomic standing. Entrepreneurship, and startups in particular, are often considered vehicles of social mobility. Unless our societies provide better support networks for risk-taking regardless of background, much of that opportunity is lost. Clearly then, part of the ecosystem\u2019s lack of diversity stems from elsewhere in society. While participating in the discussion, startups need to stop doing worse than the world around them, and instead start to provide the role models that young people look to them for.",
+      "key_stats": [
+        { "value": "5%", "label": "of girls aged 15\u201316 report expecting a career in computing or engineering (vs. 18% of boys), according to OECD" },
+        { "value": "18%", "label": "of boys aged 15\u201316 expect a career in computing or engineering" },
+        { "value": "<1 in 3", "label": "engineering graduates in OECD countries are women" },
+        { "value": "<1 in 5", "label": "computer science graduates in OECD countries are women" },
+        { "value": "<20%", "label": "of all C-level startup attendees at Slush 2019 were female" },
+        { "value": "2x", "label": "the number of girls interested in STEM when they have a role model to look up to (Microsoft)" },
+        { "value": "7 of 166", "label": "founders of European tech unicorns established since 2008 are women" },
+        { "value": "13%", "label": "of European pre-seed companies have a founder from just 15 universities (out of ~4,000 in the EU)" },
+        { "value": "30%", "label": "of European companies beyond Series B have a top-15-university alumna on their founding team" },
+        { "value": "10x", "label": "more likely to hold a patent if from a family in the highest income percentile vs. low/middle-income families" },
+        { "value": "80%", "label": "of European founder respondents (State of European Tech 2019) were financially well off prior to founding" },
+        { "value": "39%", "label": "of the EU-28 population is financially well off (Eurostat comparison)" }
+      ],
+      "quotes": [
+        {
+          "text": "There is a massive lack of role models, which means that young women just don\u2019t consider founding a company an option.",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "How are you going to get these kids from council estates to raise seed funding? I just can\u2019t see it happening any time soon. There\u2019s this huge gulf between where those people are and where we in the ecosystem are.",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "To address diversity, we need to start earlier, already in education. By the time that people would be ready to join a company like ours, it\u2019s often too late.",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "In Scandinavia, you don\u2019t end up in debt after graduation. That\u2019s a huge advantage. People have enough energy to make the world a better place. My friends in the United States and Korea have to solve the world\u2019s problems, plus they have to pay back a loan.",
+          "attribution": "\u2014 Founder"
+        }
+      ]
+    },
+    {
+      "title": "STARTUP CULTURE REMAINS PLAGUED BY A LACK OF INCLUSION",
+      "pages": [30, 31, 32, 33, 34],
+      "body": "In 2012, Ellen Pao, then a partner at the venture capital firm Kleiner Perkins (KPCB), filed a sexual discrimination lawsuit against her employer, as recounted by Wired. Five months later, she was fired from the firm. The case became highly public after Pao rejected several multi-million dollar out-of-court settlement offers and the case proceeded to trial. Ultimately, the jury ruled in favor of KPCB on all four accounts. However, the movement that Pao had started did not end there. In what has been titled \u2018the Pao effect\u2019, a number of women have since filed claims of discriminatory practices against today\u2019s tech giants. In 2017, Susan Fowler, a former Uber engineer, accused the ride-hailing company of fostering a culture of pervasive sexism and harassment. Fowler\u2019s blog post set in motion a remarkable series of events. Eventually, the company\u2019s illustrious founder-CEO Travis Kalanick was forced to resign. Importantly, harassment cases are only the most extreme manifestations of a much more pervasive culture, in which noninclusive practices are celebrated and discriminatory ones condoned. Even Travis Kalanick didn\u2019t intentionally set up his company to tolerate harassment. However, he did encode the behavioral models that led to it in the company\u2019s DNA. Uber\u2019s original, now infamous list of 14 corporate values included attributes such as always be hustlin\u2019, toe-stepping and superpumped. When replacing these with a revised set of eight cultural norms, the company\u2019s new CEO Dara Khosrowshahi wrote: \u2018\u2018toe-stepping\u2019 was meant to encourage employees to share their ideas regardless of their seniority [...] but too often it was used as an excuse for being an asshole.\u2019 As a result of this failure to make people from all walks of life feel welcome and safe, tech companies are losing out. In a 2014 study, the Centre for Talent Innovation found that female employees in the US leave tech at a 45% higher rate than men. Only 38% of women and 51% of men responding to the State of European Tech survey in 2018 considered the European tech industry to be inclusive. Against such a bleak backdrop, it shouldn\u2019t be surprising that 49% of female founder respondents to the 2019 survey, and 40% of all founders that belong to a minority ethnic group, reported having experienced discrimination while working in the industry in the past 12 months. The survey also revealed that discrimination in European tech takes many forms, underlining how a conversation focused solely on gender fails to account for many of the negative experiences that plague the ecosystem. What\u2019s more, the industry\u2019s aggregate figures fail to capture the experiences of underrepresented groups. Non-white founders face a distinct set of obstacles, where ethnicity, rather than gender, is the most common type of discrimination encountered. As a result of all this, too many people that don\u2019t fit tech\u2019s narrow norm still feel like their identity or background is a barrier to success in the European ecosystem. It\u2019s also important not to discuss people\u2019s backgrounds as if they were mutually exclusive. Human heterogeneity is intersectional; a lot of people represent more than one underrepresented group. Data on selected intersectional demographics from State of European Tech 2019 shows that in those cases, barriers compound. Unfortunately, only those who are on the receiving end of discriminatory practices seem to be interested in learning about the topic. Out of people submitting startup applications to Slush 2019, women were far more likely to list program topics revolving around diversity, culture and teams as being of interest. This is distressing, because without training, people are notoriously bad at noticing their own biases. In an experiment from 2005, Yale University researchers asked undergraduate students to evaluate hypothetical job applicants for the role of police chief. They found that the students who constructed the most pro-male criteria also showed the highest level of conviction in the objectivity of their hiring decision. Over the course of the next decade, each of us will have to work hard to do better. Instead of bolstering existing power structures, startups should lead the way in building workplaces that are welcoming and safe for all kinds of people.",
+      "key_stats": [
+        { "value": "45%", "label": "higher rate at which female employees in the US leave tech compared to men (Centre for Talent Innovation, 2014)" },
+        { "value": "38%", "label": "of women considered the European tech industry to be inclusive (State of European Tech 2018)" },
+        { "value": "51%", "label": "of men considered the European tech industry to be inclusive (State of European Tech 2018)" },
+        { "value": "49%", "label": "of female founder respondents reported experiencing discrimination in the past 12 months (State of European Tech 2019)" },
+        { "value": "40%", "label": "of all founders that belong to a minority ethnic group reported experiencing discrimination in the past 12 months" }
+      ],
+      "quotes": [
+        {
+          "text": "\u201cDo you feel that you have been personally affected by discrimination?\u201d \u201cOh yeah. I have so many stories. How much time do you have?\u201d",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "I\u2019ve seen a lot of startups that ended up creating quite a toxic culture. They hired a lot of the wrong people, or had the wrong type of management in place.",
+          "attribution": "\u2014 Founder"
+        },
+        {
+          "text": "Culturally, diversity in all its forms is the biggest problem in the ecosystem. The right culture from the start makes achieving diversity quite easy.",
+          "attribution": "\u2014 Founder"
+        }
+      ]
+    },
+    {
+      "title": "THE HOMOGENEITY OF VCS REINFORCE EXISTING FOUNDER ARCHETYPES",
+      "pages": [35, 36, 37, 38, 39],
+      "body": "Venture capitalists are a notoriously homogeneous bunch. As data from funds attending Slush last year shows, gender diversity is lacking across the board, and gets worse with seniority. VCs exist to unlock the potential in unproven young ventures. There are very few alternative types of capital that are willing to incur the risk involved in this. Thus, VCs have a huge power to select which ideas get tested out in the market. If a homogeneous bunch of investors, susceptible to only funding solutions that they feel excited about, calls the shots, that set of ideas will remain limited. Our data suggests that this isn\u2019t just conjecture. Funds focusing on industries inherently connected to the issues of a diverse group of people are more diverse themselves. More than a quarter of the investors attending Slush 2019 from funds focusing on health, biotech, fintech, medtech and cleantech were women, compared to less than a seventh from ones focused on gaming. However, VCs are also making discriminatory calls independently of vertical. In 15 out of the 20 most common industries at Slush 2019, the startups whose application was submitted by a man had accrued more funding than those where the applicant was female. A look at European rounds going to founders from the continent\u2019s top 15 universities reveals some further skewed investor preferences. The share of companies funded is systematically higher amongst the alumni of those schools. Secondly, across stages, founders from top schools are being written bigger checks than their peers. As a result of this, founders from just 15 universities have raised 41% of Europe\u2019s total venture funding in 2019 and 2020 to date. Previous research offers some clues as to how investor biases manifest themselves in everyday interactions. Kanze et al. analyzed interactions between 140 venture capitalists and 189 startups at TechCrunch Disrupt. They found that 67% of the questions posed to male entrepreneurs were promotion-oriented, while 66% of those posed to female entrepreneurs were prevention-oriented. Similarly, a group of Swedish researchers analyzed local VCs reviewing investment proposals and found that the investors talked much more positively about similar characteristics in male founders than in women. This converted to the female founders receiving over 50% less of the funding they asked for, displaying how any preconceived notion of success will dictate what that success ends up looking like. Our data suggests that such tendencies are much less prevalent among female investors. Out of the funds that brought at least one female investor to Slush 2019, 24.9% reported a commitment to addressing gender inequality through their investments, compared to 12.7% of those who didn\u2019t. What\u2019s more, the effects of a narrow scope aren\u2019t limited to funding decisions. Sahil Raina found that startup success post-investment can be dependent on the presence of female investors. In the cohort he studied, when the lead VC of a funding round had no female GPs (General Partners), female-led startups were up to 70% less likely to successfully exit. When a lead female VC was present, that gap disappeared. Clearly then, the startup ecosystem can only ever be as diverse as those who fund it. Thus, going into the 2020s, VCs will have to rapidly start looking like surrounding society. After all, that\u2019s who\u2019s buying products from the ventures that they are betting their success on.",
+      "key_stats": [
+        { "value": ">1/4", "label": "of investors at Slush 2019 from health/biotech/fintech/medtech/cleantech funds were women" },
+        { "value": "<1/7", "label": "of investors at Slush 2019 from gaming-focused funds were women" },
+        { "value": "15 of 20", "label": "most common industries at Slush 2019 where male-submitted applications accrued more funding than female-submitted ones" },
+        { "value": "41%", "label": "of Europe\u2019s total venture funding in 2019\u20132020 raised by founders from just 15 universities" },
+        { "value": "67%", "label": "of questions posed to male entrepreneurs at TechCrunch Disrupt were promotion-oriented (Kanze et al.)" },
+        { "value": "66%", "label": "of questions posed to female entrepreneurs were prevention-oriented" },
+        { "value": ">50%", "label": "less funding received by female founders compared to what they asked for (Swedish VC study)" },
+        { "value": "24.9%", "label": "of funds with at least one female investor at Slush 2019 committed to addressing gender inequality through investments" },
+        { "value": "12.7%", "label": "of funds without a female investor at Slush 2019 committed to addressing gender inequality through investments" },
+        { "value": "70%", "label": "less likely for female-led startups to successfully exit when the lead VC had no female GPs (Sahil Raina)" }
+      ],
+      "quotes": [
+        {
+          "text": "VCs shouldn\u2019t think that they know all patterns of success. If you look for things that look like what you\u2019re used to seeing in the past, you\u2019re going to miss out on a lot of other opportunities. A lot of people risk losing out on great deals because they\u2019re not even looking.",
+          "attribution": "\u2014 Investor"
+        },
+        {
+          "text": "VCs need to transform. There are patterns that have been in place for too long. In most cases, funds are still run by white males. This means that the observation of new opportunities just isn\u2019t there.",
+          "attribution": "\u2014 Operator"
+        },
+        {
+          "text": "I think that the second we get GPs that are women, or more specifically not just white, high-educated, guys, from a rather privileged background, it\u2019s (diversity in tech) going to be changing quickly because we all view the world differently.",
+          "attribution": "\u2014 Investor"
+        },
+        {
+          "text": "I don\u2019t think there is anything fundamentally wrong with the VC model per se, but there is a real diversity issue, if you look at what kind of companies get funded and the kind of founders.",
+          "attribution": "\u2014 Founder"
+        }
+      ]
+    },
+    {
+      "title": "DISTRIBUTED AND FULLY REMOTE TEAMS CAN CREATE GREATER DIVERSITY",
+      "pages": [40, 41, 42, 43],
+      "body": "COVID-19 might well revolutionize the way we work. As a result of the pandemic, most of us have had to learn to work remotely. Our COVID-19 Startup Survey, distributed during the latter half of April, showed that 97% of startups that were working from a common office to start with have switched over to remote work due to the pandemic. Distributed teams could play a part in addressing diversity. For one, once a person\u2019s home address isn\u2019t bound by where their office is, employees have the flexibility to live in more affordable areas, closer to their parents, or a particular school for their kids. As data from State of European Tech shows, exploding rent prices in European hubs are quickly making urban living a luxury reserved for the few. As of now, data from Slush 2019 shows that European startups are still heavily skewed towards big cities. 55% of young companies are headquartered in a capital city. Interestingly, while startups headquartered outside of capital cities are struggling more with fundraising, customer acquisition and finding partners than their counterparts, they seem to have an easier time attracting talent. This could be an early indication that talent is turning away from big hubs. However, the biggest opportunities that distributed teams pose are international. In the past few years, we\u2019ve seen an emergence of companies working remotely from the get go, employing people from across borders and timezones. This is a revolutionary shift in the way companies are built, allowing people from all over the world to collaborate and build truly global startups. Europe even got its first remote unicorn in 2018; GitLab, as told by TechCrunch. In part, this shift is driven by employee preferences. People actually value working from home, or at least the option to do so, and may be more efficient when they do. A 2017 Stanford study found that, on average, workers were willing to give up 8% of wages for the option to work from home. According to a Harvard Business Review working paper, productivity actually rose 4.4% when patent examiners in the US worked from home. However, data from our COVID-19 Startup Survey suggests that the equation is a little more complex when entire teams are forced to switch to remote, suddenly and involuntarily. During the latter half of April, more startups had seen their team\u2019s well-being and productivity drop from switching to remote work. Perhaps this style of working is only suited for some employees, or there is a period of friction before practices catch up with the new reality and benefits materialize.",
+      "key_stats": [
+        { "value": "97%", "label": "of startups that were working from a common office switched to remote work due to COVID-19" },
+        { "value": "55%", "label": "of young European companies are headquartered in a capital city (Slush 2019)" },
+        { "value": "8%", "label": "of wages workers willing to give up for the option to work from home (Stanford 2017)" },
+        { "value": "4.4%", "label": "productivity increase when patent examiners in the US worked from home (Harvard Business Review)" }
+      ],
+      "quotes": [
+        {
+          "text": "Startups that start to take advantage of remote work\u2014that can access the talent pool outside of small countries, like in the Nordics for example\u2014they\u2019re going to see so much success. Being able to source that kind of talent, you\u2019re going to get people who want to work at the company because of love for the product, not coincidence.",
+          "attribution": "\u2014 Investor"
+        }
+      ]
+    }
+  ],
+  "all_quotes": [
+    {
+      "text": "There is a massive lack of diversity, particularly in founding teams, in terms of educational background, gender and age.",
+      "attribution": "\u2014 Operator",
+      "page": 21
+    },
+    {
+      "text": "Diversity is defined as something like 16 factors, but when talking about it, we tend to use origin, race or sex as proxies, because they\u2019re easier to grasp.",
+      "attribution": "\u2014 Investor",
+      "page": 22
+    },
+    {
+      "text": "I don\u2019t think anyone in this world should have doubts about the benefits of gender, racial and religious diversity. I think it makes you better in terms of efficiency, operations, and ultimately, in terms of revenue.",
+      "attribution": "\u2014 Operator",
+      "page": 22
+    },
+    {
+      "text": "If the whole employee base is too homogeneous, it will drive the company in a certain direction and some viewpoints will go underexplored.",
+      "attribution": "\u2014 Founder",
+      "page": 23
+    },
+    {
+      "text": "Entrepreneurs don\u2019t see problems that don\u2019t concern them directly. For example, there is very little work around the problems of elderly people.",
+      "attribution": "\u2014 Founder",
+      "page": 23
+    },
+    {
+      "text": "If you\u2019re building a global platform, it can\u2019t be run only by Californian/Nordic hoodiemen. You have to have a global team that understands all relevant cultures and worldwide nuances.",
+      "attribution": "\u2014 Investor",
+      "page": 25
+    },
+    {
+      "text": "Stereotypical white-male, 25, Oxbridge type founding teams produce very few massive successes, so clearly diversity is of functional value. You see a very limited problem set if you\u2019re fresh out of Oxbridge.",
+      "attribution": "\u2014 Founder",
+      "page": 25
+    },
+    {
+      "text": "There is a massive lack of role models, which means that young women just don\u2019t consider founding a company an option.",
+      "attribution": "\u2014 Founder",
+      "page": 27
+    },
+    {
+      "text": "How are you going to get these kids from council estates to raise seed funding? I just can\u2019t see it happening any time soon. There\u2019s this huge gulf between where those people are and where we in the ecosystem are.",
+      "attribution": "\u2014 Founder",
+      "page": 28
+    },
+    {
+      "text": "To address diversity, we need to start earlier, already in education. By the time that people would be ready to join a company like ours, it\u2019s often too late.",
+      "attribution": "\u2014 Founder",
+      "page": 29
+    },
+    {
+      "text": "In Scandinavia, you don\u2019t end up in debt after graduation. That\u2019s a huge advantage. People have enough energy to make the world a better place. My friends in the United States and Korea have to solve the world\u2019s problems, plus they have to pay back a loan.",
+      "attribution": "\u2014 Founder",
+      "page": 30
+    },
+    {
+      "text": "\u201cDo you feel that you have been personally affected by discrimination?\u201d \u201cOh yeah. I have so many stories. How much time do you have?\u201d",
+      "attribution": "\u2014 Founder",
+      "page": 31
+    },
+    {
+      "text": "I\u2019ve seen a lot of startups that ended up creating quite a toxic culture. They hired a lot of the wrong people, or had the wrong type of management in place.",
+      "attribution": "\u2014 Founder",
+      "page": 31
+    },
+    {
+      "text": "Culturally, diversity in all its forms is the biggest problem in the ecosystem. The right culture from the start makes achieving diversity quite easy.",
+      "attribution": "\u2014 Founder",
+      "page": 34
+    },
+    {
+      "text": "VCs shouldn\u2019t think that they know all patterns of success. If you look for things that look like what you\u2019re used to seeing in the past, you\u2019re going to miss out on a lot of other opportunities. A lot of people risk losing out on great deals because they\u2019re not even looking.",
+      "attribution": "\u2014 Investor",
+      "page": 35
+    },
+    {
+      "text": "VCs need to transform. There are patterns that have been in place for too long. In most cases, funds are still run by white males. This means that the observation of new opportunities just isn\u2019t there.",
+      "attribution": "\u2014 Operator",
+      "page": 36
+    },
+    {
+      "text": "I think that the second we get GPs that are women, or more specifically not just white, high-educated, guys, from a rather privileged background, it\u2019s (diversity in tech) going to be changing quickly because we all view the world differently.",
+      "attribution": "\u2014 Investor",
+      "page": 38
+    },
+    {
+      "text": "I don\u2019t think there is anything fundamentally wrong with the VC model per se, but there is a real diversity issue, if you look at what kind of companies get funded and the kind of founders.",
+      "attribution": "\u2014 Founder",
+      "page": 39
+    },
+    {
+      "text": "Startups that start to take advantage of remote work\u2014that can access the talent pool outside of small countries, like in the Nordics for example\u2014they\u2019re going to see so much success. Being able to source that kind of talent, you\u2019re going to get people who want to work at the company because of love for the product, not coincidence.",
+      "attribution": "\u2014 Investor",
+      "page": 43
+    }
+  ],
+  "all_key_stats": [
+    { "value": "78%", "label": "of founders agree the focus on diversity is important (State of European Tech)", "page": 19 },
+    { "value": "84%", "label": "of VCs agree the focus on diversity is important (State of European Tech)", "page": 19 },
+    { "value": "17%", "label": "of women thought the ecosystem provides equal opportunity for all demographics", "page": 19 },
+    { "value": "29%", "label": "of men thought the ecosystem provides equal opportunity for all demographics", "page": 19 },
+    { "value": "92%", "label": "of total European venture funding in 2019 went to all-male teams", "page": 19 },
+    { "value": "3 of 745", "label": "rounds of over $10M in Europe in 2019 went to all-female teams", "page": 19 },
+    { "value": "21%", "label": "of State of European Tech 2019 founder respondents self-identified as women", "page": 19 },
+    { "value": "7 in 8", "label": "people working for European startups self-identify as Caucasian or White", "page": 20 },
+    { "value": "82%", "label": "of founder respondents had received a university degree", "page": 20 },
+    { "value": "8%", "label": "of founders had never enrolled at university", "page": 20 },
+    { "value": "35%", "label": "of EU-28 population aged 25\u201354 has a tertiary degree or higher (Eurostat)", "page": 20 },
+    { "value": "93%", "label": "of graduate-founder teams include a founder with a technical or business degree", "page": 21 },
+    { "value": "36%", "label": "of graduate-founder teams include a founder who studied a different major", "page": 21 },
+    { "value": "43%", "label": "of European tertiary education graduates in 2017 were from technical, business or legal programs (Eurostat)", "page": 21 },
+    { "value": "~90%", "label": "of State of European Tech 2018 respondents agreed diverse teams perform better", "page": 22 },
+    { "value": "2x", "label": "as much revenue per dollar invested by companies with a woman on founding team (BCG/MassChallenge)", "page": 22 },
+    { "value": "5x", "label": "more papers about erectile dysfunction than premenstrual syndrome on ResearchGate", "page": 23 },
+    { "value": "34%", "label": "of European startups targeted a market outside Europe in their founding year", "page": 24 },
+    { "value": "57%", "label": "of four-year-old European startups targeted a market outside Europe", "page": 24 },
+    { "value": "5%", "label": "of girls aged 15\u201316 expect a career in computing or engineering (OECD)", "page": 26 },
+    { "value": "18%", "label": "of boys aged 15\u201316 expect a career in computing or engineering (OECD)", "page": 26 },
+    { "value": "<1 in 3", "label": "engineering graduates in OECD countries are women", "page": 26 },
+    { "value": "<1 in 5", "label": "computer science graduates in OECD countries are women", "page": 26 },
+    { "value": "<20%", "label": "of all C-level startup attendees at Slush 2019 were female", "page": 26 },
+    { "value": "2x", "label": "the number of girls interested in STEM when they have a role model (Microsoft)", "page": 27 },
+    { "value": "7 of 166", "label": "founders of European tech unicorns (est. since 2008) are women", "page": 27 },
+    { "value": "13%", "label": "of European pre-seed companies have a founder from just 15 universities", "page": 28 },
+    { "value": "30%", "label": "of European companies beyond Series B have a top-15-university alumna on founding team", "page": 28 },
+    { "value": "10x", "label": "more likely to hold a patent if from highest income percentile vs. low/middle income", "page": 29 },
+    { "value": "80%", "label": "of European founders were financially well off immediately prior to founding (State of European Tech 2019)", "page": 29 },
+    { "value": "39%", "label": "of EU-28 population is financially well off (Eurostat)", "page": 29 },
+    { "value": "45%", "label": "higher rate at which female US tech employees leave tech vs. men (Centre for Talent Innovation, 2014)", "page": 31 },
+    { "value": "38%", "label": "of women considered European tech to be inclusive (State of European Tech 2018)", "page": 31 },
+    { "value": "51%", "label": "of men considered European tech to be inclusive (State of European Tech 2018)", "page": 31 },
+    { "value": "49%", "label": "of female founders reported experiencing discrimination in past 12 months (State of European Tech 2019)", "page": 31 },
+    { "value": "40%", "label": "of founders from minority ethnic groups reported experiencing discrimination in past 12 months", "page": 31 },
+    { "value": ">1/4", "label": "of investors at Slush 2019 from health/biotech/fintech/medtech/cleantech funds were women", "page": 36 },
+    { "value": "<1/7", "label": "of investors at Slush 2019 from gaming-focused funds were women", "page": 36 },
+    { "value": "41%", "label": "of Europe\u2019s total venture funding in 2019\u20132020 raised by founders from just 15 universities", "page": 37 },
+    { "value": "67%", "label": "of questions to male entrepreneurs at TechCrunch Disrupt were promotion-oriented (Kanze et al.)", "page": 38 },
+    { "value": "66%", "label": "of questions to female entrepreneurs at TechCrunch Disrupt were prevention-oriented", "page": 38 },
+    { "value": ">50%", "label": "less funding received by female founders vs. what they asked for (Swedish VC study)", "page": 38 },
+    { "value": "24.9%", "label": "of funds with at least one female investor at Slush 2019 committed to addressing gender inequality in investments", "page": 38 },
+    { "value": "12.7%", "label": "of funds without a female investor at Slush 2019 committed to addressing gender inequality in investments", "page": 38 },
+    { "value": "70%", "label": "less likely for female-led startups to successfully exit when lead VC had no female GPs (Sahil Raina)", "page": 39 },
+    { "value": "97%", "label": "of startups that were in a common office switched to remote work due to COVID-19", "page": 40 },
+    { "value": "55%", "label": "of young European companies are headquartered in a capital city", "page": 41 },
+    { "value": "8%", "label": "of wages workers willing to give up for option to work from home (Stanford 2017)", "page": 42 },
+    { "value": "4.4%", "label": "productivity increase when US patent examiners worked from home (Harvard Business Review)", "page": 42 }
+  ],
+  "charts": [
+    {
+      "page": 19,
+      "description": "Chart showing the funding disparity between all-male, mixed, and all-female teams in European venture capital in 2019; likely a bar or stacked chart with Dealroom data on rounds over $10M"
+    },
+    {
+      "page": 20,
+      "description": "Chart comparing the educational attainment of European startup founders vs. the general EU-28 population aged 25\u201354 (university degree rates)"
+    },
+    {
+      "page": 21,
+      "description": "Chart showing percentage of Slush startups listing \u2018Finding Talent\u2019 as a top challenge, likely by region or stage; also chart on founders\u2019 field of study vs. Eurostat averages"
+    },
+    {
+      "page": 23,
+      "description": "Chart comparing cumulative funding and revenue metrics for startups whose application was submitted by a woman vs. a man in the Slush 2019 cohort"
+    },
+    {
+      "page": 24,
+      "description": "Chart showing the vertical distribution of startups whose applications were submitted by women vs. men in the 2019 Slush cohort; also likely shows the share of European startups targeting markets outside Europe by company age"
+    },
+    {
+      "page": 25,
+      "description": "Chart showing European startups targeting markets outside of Europe at founding year vs. at four years old (34% vs. 57%)"
+    },
+    {
+      "page": 26,
+      "description": "Chart illustrating the drop in girls\u2019 interest in STEM from ages 11\u201312 to 15\u201316 (Microsoft survey across 12 European countries) and share of female C-level attendees at Slush 2019"
+    },
+    {
+      "page": 27,
+      "description": "Chart showing the gender breakdown of European tech unicorn founders (established since 2008) and the share of female founders serving as CEO vs. other roles at Slush 2019"
+    },
+    {
+      "page": 28,
+      "description": "Chart showing the share of European pre-seed and Series B+ companies with a founder from one of the top 15 universities; illustrates how the concentration grows with funding stage"
+    },
+    {
+      "page": 29,
+      "description": "Chart comparing the financial background of European founders prior to founding vs. the general EU-28 population; also shows share of founders who raised external capital by socioeconomic background"
+    },
+    {
+      "page": 32,
+      "description": "Chart showing types of discrimination experienced in European tech, broken down by respondent ethnicity; non-white founders\u2019 most common type of discrimination is ethnicity rather than gender"
+    },
+    {
+      "page": 33,
+      "description": "Chart illustrating intersectional diversity data from State of European Tech 2019; shows how barriers compound for people who belong to multiple underrepresented groups"
+    },
+    {
+      "page": 35,
+      "description": "Chart showing gender diversity among VC fund attendees at Slush 2019 by seniority level (Junior, Senior, Partner, GP/Managing Partner); diversity worsens with seniority"
+    },
+    {
+      "page": 36,
+      "description": "Chart showing the share of female investors at Slush 2019 by fund industry focus (e.g. health/biotech vs. gaming)"
+    },
+    {
+      "page": 37,
+      "description": "Chart showing cumulative venture funding raised by founders from top-15 European universities vs. all others, in 2019\u20132020; also likely shows funding check size differences by university tier"
+    },
+    {
+      "page": 39,
+      "description": "Chart showing exit success rates for female-led startups correlated with the presence or absence of a female GP at the lead VC (Sahil Raina study)"
+    },
+    {
+      "page": 40,
+      "description": "Chart showing exploding rent prices in European startup hubs (CBRE data), illustrating urban housing affordability challenges"
+    },
+    {
+      "page": 41,
+      "description": "Chart showing the share of European startups headquartered in capital cities vs. non-capital cities, and comparative challenges faced (fundraising, talent, customer acquisition)"
+    },
+    {
+      "page": 42,
+      "description": "Chart from COVID-19 Startup Survey showing the share of startups reporting a drop vs. improvement in team well-being and productivity after switching to remote work"
+    }
+  ]
+}

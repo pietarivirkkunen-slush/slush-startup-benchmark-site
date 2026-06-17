@@ -1,0 +1,30 @@
+.method-table {
+  margin-top: 40px;
+  max-width: var(--reading-width);
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--text-base);
+}
+
+.method-table th {
+  text-align: left;
+  font-weight: var(--weight-semibold);
+  font-size: 11px;
+  letter-spacing: var(--tracking-caps-xs);
+  text-transform: uppercase;
+  color: var(--fg-dim);
+  padding: 0 24px 12px 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.method-table td {
+  padding: 12px 24px 12px 0;
+  color: var(--fg-muted);
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+
+.method-table td:first-child {
+  color: var(--fg);
+  font-weight: var(--weight-medium);
+}

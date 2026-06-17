@@ -1,0 +1,28 @@
+{
+  "page": 94,
+  "text": "DATA & METHODOLOGY\nEXPERT INTERVIEWS\nWe conducted 58 anonymous expert interviews and used them as the basis of our own analysis. Our\nsample was comprised of 28 founders, 20 investors, 8 operators and 2 \u201cother\u201d people from the eco-\nsystem. 32 of the interviewees were based in the Nordics, 16 were from Europe and 10 from outside\nEurope. 34% of the interviewees were women.\nSTATE OF EUROPEAN TECH SURVEY\nThe State of European Tech survey was distributed during the fall of 2019. Please find a breakdown\nof the survey respondents in the State of European Tech 2019 report.\nSLUSH DATA\nCOMPANY DATA\nSlush collects company information from startups and investors when they apply for the event. In\nthese papers, we used data associated with Slush 2019. The size of the datasets are as follows:\n3,500 startups, 600 VC firms, 250 CVC firms, 500 Angels, 60 LPs, 100 M&A investors.\nTICKET DATA\nSlush collects data on all of its attendees when they purchase a ticket to Slush. Groups utilized in\nthis study were startup ticket holders, investor ticket holders & angel investor ticket holders. A gen-\nder API was used to guess the ticket holders\u2019 gender based on their first name.\n94",
+  "tables": [
+    [
+      [
+        null,
+        "DATA & METHODOLOGY\nEXPERT INTERVIEWS\nWe conducted 58 anonymous expert interviews and used them as the basis of our own analysis. Our\nsample was comprised of 28 founders, 20 investors, 8 operators and 2 \u201cother\u201d people from the eco-\nsystem. 32 of the interviewees were based in the Nordics, 16 were from Europe and 10 from outside\nEurope. 34% of the interviewees were women.\nSTATE OF EUROPEAN TECH SURVEY\nThe State of European Tech survey was distributed during the fall of 2019. Please find a breakdown\nof the survey respondents in the State of European Tech 2019 report.",
+        null
+      ],
+      [
+        null,
+        "",
+        null
+      ],
+      [
+        "",
+        "",
+        ""
+      ],
+      [
+        null,
+        "SLUSH DATA\nCOMPANY DATA\nSlush collects company information from startups and investors when they apply for the event. In\nthese papers, we used data associated with Slush 2019. The size of the datasets are as follows:\n3,500 startups, 600 VC firms, 250 CVC firms, 500 Angels, 60 LPs, 100 M&A investors.\nTICKET DATA\nSlush collects data on all of its attendees when they purchase a ticket to Slush. Groups utilized in\nthis study were startup ticket holders, investor ticket holders & angel investor ticket holders. A gen-\nder API was used to guess the ticket holders\u2019 gender based on their first name.",
+        null
+      ]
+    ]
+  ]
+}

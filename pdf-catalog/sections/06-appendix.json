@@ -1,0 +1,73 @@
+{
+  "id": "06-appendix",
+  "title": "Appendix",
+  "type": "appendix",
+  "pages": [91, 92, 93, 94, 95, 96],
+  "about_slush": "Slush is a student-driven, not-for-profit movement on a mission to create and help founders to change the world. We are a community who want to radically change how entrepreneurship is perceived in Northern Europe and beyond.\n\nIn a regular year, Slush would culminate in a gathering of 25,000 founders, investors, media, and executives from 130+ countries, organized in Helsinki in November. However, due to the ongoing COVID-19 pandemic, we're hard at work helping the ecosystem in other ways this year.\n\nThis fall will be no less Slushy than any other. How? We'll reveal the biggest reason in August 2020. On top of that, we run an online media called Soaked by Slush, a newsletter with 70k+ subscribers, research pieces like this one, and much more.",
+  "creators": {
+    "authors": [
+      "Tommi Bergström",
+      "Mikko Mäntylä"
+    ],
+    "supporting_authors": [
+      "Elmo Pakkanen",
+      "Natasha Salmi",
+      "Eerika Savolainen"
+    ],
+    "design_tech": [
+      "Helmi Korhonen",
+      "Venla Rantanen"
+    ]
+  },
+  "contributors_note": "Unfortunately, we won't be able to acknowledge those that we are truly indebted to for making this paper happen; our anonymous interviewees. We hope that we've managed to convey our gratitude privately.\n\nBeyond them, we are grateful for the support of the following people and organizations:\n\nAtomico\nDealroom\nMiika Huttunen\nOona Poropudas\nAnna Brchisky\nEwa Braniecka\nRasmus Halme\nRasmus Ekholm\nSamuli Pehkonen\nJohannes Tervo\nTouko Aroheikki\n\nFor more information contact us at: hello@slush.org",
+  "contributors_list": [
+    "Atomico",
+    "Dealroom",
+    "Miika Huttunen",
+    "Oona Poropudas",
+    "Anna Brchisky",
+    "Ewa Braniecka",
+    "Rasmus Halme",
+    "Rasmus Ekholm",
+    "Samuli Pehkonen",
+    "Johannes Tervo",
+    "Touko Aroheikki"
+  ],
+  "contact": "hello@slush.org",
+  "methodology": {
+    "expert_interviews": "We conducted 58 anonymous expert interviews and used them as the basis of our own analysis. Our sample was comprised of 28 founders, 20 investors, 8 operators and 2 'other' people from the ecosystem. 32 of the interviewees were based in the Nordics, 16 were from Europe and 10 from outside Europe. 34% of the interviewees were women.",
+    "state_of_european_tech_survey": "The State of European Tech survey was distributed during the fall of 2019. Please find a breakdown of the survey respondents in the State of European Tech 2019 report.",
+    "company_data": "Slush collects company information from startups and investors when they apply for the event. In these papers, we used data associated with Slush 2019. The size of the datasets are as follows: 3,500 startups, 600 VC firms, 250 CVC firms, 500 Angels, 60 LPs, 100 M&A investors.",
+    "ticket_data": "Slush collects data on all of its attendees when they purchase a ticket to Slush. Groups utilized in this study were startup ticket holders, investor ticket holders & angel investor ticket holders. A gender API was used to guess the ticket holders' gender based on their first name.",
+    "matchmaking_data": "Slush collects data from meeting requests sent through the Slush Matchmaking Tool. In 2019, a total of 130,000 meeting requests were sent and 20,000 meetings held.",
+    "purpose_driven_companies": "Purpose-driven companies were identified from the Slush startup data using our own taxonomy. We define these as companies that—in their application—report working towards at least one of the United Nations (UN) Sustainable Development Goals (SDGs), and mention a keyword related to that SDG in their product description. We probe the prior with the question: 'Are you committed to making a positive social and environmental impact through your investments?' In other words, they are pursuing a certain SDG as a core aspect of their product.",
+    "deeptech_companies": "To recognize deeptech companies from the Slush startup data, we used a combination of industry, technology, and keyword analysis, as well as manual scanning. Our aim was to find companies that leverage a novel, scalable, complex technology, or a significant innovation within an existing technology, as a core aspect of their offering. Additionally, this innovation needed to be the company's own, and sold primarily as a product, rather than a service.",
+    "dealroom_data": "Dealroom.co is the foremost data provider on start-up, early stage and growth company ecosystems in Europe and around the globe. Founded in Amsterdam in 2013, they now work with many of the world's most prominent investors, entrepreneurs and government organizations to provide transparency, analysis and insights on venture capital activity. Their offerings include data sets via SaaS and API as well as custom reports and bespoke ecosystem solutions.",
+    "unicorn_analysis": "The list of unicorns used is based on Slush's internal analysis, up to and including January 2020. We define a unicorn as a company that has exited at a valuation of $1B+, or whose latest private valuation exceeds that. Further, we exclude holding companies and corporate subsidiaries. Dealroom was used as the primary source of valuation data, whereas public disclosures or credible estimates were used as the basis of revenue and profitability data."
+  },
+  "interview_sample": {
+    "total": 58,
+    "by_role": {
+      "founders": 28,
+      "investors": 20,
+      "operators": 8,
+      "other": 2
+    },
+    "by_geography": {
+      "nordics": 32,
+      "europe_excl_nordics": 16,
+      "outside_europe": 10
+    },
+    "percent_women": "34%"
+  },
+  "slush_2019_dataset_sizes": {
+    "startups": 3500,
+    "vc_firms": 600,
+    "cvc_firms": 250,
+    "angels": 500,
+    "lps": 60,
+    "ma_investors": 100,
+    "meeting_requests_sent": 130000,
+    "meetings_held": 20000
+  }
+}

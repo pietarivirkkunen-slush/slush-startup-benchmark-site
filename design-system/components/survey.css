@@ -1,0 +1,146 @@
+.insight-grid {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.insight-card {
+  background: var(--surface-bg);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--surface-radius);
+  padding: 24px 22px;
+  border-left: 3px solid var(--color-brand);
+}
+
+.insight-card--warning {
+  border-left-color: #e8a838;
+}
+
+.insight-card--negative {
+  border-left-color: #e86b8c;
+}
+
+.insight-card--positive {
+  border-left-color: var(--color-brand);
+}
+
+.insight-card-title {
+  font-family: var(--font-heading);
+  font-weight: var(--weight-bold);
+  font-size: var(--text-md);
+  color: var(--fg);
+  margin-bottom: 8px;
+}
+
+.insight-card-desc {
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  color: var(--fg-muted);
+}
+
+.quote-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.quote-card {
+  background: var(--surface-bg);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--surface-radius);
+  padding: 24px 22px;
+}
+
+.quote-card blockquote {
+  margin: 0;
+  font-size: var(--text-md);
+  line-height: var(--leading-relaxed);
+  color: var(--fg-muted);
+  font-style: normal;
+}
+
+.quote-card blockquote::before {
+  content: '\201C';
+  display: block;
+  font-family: var(--font-heading);
+  font-size: 28px;
+  font-weight: var(--weight-black);
+  color: var(--color-brand);
+  line-height: 1;
+  margin-bottom: 8px;
+}
+
+.toggle-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.toggle-pill {
+  appearance: none;
+  border: 1px solid var(--surface-border);
+  background: transparent;
+  color: var(--fg-muted);
+  font-family: var(--font-heading);
+  font-size: 11px;
+  font-weight: var(--weight-medium);
+  letter-spacing: 0.02em;
+  padding: 6px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: color var(--duration-base) var(--ease-default),
+              background var(--duration-base) var(--ease-default),
+              border-color var(--duration-base) var(--ease-default);
+}
+
+.toggle-pill:hover {
+  color: var(--fg);
+  border-color: rgba(255, 255, 255, 0.18);
+}
+
+.toggle-pill.is-active {
+  color: var(--fg);
+  background: var(--color-glass-hover);
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.toggle-pill:focus-visible {
+  outline: 2px solid var(--color-focus-ring);
+  outline-offset: 2px;
+}
+
+.explorer-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.explorer-table-wrap {
+  overflow-x: auto;
+}
+
+.explorer-table .dist-bar {
+  width: 100%;
+  max-width: 160px;
+  height: 6px;
+  background: var(--color-border);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.explorer-table .dist-bar-fill {
+  height: 100%;
+  background: var(--color-chart-slush);
+  border-radius: 3px;
+}
+
+@media (max-width: 900px) {
+  .insight-grid,
+  .quote-grid {
+    grid-template-columns: 1fr;
+  }
+}

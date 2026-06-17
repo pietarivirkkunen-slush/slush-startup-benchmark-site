@@ -1,0 +1,24 @@
+/**
+ * Slush Impact Report — design system bundle
+ *
+ * Usage in HTML:
+ *   <link rel="stylesheet" href="design-system/slush.css">
+ *
+ * For a new page with only tokens + base:
+ *   @import url('./tokens.css');
+ *   @import url('./base.css');
+ */
+@import url('./tokens.css');
+@import url('./base.css');
+@import url('./components/hero.css');
+@import url('./components/navigation.css');
+@import url('./components/chapter.css');
+@import url('./components/content.css');
+@import url('./components/panels.css');
+@import url('./components/charts.css');
+@import url('./components/tables.css');
+@import url('./components/graduation.css');
+@import url('./components/footer.css');
+@import url('./components/report-cards.css');
+@import url('./components/survey.css');
+@import url('./components/whitepaper.css');

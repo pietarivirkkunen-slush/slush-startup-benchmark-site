@@ -1,0 +1,548 @@
+{
+  "id": "04-narrative-purpose",
+  "title": "Narrative 2: Purpose-Driven Change",
+  "eyebrow": "Narrative 2",
+  "type": "narrative",
+  "pages": [44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68],
+  "intro_text": "A new generation of founders and talent is knocking on the doors of the European ecosystem, ambitious to tackle the most momentous issues of our time. State of European Tech 2019 exposed the pace at which this shift is happening. The majority of respondents working in the industry stated that, in just the last 12 months, they'd seen an increase in the number of employees placing emphasis on purpose alignment.\n\nThis shift in the personal preferences of founders and employees is quickly molding the companies that they establish and choose to work for. Where social responsibility was once viewed as a tangential activity to core business, it is now being weaved into the mission of many companies.\n\nAt Slush 2019, 36.7% of startups were what we call purpose-driven, with a higher share among younger ventures. These are companies that—in their application—reported working towards at least one of the United Nations (UN) Sustainable Development Goals (SDGs), and mentioned a keyword related to that SDG in their product description. In other words, they are pursuing a certain SDG as a core aspect of their product.\n\nFor State of European Tech 2019, we used a similar methodology to try to recognize purpose-driven companies across the wider European tech diaspora. Now, we revisited that categorization and sliced Europe's purpose-driven young ventures by founder experience. This shows that the shift to purpose is driven by first-time founders.\n\nHowever, as we move further into the 2020s, our approach to purpose has to become less dichotomous. There are no impact companies. All companies have an impact. It's not enough for a minority of young ventures to address humankind's most pressing problems, if the rest offset the strides made. We desperately need every single company to acknowledge their responsibility towards society, and to act accordingly.",
+  "sub_sections": [
+    {
+      "title": "The Purpose-Driven Investment Ecosystem Is Being Built from the Bottom Up, and VCs Are the Slowest to Adapt",
+      "pages": [48, 49, 50, 51, 52, 53],
+      "body": "In terms of purpose, 2019 was a year of reckoning for European investors as well. As data from State of European Tech 2019 shows, investments into purpose-driven companies more than doubled year-over-year.\n\nAt Slush 2019, 62% of purpose-driven startups had raised their latest round of funding in 2019, compared to 53% of other startups. On a similar note, purpose-driven companies received more investor meetings at Slush 2019 than their counterparts. What's more, investors had a keen eye for virtue signalling. Those companies that reported working towards some SDG, but failed to back that up in their product description, received the lowest level of investor interest.\n\nA look further into the number of meetings that startups received depending on the SDG that they are addressing reveals a healthy level of investor interest in the most pressing problems of our generation. Gender equality, affordable energy, a decent working environment, poverty, hunger and climate change were among the most sought-after thematics.\n\nHowever, these figures don't reveal the full picture. Data from Slush 2019 indicates that the purpose-driven investment ecosystem is being built from the bottom up, and that VCs are relatively slow to adapt. In our cohort, angels and corporate investors were more likely than VCs to self-reportedly invest towards at least one SDG. What's more, within VCs and CVCs, the share was higher among those investing earlier.\n\nUsing the dissection of purpose-driven companies from State of European Tech 2019, we see that these preferences convert into investment action. European corporate investors have upscaled their allocation of funding into purpose-driven companies more radically over the past few years than traditional VCs, and have consistently been more likely to participate in a round going towards a purpose-driven young venture.\n\nSo, what is holding venture capitalists back from funding solutions to our most pressing problems? A clue to this question is offered by data on limited partners (these are the institutions that invest in VC funds) at Slush 2019. Across the board, their reported level of commitment to SDGs is lower than that of the firms they fund, and decreases for LPs that invest in VC funds focused on more mature companies.\n\nIn other words, there doesn't seem to be capital available for VCs that would like to back purpose-driven young ventures; particularly not where they are trying to embed that theme into late-stage investments. This inkling is backed up by a look at VC firms at Slush 2019 that were in the process of raising a new fund at the time. Out of that cohort, firms committed to addressing some SDG through their investments were 55% more likely to list fundraising as a priority coming to Slush, suggesting that they may be struggling more.\n\nAngels and corporate investors aren't subject to this same external pressure and accountability. Angels invest out of their own pocket, whereas corporate investors invest company money, either directly or through a separate fund structure.\n\nAs reported in State of European Tech 2019, LPs that have invested into European venture during 2014–2018 represent a heterogeneous mix of entities, ranging from government agencies and corporations to high net worth individuals, pension funds and beyond. These aren't entities that naturally see a purpose beyond profit as part of their investment mandate, and may not yet have seen sufficient evidence of the contention that purpose equals profit.\n\nHowever, change is starting to happen as we speak. In a survey to Finnish Private Equity Investors (of which the majority were VC firms), Aalto Fellows found that 97% of investors have seen LP interest towards impact increase in recent years.\n\nIn other words, it seems that founder preferences and early-stage investors may just be enough to push the whole funding landscape to gravitate towards a more purposeful thesis.",
+      "key_stats": [
+        {
+          "value": "62%",
+          "label": "of purpose-driven startups had raised their latest round of funding in 2019"
+        },
+        {
+          "value": "53%",
+          "label": "of non-purpose-driven startups had raised their latest round of funding in 2019"
+        },
+        {
+          "value": "55%",
+          "label": "more likely to list fundraising as a priority for VC firms committed to SDGs when raising a new fund"
+        },
+        {
+          "value": "97%",
+          "label": "of Finnish Private Equity investors have seen LP interest towards impact increase in recent years"
+        },
+        {
+          "value": "2x+",
+          "label": "investments into purpose-driven companies more than doubled year-over-year in 2019"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "What we are seeing is that a lot of entrepreneurs want to work on something more meaningful. For those companies, it's much easier to attract investors and partners. They're going to have a big competitive advantage going into the future.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "Currently, in a world where you're chasing the next round of funding, you have to optimize for the growth instead of the social impact your company has.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "Shifting from a pure growth mindset to a more purpose-driven and sustainable way of creating and building businesses demands for a wide cultural change, especially on the investor and financer side.",
+          "attribution": "— Operator"
+        },
+        {
+          "text": "We don't explicitly consider impact as a parameter when we invest. Still, 60% of our portfolio is what you could classify as \"impact startups\". This is because the most talented founders are naturally gravitating into that space, and solving real problems. Money follows talent.",
+          "attribution": "— Investor"
+        }
+      ]
+    },
+    {
+      "title": "Virtuous Business Is Good Business",
+      "pages": [54, 55, 56],
+      "body": "Making purpose a core aspect of business makes economic sense. In an eight-year research project, MITSloan and BCG established that the companies who took a comprehensive approach to sustainability ended up benefiting the most from it in financial terms. In fact, in a recent whitepaper, the World Economic Forum found that businesses can enhance their commercial performance by becoming more sustainable and responsible.\n\nData from our 2019 cohort suggests the same; purpose-driven startups founded in 2017–2019 generated more revenue than their counterparts. However, it also indicates that tables have only recently turned in favor of purpose-driven businesses, with numbers reversing for startups founded in 2016 or earlier.\n\nRoughly the same holds true when controlling for how many people the startups reported employing 12 months before submitting their application. Virtuous business truly is becoming good business.\n\nOur data also verifies that the commitment to purpose needs to be holistic for these benefits to materialize. Companies that self-reportedly work towards some SDG, but don't back that up in their product description, systematically generate less revenue than those that tick both boxes.\n\nManagers of more mature companies are well aware of this reality. In their report titled The Business Case for Purpose, HBR Analytic Services surveyed some 500 executives regarding their view on purpose. 81% believed that purpose-driven firms deliver higher-quality products and services and 80% stated that having a shared sense of purpose correlates with higher customer loyalty.\n\nOne could argue that this is driven by inevitability; we are running out of asymmetric opportunities in the space of banal problems that have been emblematic of the past few decades of digitalization. As some might put it, the age of apps is coming to an end.",
+      "key_stats": [
+        {
+          "value": "81%",
+          "label": "of executives surveyed by HBR Analytic Services believed purpose-driven firms deliver higher-quality products and services"
+        },
+        {
+          "value": "80%",
+          "label": "of executives stated that having a shared sense of purpose correlates with higher customer loyalty"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "Venture capitalists will not only invest more in purpose-driven companies, but they'll also actually be good bets as more consumers make CSR-driven purchase decisions.",
+          "attribution": "— Operator"
+        },
+        {
+          "text": "In the future, competitive advantages are formed from positive impacts.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "We think that having a purpose-driven mission actually adds a lot more resiliency for the business. When the customers, regulators and partners see the value, other than monetary, that a company has, they're more willing to help them when things are going wrong. It creates a much stronger business if you have more than profits to show.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "Tech is slowly moving into behemoth industries, because building another dog walking app isn't going to solve anything, and it's not where the opportunities are anymore. It's time to solve the harder problems.",
+          "attribution": "— Investor"
+        }
+      ]
+    },
+    {
+      "title": "All Companies, Purpose-Driven or Not, Need to Address Their Impact",
+      "pages": [57, 58, 59],
+      "body": "Human beings will always have mundane problems. Correspondingly, we need companies that address those problems. However, this doesn't mean that these companies wouldn't have an impact on the surrounding world. All companies, regardless of the problem set that they solve for, need to understand, measure and optimize that impact.\n\nAcross the ecosystem, understanding and effort in this department is still superficial. While just 14% of founders responding to the State of European Tech survey in 2019 said that their company's societal or environmental impact is irrelevant, only one in five founders were measuring it. Among those who reported doing so, the most common method was CO2 measurement, which is great, but one-dimensional.\n\nImportantly, purpose-driven companies aren't exempt from this requirement. BCG found that tech's sense of purpose is oftentimes too narrow and can end up having negative consequences on society.\n\nData on the purpose-driven young ventures at Slush 2019 hints at the same. While we've established that a sense of purpose is generally strong, rather few companies are addressing issues that would benefit the developing world; global partnerships, inequality, clean water or hunger. Similarly, very few companies are directly moving the dime in terms of gender equality.\n\nIn his 1970 essay, the economist Milton Friedman argued that the sole responsibility of a company should be to maximize value for its shareholders. In other words, he proposed that a commercial entity should not be held accountable to social responsibility. Friedman's thesis has been indisputable business orthodoxy ever since. It was devised in response to a previous management theory, popular in the 50s and 60s, called stakeholder capitalism. Under that doctrine, businesses are expected to optimize for all stakeholders that are affected by their activities. Now, a stakeholder approach seems poised for a comeback.\n\nBoston Consulting Group (BCG) and the World Economic Forum (WEF) are just two of the many groups to recently endorse stakeholder capitalism. One of the five tenets of BCG's Winning the 20s leadership agenda is \"optimizing for both social and business value\". WEF, in turn, updated their Davos Manifesto for 2020 for the first time since 1973, writing that \"the purpose of a company is to engage all its stakeholders in shared and sustained value creation\".\n\nObviously a shift like this in both business zeitgeist and legislation is something that reaches far beyond the startup ecosystem. However, young companies are demonstrably very adept at business model innovation when it comes to more limited problems. What's to say that that energy can't be redirected to reinvent capitalism itself?",
+      "key_stats": [
+        {
+          "value": "14%",
+          "label": "of founders said their company's societal or environmental impact is irrelevant"
+        },
+        {
+          "value": "1 in 5",
+          "label": "founders were actually measuring their societal or environmental impact"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "In a year or two investors will be asking startups if they have thought about their wider impact on the world.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "There's a lot of talk about how sustainable development goals are going to drive innovation, but, and I think this might be a bit heretical, I don't think that these sustainable development goals are the only rules of how to solve problems. They're quite limited in fact. They're just topics.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "This benefit-driven, economics-first motive, I think, is soon gonna be indistinguishable from a more wider societal balance scorecard type approach.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "There has been an increasing shift away from shareholder value management to stakeholder management approaches.",
+          "attribution": "— Investor"
+        }
+      ]
+    },
+    {
+      "title": "For Our Efforts to Stick, We Need to Create Businesses That Don't Just Grow, But Last",
+      "pages": [60, 61, 62, 63, 64, 65, 66, 67, 68],
+      "body": "Few working in tech will have escaped the WeWork debacle that unfolded in late 2019. The co-working giant's intended public listing received an initial valuation of $47B, before closer scrutiny sent the number dwindling. The IPO was delayed and subsequently cancelled, CEO Adam Neumann was pushed out of the company, layoffs ensued, and WeWork's largest financial backer, Softbank, was forced to come to its rescue.\n\n2019 also saw some notoriously disappointing tech IPOs out of Silicon Valley. Uber, Lyft and Slack all went public in the first half of the year. All three posted negative returns for 2019, with no quick turnaround in sight. After initially promising trading, the public market has abandoned their theses, with stocks down anywhere between 33% and 61% on first-day closing prices at the start of April. Nasdaq was roughly level over that same timespan.\n\nAlready before the ongoing pandemic exposed the inherent risks in such companies, sending Uber and Lyft tumbling, many declared the end of an era in which venture capitalists have been spurring and buying into colossal growth at lofty valuations without regard for a path to profitability.\n\nThis same culture of speculation has increasingly made landfall in Europe. A look at the 60 European unicorns founded during the past economic cycle reveals that the revenue they generated in the year of their billion-dollar valuation has been slashed into a fraction of what it was previously.\n\nIt seems that these higher valuations have rippled down through the stages. As an indication of this, only 32% of venture capitalists taking the 2019 State of European Tech survey considered valuations of European early-stage companies to be at a healthy level. Note that this survey was distributed before COVID-19 took the world by storm.\n\nWhile speculation has soared, an increasing number of European startups have found a path to a unicorn valuation in just 3–6 years. The overwhelming majority of them have raised venture capital at some point of the journey.\n\nRecent unicorns are built on more abundantly funded hypergrowth. Whereas unicorns founded between 2008 and 2012 were growing at an average rate of below 2x when reaching the milestone, those founded in 2014–2015 were quadrupling their revenues year-over-year. Similarly, the amount of equity funding that startups raise prior to their unicorn round has roughly doubled.\n\nDissecting the unicorns by means of funding reveals that this growth pattern has been specifically emblematic of venture-backed companies.\n\nSo, how many sustainable, big companies have we got out of it all? It is obviously too early to declare VC's latest experiment with big rounds and rapid scaling a definitive failure. Even if today's bloated giants were on a path to sustained growth and profitability, they wouldn't have got there yet.\n\nHowever, sufficient time has passed since the first unicorns founded during the last economic cycle were deemed to be worth a billion dollars to examine whether their track record since has lived up to expectations.\n\nA reasonable first order of business for a recently-minted unicorn might be to reach profitability while growing revenue to a level that justifies its valuation. Mapping European unicorns by P/S ratio (that's market cap or latest private valuation divided by revenue), and whether they are profitable or not, shows that successes are few and far between.\n\nEight companies turn a profit today at a P/S ratio of below 10 — a valuation that could be considered normal for a public company. Notably, two of these eight, Mojang and Outfit7, are gaming startups that didn't raise significant external funding before their respective acquisitions. A third company, Eaton Towers, is private equity rather than VC-backed.\n\nFirstly, both sides of the table will typically reap the benefits of a successful bet far before a company's ability to produce long-term value is proven. Adam Neumann is a billionaire today, and if things had taken a slightly different course, the public market would have picked up the bill from his company falling from grace.\n\nIf venture-backed hypergrowth isn't a proven path to sustained business value, why is it being pursued by founders and investors alike?\n\nSecondly, the unusually high risk of VC as an asset class necessitates unusually high returns. This is heightened by the fact that, even in the best portfolio, the majority of young companies will fail. As a result, out of the dozens of companies that a typical fund will invest in, a few explosive successes will generate all returns. Thus, VCs can't afford modest, linear success. They push each portfolio company to work exponentially.\n\nThirdly, some of this haste to scale is a byproduct of the saturated digital world that we live in; one in which success is rare to come by, but astronomical when it happens. When companies rely on replicable IP for their unique selling proposition and anyone can scale a SaaS business infinitely from their garage, burgeoning traction needs to be defended at all costs. Often, the best defense mechanism is scale.\n\nArguably, venture capitalists are now finding the late-stage thesis so appealing that they've started turning away from the original purpose of the industry; unlocking the potential in unproven young ventures. As an indication of this, while total capital invested into European tech has more than doubled between 2014 and 2019, European seed funding has imploded over the past few years. The number of seed funding rounds was down 30% in 2019 from its 2016 peak, and total capital invested has stagnated.\n\n2019 was the first year in the five-year history of State of European Tech in which founder respondents self-reportedly found it harder to raise capital than 12 months prior, with early-stage founders driving that sentiment.\n\nThe bottom line is that the explosion of capital in European tech hasn't actually gone towards testing out more ideas in the market, but into chasing less risky returns in the last mile of scaling companies. And as we've seen, while those returns may well be there, the big, important European tech companies that we're all waiting for aren't.\n\nAs a last note, in our recent COVID-19 report, we found that among the pandemic's consequences is a significant dent in valuations. A vast majority of investor respondents estimated that early-stage valuations will be cut by more than 20% in 2020.\n\nOnce we're on the other side of the pandemic and the resulting financial downturn, both founders and investors will need to revisit why they are doing this in the first place. If the answer doesn't revolve around building sustainable, tremendous tech companies for the long run, we should all recalibrate.",
+      "key_stats": [
+        {
+          "value": "$47B",
+          "label": "WeWork's initial intended IPO valuation before scrutiny sent it dwindling"
+        },
+        {
+          "value": "33%–61%",
+          "label": "decline in Uber, Lyft and Slack stock prices from first-day closing prices by start of April 2020"
+        },
+        {
+          "value": "32%",
+          "label": "of venture capitalists considered valuations of European early-stage companies to be at a healthy level (2019 survey)"
+        },
+        {
+          "value": "60",
+          "label": "European unicorns founded during the past economic cycle examined for revenue vs. valuation"
+        },
+        {
+          "value": "below 2x",
+          "label": "average revenue growth rate of unicorns founded between 2008 and 2012 when reaching the milestone"
+        },
+        {
+          "value": "4x",
+          "label": "revenue growth year-over-year for unicorns founded in 2014–2015 when reaching the milestone"
+        },
+        {
+          "value": "2x",
+          "label": "amount of equity funding raised prior to unicorn round has roughly doubled compared to earlier cohorts"
+        },
+        {
+          "value": "8",
+          "label": "European unicorn companies that turn a profit at a P/S ratio of below 10"
+        },
+        {
+          "value": "30%",
+          "label": "decline in number of European seed funding rounds in 2019 from its 2016 peak"
+        },
+        {
+          "value": "2x+",
+          "label": "total capital invested into European tech more than doubled between 2014 and 2019"
+        },
+        {
+          "value": "20%+",
+          "label": "estimated cut in early-stage valuations in 2020 according to majority of investor respondents in COVID-19 survey"
+        },
+        {
+          "value": "3–6 years",
+          "label": "time it now takes an increasing number of European startups to reach unicorn valuation"
+        }
+      ],
+      "quotes": [
+        {
+          "text": "I personally don't think VCs should exist to fund companies like Uber and Lyft that lose money on every transaction.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "The funding climate is going to change. Late-stage company valuations are going to come tumbling down. A reckoning is coming. Uber was the canary in the coal mine of the larger systemic issue. WeWork was the explosion.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "We should idolize building something sustainable in the long run, rather than focusing on explosive growth.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "The US model of super high growth is not very sustainable. People are being treated as a means of production. The expectations in terms of how crazy hard you work, what kind of growth you expect, and whether you should grow at any cost is going to change.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "There's lot of talk behind the curtains along the lines of let's get a C round in and get the fuck out. Strategic exits will always happen, but we should try building good businesses.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "For most entrepreneurs, your company is your only bet, whilst a VC has a number of portfolio companies, and want some percentage of those to succeed, and it's almost irrelevant what happens to the rest. A VC wants to take loads of risk, and sometimes that might not be in the best interest of the company.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "Digitalization was the worst thing that ever happened to VC. Venture capital became an end to a means, and led to really unsustainable companies.",
+          "attribution": "— Founder"
+        },
+        {
+          "text": "If you're one of the big generalist funds, unless you can put 50M to work, you're not interested, because even if the company returns 100x, it's not moving the dime. There's more money around than ever and returns in Europe are now as good as in the US. But the funds that are deploying that capital are too big to catch the early-stage stuff.",
+          "attribution": "— Investor"
+        },
+        {
+          "text": "The startup mindset is to build business models 3-5 years into the future. That should be 100 years. We should be building big, influential, sustainable and growing companies that solve challenges and accelerate society towards a better tomorrow.",
+          "attribution": "— Founder"
+        }
+      ]
+    }
+  ],
+  "all_quotes": [
+    {
+      "text": "If every startup starts by thinking: am I truly solving a problem, the world will progress.",
+      "attribution": "— Operator",
+      "page": 45
+    },
+    {
+      "text": "I personally want to work in a place that has a huge impact on making the world better because there are a lot of issues we need to fix.",
+      "attribution": "— Founder",
+      "page": 46
+    },
+    {
+      "text": "The ideals of entrepreneurship will reflect the inherent ideals of the next generation of founders. Millennials naturally gravitate towards problems with a deeper impact and influence, which will shape the way startups operate in the near future.",
+      "attribution": "— Founder",
+      "page": 46
+    },
+    {
+      "text": "It's crazy to think that when you talk to banks and many people in power in finance about climate, there's nothing. Whereas if you meet any 20-year old right now, that's the thing they want to dedicate their lives to.",
+      "attribution": "— Investor",
+      "page": 47
+    },
+    {
+      "text": "What we are seeing is that a lot of entrepreneurs want to work on something more meaningful. For those companies, it's much easier to attract investors and partners. They're going to have a big competitive advantage going into the future.",
+      "attribution": "— Investor",
+      "page": 48
+    },
+    {
+      "text": "Currently, in a world where you're chasing the next round of funding, you have to optimize for the growth instead of the social impact your company has.",
+      "attribution": "— Investor",
+      "page": 51
+    },
+    {
+      "text": "Shifting from a pure growth mindset to a more purpose-driven and sustainable way of creating and building businesses demands for a wide cultural change, especially on the investor and financer side.",
+      "attribution": "— Operator",
+      "page": 53
+    },
+    {
+      "text": "We don't explicitly consider impact as a parameter when we invest. Still, 60% of our portfolio is what you could classify as \"impact startups\". This is because the most talented founders are naturally gravitating into that space, and solving real problems. Money follows talent.",
+      "attribution": "— Investor",
+      "page": 53
+    },
+    {
+      "text": "Venture capitalists will not only invest more in purpose-driven companies, but they'll also actually be good bets as more consumers make CSR-driven purchase decisions.",
+      "attribution": "— Operator",
+      "page": 54
+    },
+    {
+      "text": "In the future, competitive advantages are formed from positive impacts.",
+      "attribution": "— Investor",
+      "page": 55
+    },
+    {
+      "text": "We think that having a purpose-driven mission actually adds a lot more resiliency for the business. When the customers, regulators and partners see the value, other than monetary, that a company has, they're more willing to help them when things are going wrong. It creates a much stronger business if you have more than profits to show.",
+      "attribution": "— Investor",
+      "page": 55
+    },
+    {
+      "text": "Tech is slowly moving into behemoth industries, because building another dog walking app isn't going to solve anything, and it's not where the opportunities are anymore. It's time to solve the harder problems.",
+      "attribution": "— Investor",
+      "page": 56
+    },
+    {
+      "text": "In a year or two investors will be asking startups if they have thought about their wider impact on the world.",
+      "attribution": "— Founder",
+      "page": 57
+    },
+    {
+      "text": "There's a lot of talk about how sustainable development goals are going to drive innovation, but, and I think this might be a bit heretical, I don't think that these sustainable development goals are the only rules of how to solve problems. They're quite limited in fact. They're just topics.",
+      "attribution": "— Founder",
+      "page": 58
+    },
+    {
+      "text": "This benefit-driven, economics-first motive, I think, is soon gonna be indistinguishable from a more wider societal balance scorecard type approach.",
+      "attribution": "— Investor",
+      "page": 59
+    },
+    {
+      "text": "There has been an increasing shift away from shareholder value management to stakeholder management approaches.",
+      "attribution": "— Investor",
+      "page": 59
+    },
+    {
+      "text": "I personally don't think VCs should exist to fund companies like Uber and Lyft that lose money on every transaction.",
+      "attribution": "— Investor",
+      "page": 60
+    },
+    {
+      "text": "The funding climate is going to change. Late-stage company valuations are going to come tumbling down. A reckoning is coming. Uber was the canary in the coal mine of the larger systemic issue. WeWork was the explosion.",
+      "attribution": "— Founder",
+      "page": 60
+    },
+    {
+      "text": "We should idolize building something sustainable in the long run, rather than focusing on explosive growth.",
+      "attribution": "— Founder",
+      "page": 63
+    },
+    {
+      "text": "The US model of super high growth is not very sustainable. People are being treated as a means of production. The expectations in terms of how crazy hard you work, what kind of growth you expect, and whether you should grow at any cost is going to change.",
+      "attribution": "— Investor",
+      "page": 63
+    },
+    {
+      "text": "There's lot of talk behind the curtains along the lines of let's get a C round in and get the fuck out. Strategic exits will always happen, but we should try building good businesses.",
+      "attribution": "— Founder",
+      "page": 65
+    },
+    {
+      "text": "For most entrepreneurs, your company is your only bet, whilst a VC has a number of portfolio companies, and want some percentage of those to succeed, and it's almost irrelevant what happens to the rest. A VC wants to take loads of risk, and sometimes that might not be in the best interest of the company.",
+      "attribution": "— Founder",
+      "page": 65
+    },
+    {
+      "text": "Digitalization was the worst thing that ever happened to VC. Venture capital became an end to a means, and led to really unsustainable companies.",
+      "attribution": "— Founder",
+      "page": 65
+    },
+    {
+      "text": "If you're one of the big generalist funds, unless you can put 50M to work, you're not interested, because even if the company returns 100x, it's not moving the dime. There's more money around than ever and returns in Europe are now as good as in the US. But the funds that are deploying that capital are too big to catch the early-stage stuff.",
+      "attribution": "— Investor",
+      "page": 66
+    },
+    {
+      "text": "The startup mindset is to build business models 3-5 years into the future. That should be 100 years. We should be building big, influential, sustainable and growing companies that solve challenges and accelerate society towards a better tomorrow.",
+      "attribution": "— Founder",
+      "page": 68
+    }
+  ],
+  "all_key_stats": [
+    {
+      "value": "36.7%",
+      "label": "of startups at Slush 2019 were purpose-driven (working towards at least one UN SDG as a core product aspect)",
+      "page": 46
+    },
+    {
+      "value": "2x+",
+      "label": "investments into purpose-driven companies more than doubled year-over-year in 2019",
+      "page": 48
+    },
+    {
+      "value": "62%",
+      "label": "of purpose-driven startups had raised their latest round of funding in 2019",
+      "page": 49
+    },
+    {
+      "value": "53%",
+      "label": "of non-purpose-driven startups had raised their latest round of funding in 2019",
+      "page": 49
+    },
+    {
+      "value": "55%",
+      "label": "more likely to list fundraising as a priority for VC firms committed to SDGs when raising a new fund",
+      "page": 52
+    },
+    {
+      "value": "97%",
+      "label": "of Finnish Private Equity investors have seen LP interest towards impact increase in recent years",
+      "page": 53
+    },
+    {
+      "value": "81%",
+      "label": "of executives believed purpose-driven firms deliver higher-quality products and services (HBR survey of 500 executives)",
+      "page": 56
+    },
+    {
+      "value": "80%",
+      "label": "of executives stated that a shared sense of purpose correlates with higher customer loyalty (HBR survey)",
+      "page": 56
+    },
+    {
+      "value": "14%",
+      "label": "of founders said their company's societal or environmental impact is irrelevant",
+      "page": 57
+    },
+    {
+      "value": "1 in 5",
+      "label": "founders were actually measuring their societal or environmental impact",
+      "page": 57
+    },
+    {
+      "value": "$47B",
+      "label": "WeWork's initial intended IPO valuation before it unravelled",
+      "page": 60
+    },
+    {
+      "value": "33%–61%",
+      "label": "range of stock price decline for Uber, Lyft and Slack from first-day closing prices by April 2020",
+      "page": 60
+    },
+    {
+      "value": "32%",
+      "label": "of venture capitalists considered European early-stage company valuations to be at a healthy level (2019 survey)",
+      "page": 61
+    },
+    {
+      "value": "60",
+      "label": "European unicorns founded during the past economic cycle, whose revenue vs. valuation was analyzed",
+      "page": 61
+    },
+    {
+      "value": "below 2x",
+      "label": "average annual revenue growth of unicorns founded 2008–2012 when reaching billion-dollar valuation",
+      "page": 62
+    },
+    {
+      "value": "4x",
+      "label": "revenue growth year-over-year of unicorns founded in 2014–2015 when reaching billion-dollar valuation",
+      "page": 62
+    },
+    {
+      "value": "~2x",
+      "label": "equity funding raised prior to unicorn round has roughly doubled compared to earlier cohorts",
+      "page": 62
+    },
+    {
+      "value": "8",
+      "label": "European unicorn companies that are profitable at a P/S ratio of below 10",
+      "page": 64
+    },
+    {
+      "value": "30%",
+      "label": "decline in number of European seed funding rounds in 2019 versus 2016 peak",
+      "page": 66
+    },
+    {
+      "value": "2x+",
+      "label": "total capital invested into European tech more than doubled between 2014 and 2019",
+      "page": 66
+    },
+    {
+      "value": "20%+",
+      "label": "estimated cut in early-stage valuations in 2020 according to majority of investors surveyed in COVID-19 report",
+      "page": 67
+    },
+    {
+      "value": "3–6 years",
+      "label": "time in which an increasing number of European startups have found a path to unicorn valuation",
+      "page": 61
+    }
+  ],
+  "charts": [
+    {
+      "description": "Investments into purpose-driven companies vs. other companies year-over-year in Europe (2019 data from State of European Tech)",
+      "pages": [48],
+      "type": "bar_chart",
+      "source": "Dealroom.co data"
+    },
+    {
+      "description": "Share of purpose-driven startups at Slush 2019 that raised their latest funding round in 2019 vs. other startups (62% vs. 53%)",
+      "pages": [49],
+      "type": "comparison_chart"
+    },
+    {
+      "description": "Investor meeting requests by SDG theme at Slush 2019 — gender equality, affordable energy, decent work, poverty, hunger, and climate change as top themes",
+      "pages": [50],
+      "type": "bar_chart"
+    },
+    {
+      "description": "Share of investors self-reportedly investing toward at least one UN SDG by investor type (angels, corporate, VCs) at Slush 2019",
+      "pages": [50],
+      "type": "bar_chart"
+    },
+    {
+      "description": "European corporate vs. VC investment allocation into purpose-driven companies over multiple years (from State of European Tech 2019)",
+      "pages": [51],
+      "type": "line_chart",
+      "source": "Dealroom.co data"
+    },
+    {
+      "description": "SDG commitment levels of LPs by stage focus at Slush 2019",
+      "pages": [51],
+      "type": "bar_chart"
+    },
+    {
+      "description": "SDG commitment of VC firms raising a new fund vs. those not raising — fundraising priority indicator",
+      "pages": [52],
+      "type": "comparison_chart"
+    },
+    {
+      "description": "Revenue comparison of purpose-driven vs. non-purpose-driven startups by founding year cohort (2016 and earlier vs. 2017–2019)",
+      "pages": [54],
+      "type": "bar_chart"
+    },
+    {
+      "description": "Revenue by SDG commitment holism: companies ticking both SDG claim and product description keyword vs. SDG claim only vs. neither",
+      "pages": [55],
+      "type": "bar_chart"
+    },
+    {
+      "description": "Revenue comparison by purpose alignment controlling for employee count at 12 months before application",
+      "pages": [55],
+      "type": "bar_chart"
+    },
+    {
+      "description": "Revenue in unicorn milestone year for European unicorns founded in different cohorts (2008–2012 vs. 2014–2015), showing increase in valuation-to-revenue ratio",
+      "pages": [61, 62],
+      "type": "scatter_or_line_chart",
+      "source": "Dealroom.co data, Slush analysis"
+    },
+    {
+      "description": "Average revenue growth rate (compound multiple) of European unicorns at time of minting, by founding year",
+      "pages": [62],
+      "type": "bar_chart",
+      "source": "Dealroom.co"
+    },
+    {
+      "description": "Equity funding raised prior to unicorn round by founding cohort — showing roughly doubling over time",
+      "pages": [62],
+      "type": "bar_chart",
+      "source": "Dealroom.co"
+    },
+    {
+      "description": "European unicorns mapped by P/S ratio and profitability — showing 8 companies profitable at P/S < 10",
+      "pages": [64],
+      "type": "scatter_chart",
+      "source": "Dealroom.co, Slush analysis, as of April 13 2020"
+    },
+    {
+      "description": "European seed funding rounds count and total capital 2014–2019, showing 30% drop from 2016 peak",
+      "pages": [66],
+      "type": "bar_chart",
+      "source": "Dealroom.co data"
+    },
+    {
+      "description": "Founder sentiment on ease of raising capital in 2019 vs. prior year (first year in State of European Tech history founders found it harder)",
+      "pages": [67],
+      "type": "survey_chart"
+    },
+    {
+      "description": "Investor estimates of early-stage valuation cuts in 2020 due to COVID-19 (majority estimating 20%+ reduction)",
+      "pages": [67],
+      "type": "survey_chart",
+      "source": "Slush COVID-19 survey"
+    }
+  ]
+}

@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Finnish Founder Survey 2026 — Slush Impact Report Series</title>
+  <meta name="description" content="Survey of 310 Finnish startup founders on struggles, relocation, taxation, and ecosystem challenges.">
+  <link rel="apple-touch-icon" href="assets/slush-s-icon.jpeg" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  <link rel="shortcut icon" type="image/jpeg" href="assets/logo.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+
+  <link rel="stylesheet" href="design-system/slush.css">
+</head>
+
+<body>
+
+  <nav class="topnav" aria-label="Chapter navigation">
+    <a class="topnav-brand" href="/" aria-label="Slush — Impact Report Series">
+      <img class="topnav-logo" src="assets/slush-logo.png" alt="Slush">
+      <span>Finnish Founder Survey 2026</span>
+    </a>
+    <span class="topnav-divider" aria-hidden="true"></span>
+    <ul class="topnav-links">
+      <li><a href="/">All reports</a></li>
+      <li><a href="#exec-summary">Summary</a></li>
+      <li><a href="#struggles">Struggles</a></li>
+      <li><a href="#relocation">Relocation</a></li>
+      <li><a href="#stage-lens">By stage</a></li>
+      <li><a href="#quotes">Quotes</a></li>
+      <li><a href="#data-explorer">Data</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-image" role="img" aria-label="Slush hero visual"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Slush Impact Report Series &mdash; Finnish Founder Survey 2026</div>
+      <h1 id="hero-title">What's holding Finnish founders back?</h1>
+      <div class="hero-meta">
+        Survey of 310 Finnish startup founders and operators &middot; 2026
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXECUTIVE SUMMARY ── -->
+  <section class="chapter" id="exec-summary" aria-labelledby="ch1-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Executive summary</div>
+      <h2 id="ch1-title">310 founders on taxation, relocation, and ecosystem friction</h2>
+
+      <div class="stat-grid stat-grid--quad">
+        <div class="stat-box">
+          <div class="stat-finding">Respondents</div>
+          <div class="stat-number">310</div>
+          <div class="stat-label">Finnish startup founders and operators surveyed in 2026</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Consider relocation</div>
+          <div class="stat-number">53%</div>
+          <div class="stat-label">Actively planning or have considered relocating their company from Finland</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Top struggle</div>
+          <div class="stat-number">24%</div>
+          <div class="stat-label">Raising funding is the most-cited daily struggle among founders today</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Risk-averse culture</div>
+          <div class="stat-number">56%</div>
+          <div class="stat-label">Cite risk-averse culture as a hurdle in building a startup in Finland</div>
+        </div>
+      </div>
+
+      <div class="section-label" style="margin-top: 64px;">Key insights</div>
+      <div class="insight-grid">
+        <div class="insight-card insight-card--warning">
+          <div class="insight-card-title">53% considering relocation</div>
+          <p class="insight-card-desc">More than half of Finnish founders have considered or are actively planning to relocate their company from Finland.</p>
+        </div>
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Taxation is #1 push factor</div>
+          <p class="insight-card-desc">Equity, options, and capital gains taxation is the top reason founders consider leaving. 81% of Series A founders cite it as a difficulty.</p>
+        </div>
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Risk-averse culture frustration</div>
+          <p class="insight-card-desc">55.5% of all respondents cite risk-averse culture as a barrier, making it the most cited difficulty overall.</p>
+        </div>
+        <div class="insight-card insight-card--positive">
+          <div class="insight-card-title">Trust &amp; quality of life shine</div>
+          <p class="insight-card-desc">65% value trust-based society and 55% cite quality of life as Finland's top advantages for startups.</p>
+        </div>
+        <div class="insight-card insight-card--negative">
+          <div class="insight-card-title">Late-stage funding gap</div>
+          <p class="insight-card-desc">56% of Seed and Series A founders cite limited late-stage funding, versus only 2% of bootstrapped founders.</p>
+        </div>
+      </div>
+
+      <div class="exec-meta-layout">
+        <div class="exec-summary">
+          <p>Explore survey data from 310 Finnish startup founders. Scroll through all charts, compare by stage, and discover insights about taxation, relocation, and ecosystem challenges.</p>
+          <p>More than half of respondents have considered or are actively planning relocation. Taxation on equity, options, and capital gains is the leading push factor among those who have. At the same time, Finland's trust-based society and quality of life remain its strongest pull factors.</p>
+          <p>The stage lens reveals sharp divides: Series A founders overwhelmingly cite taxation (81%), while bootstrapped founders rarely mention late-stage funding access. Risk-averse culture is the one difficulty cited across every stage.</p>
+        </div>
+
+        <aside class="meta-panel">
+          <div class="meta-row">
+            <div class="meta-label">Published</div>
+            <div class="meta-value">2026</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Respondents</div>
+            <div class="meta-value">310 founders &amp; operators</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Data source</div>
+            <div class="meta-value">Finnish Founder Struggles Survey 2026</div>
+            <div class="meta-sub">Built for journalistic analysis</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Series</div>
+            <div class="meta-value">
+              <a href="/">All reports</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STRUGGLES ── -->
+  <section class="chapter" id="struggles" aria-labelledby="ch2-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Founder struggles</div>
+      <h2 id="ch2-title">What do you struggle with most as a founder today?</h2>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Raising funding leads, but GTM is close behind</div>
+          <div class="chart-subtitle">Single-select · n=310 · % of respondents</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-struggles" height="280"></canvas></div>
+          <div class="chart-source-line">Finnish Founder Struggles Survey 2026</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── RELOCATION ── -->
+  <section class="chapter" id="relocation" aria-labelledby="ch3-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Relocation</div>
+      <h2 id="ch3-title">More than half have considered leaving Finland</h2>
+
+      <div class="inline-charts two-col">
+        <div class="chart-card">
+          <div class="chart-headline">Founder situation</div>
+          <div class="chart-subtitle">What best describes your situation?</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-situation" height="180"></canvas></div>
+          <div class="chart-source-line">Single-select · founders only</div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-headline">Relocation consideration</div>
+          <div class="chart-subtitle">Have you considered relocating your company?</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-relocation" height="180"></canvas></div>
+          <div class="chart-source-line">10% actively planning · 43% considered · 48% no</div>
+        </div>
+      </div>
+
+      <div class="inline-charts two-col">
+        <div class="chart-card">
+          <div class="chart-headline">Taxation tops push factors</div>
+          <div class="chart-subtitle">Main reason for considering relocation</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-relocation-reasons" height="320"></canvas></div>
+          <div class="chart-source-line">Among those considering relocation</div>
+        </div>
+        <div class="chart-card">
+          <div class="chart-headline">EU and US lead destinations</div>
+          <div class="chart-subtitle">Where have you considered moving?</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-destinations" height="220"></canvas></div>
+          <div class="chart-source-line">Among those considering relocation</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col">
+        <div class="chart-card">
+          <div class="chart-headline">Most are pre-seed or raising first round</div>
+          <div class="chart-subtitle">Which stage best describes your company?</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-stages" height="220"></canvas></div>
+          <div class="chart-source-line">Single-select · n=310</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── STAGE LENS ── -->
+  <section class="chapter" id="stage-lens" aria-labelledby="ch4-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">The stage lens</div>
+      <h2 id="ch4-title">Difficulties and advantages shift sharply by funding stage</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Both questions below are multi-select: respondents could choose multiple options. Compare responses by company stage using the toggles. Defaults show Total, Seed, and Series A.</p>
+      </div>
+
+      <div class="inline-charts one-col" style="max-width: var(--max-width);">
+        <div class="chart-card">
+          <div class="chart-headline">What makes building a startup difficult in Finland today?</div>
+          <div class="chart-subtitle">Multi-select · compare by company stage</div>
+          <div class="toggle-pills" id="difficulties-toggles" role="group" aria-label="Filter difficulties by stage"></div>
+          <div class="chart-canvas-wrap"><canvas id="chart-difficulties" height="360"></canvas></div>
+          <div class="chart-legend" id="difficulties-legend"></div>
+          <div class="chart-source-line">% selecting each option · Finnish Founder Struggles Survey 2026</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="max-width: var(--max-width); margin-top: 32px;">
+        <div class="chart-card">
+          <div class="chart-headline">What are Finland's strongest advantages for building startups?</div>
+          <div class="chart-subtitle">Multi-select · compare by company stage</div>
+          <div class="toggle-pills" id="advantages-toggles" role="group" aria-label="Filter advantages by stage"></div>
+          <div class="chart-canvas-wrap"><canvas id="chart-advantages" height="360"></canvas></div>
+          <div class="chart-legend" id="advantages-legend"></div>
+          <div class="chart-source-line">% selecting each option · Finnish Founder Struggles Survey 2026</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── QUOTES ── -->
+  <section class="chapter" id="quotes" aria-labelledby="ch5-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">In their own words</div>
+      <h2 id="ch5-title">Selected open-ended responses from founders</h2>
+
+      <div class="quote-grid">
+        <figure class="quote-card">
+          <blockquote>Finland has talent, integrity, and innovation. What it risks lacking is urgency to change things.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Entrepreneurship is the creative destruction that Finland's economy needs. Policies should support innovative approaches and emerging trends, not maintain old corporations that don't grow.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Finland's competition is not Sweden. It is Estonia's agility, the UK's capital markets, and the US's risk appetite. Policy should be benchmarked against where founders will go next, not against Nordic averages.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Startups have to venture out of Finland to find customers because the market is too small and big corporates default to building solutions in-house rather than buying from startups.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>I do not personally know a single smart, driven, young and ambitious entrepreneur who plans to keep their main business entity in Finland long-term. Many have already moved their holding companies abroad. Others are actively planning to do so. This is not tax avoidance — it is mainly survival and competitiveness. Why give away a fifth of your earnings when you can invest that into growth?</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Our education system needs to teach young kids how to build &amp; have a growth mindset from the start. Especially girls who are generally more risk averse.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Make startups something to celebrate, not something the public sector finds suspicious. Make bankruptcy a learning rather than penalty.</blockquote>
+        </figure>
+        <figure class="quote-card">
+          <blockquote>Finland should ease international recruitment and make permanent residency more accessible for founders. Easier family relocation, daycare and integration plays a big part too.</blockquote>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── DATA EXPLORER ── -->
+  <section class="chapter" id="data-explorer" aria-labelledby="ch6-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Data explorer</div>
+      <h2 id="ch6-title">Browse and sort raw survey data</h2>
+
+      <div class="prose" style="margin-top: 48px;">
+        <p>Select a survey question to view response categories, percentages, and distribution bars.</p>
+      </div>
+
+      <div class="explorer-tabs" id="explorer-tabs" role="tablist" aria-label="Survey questions"></div>
+
+      <div class="explorer-table-wrap">
+        <table class="method-table explorer-table" id="explorer-table">
+          <thead>
+            <tr>
+              <th>Category</th>
+              <th style="text-align:right;">Percentage</th>
+              <th style="text-align:right;">Responses</th>
+              <th>Distribution</th>
+            </tr>
+          </thead>
+          <tbody id="explorer-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="chart-source-line" style="margin-top: 16px;">Data source: Finnish Founder Struggles Survey 2026</div>
+    </div>
+  </section>
+
+  <footer>
+    Slush Research · Impact Report Series · Finnish Founder Survey 2026
+  </footer>
+
+  <script>
+  (function () {
+    Chart.register(ChartDataLabels);
+
+    const ds = getComputedStyle(document.documentElement);
+    const token = (name) => ds.getPropertyValue(name).trim();
+
+    const FG       = token('--color-text');
+    const FG_MUTED = token('--color-chart-axis');
+    const FG_DIM   = token('--color-chart-axis-dim');
+    const SLUSH    = token('--color-chart-slush');
+    const GRID     = token('--color-chart-grid');
+    const FONT     = token('--font-heading');
+
+    const SERIES_COLORS = [
+      token('--color-chart-series-1'),
+      token('--color-chart-series-2'),
+      token('--color-chart-series-3'),
+      token('--color-chart-series-4'),
+      token('--color-chart-series-5'),
+      token('--color-chart-series-6'),
+      token('--color-chart-series-7'),
+    ];
+
+    Chart.defaults.font.family = FONT;
+    Chart.defaults.font.size   = 11;
+    Chart.defaults.color       = FG_MUTED;
+
+    const tooltip = {
+      backgroundColor: token('--color-bg-elevated'),
+      borderColor:     token('--color-border'),
+      borderWidth:     1,
+      titleColor:      FG,
+      bodyColor:       FG_MUTED,
+      padding:         10,
+      cornerRadius:    8,
+    };
+
+    const N = 310;
+
+    const DATA = {
+      struggles: [
+        { label: 'Raising funding', value: 0.24, count: 123 },
+        { label: 'Go-to-market / sales', value: 0.20, count: 105 },
+        { label: 'Cash flow / runway', value: 0.12, count: 62 },
+        { label: 'Time spent on admin / non-core work', value: 0.10, count: 53 },
+        { label: 'Regulatory or legal complexity', value: 0.09, count: 46 },
+        { label: 'Scaling internationally', value: 0.09, count: 47 },
+        { label: 'Hiring and retaining talent', value: 0.07, count: 35 },
+        { label: 'Product development', value: 0.05, count: 27 },
+        { label: 'Well-being / burnout', value: 0.04, count: 23 },
+      ],
+      situation: [
+        { label: 'Chose Finland as primary place', value: 0.94, count: 219 },
+        { label: 'Considered Finland but chose another country', value: 0.03, count: 8 },
+        { label: 'Started in Finland but later relocated', value: 0.03, count: 6 },
+      ],
+      relocation: [
+        { label: 'Yes, actively planning it', value: 0.10, count: 22 },
+        { label: 'Yes, have considered it', value: 0.43, count: 97 },
+        { label: 'No', value: 0.48, count: 108 },
+      ],
+      relocationReasons: [
+        { label: 'Taxation', value: 0.18, count: 57 },
+        { label: 'Access to customers', value: 0.16, count: 53 },
+        { label: 'Regulatory simplicity', value: 0.14, count: 44 },
+        { label: 'Access to growth-stage capital', value: 0.13, count: 43 },
+        { label: 'Access to early-stage capital', value: 0.11, count: 36 },
+        { label: 'Stronger startup ecosystem at scale', value: 0.11, count: 34 },
+        { label: 'Access to talent', value: 0.07, count: 24 },
+        { label: 'Investor expectations', value: 0.05, count: 17 },
+        { label: 'Stock options / employee ownership rules', value: 0.05, count: 15 },
+      ],
+      destinations: [
+        { label: 'Another EU country (non-Nordic)', value: 0.41, count: 51 },
+        { label: 'The United States', value: 0.32, count: 40 },
+        { label: 'Another Nordic country', value: 0.14, count: 17 },
+        { label: 'Elsewhere in Europe', value: 0.10, count: 13 },
+        { label: 'United Kingdom', value: 0.03, count: 4 },
+      ],
+      stages: [
+        { label: 'Raising Pre-seed', value: 0.27, count: 73 },
+        { label: 'Raising first round', value: 0.24, count: 64 },
+        { label: 'Bootstrapped / profitable without VC', value: 0.20, count: 55 },
+        { label: 'Raising Seed', value: 0.20, count: 53 },
+        { label: 'Raising Series A', value: 0.06, count: 16 },
+        { label: 'Raising Series B or later', value: 0.03, count: 8 },
+      ],
+      difficulties: [
+        { label: 'Risk-averse culture', total: 0.555, bootstrapped: 0.5, firstRound: 0.547, preSeed: 0.616, seed: 0.5, seriesA: 0.313, seriesBPlus: 0.625 },
+        { label: 'Taxation (equity, options, capital gains)', total: 0.481, bootstrapped: 0.593, firstRound: 0.516, preSeed: 0.438, seed: 0.385, seriesA: 0.813, seriesBPlus: 0.5 },
+        { label: 'Limited access to late-stage funding', total: 0.232, bootstrapped: 0.019, firstRound: 0.156, preSeed: 0.205, seed: 0.558, seriesA: 0.563, seriesBPlus: 0 },
+        { label: 'Limited pool of experienced startup talent', total: 0.206, bootstrapped: 0.167, firstRound: 0.156, preSeed: 0.26, seed: 0.192, seriesA: 0.188, seriesBPlus: 0.375 },
+        { label: 'Complexity of European single market', total: 0.206, bootstrapped: 0.296, firstRound: 0.203, preSeed: 0.151, seed: 0.25, seriesA: 0.125, seriesBPlus: 0.25 },
+        { label: 'Attracting international talent', total: 0.165, bootstrapped: 0.13, firstRound: 0.109, preSeed: 0.137, seed: 0.192, seriesA: 0.125, seriesBPlus: 0.375 },
+        { label: 'Immigration and visa processes', total: 0.155, bootstrapped: 0.148, firstRound: 0.141, preSeed: 0.123, seed: 0.077, seriesA: 0.125, seriesBPlus: 0.25 },
+        { label: 'Over-indexing work life balance', total: 0.087, bootstrapped: 0.056, firstRound: 0.109, preSeed: 0.096, seed: 0.077, seriesA: 0.125, seriesBPlus: 0.125 },
+      ],
+      advantages: [
+        { label: 'Trust-based society / low corruption', total: 0.648, bootstrapped: 0.741, firstRound: 0.703, preSeed: 0.603, seed: 0.615, seriesA: 0.375, seriesBPlus: 0.875 },
+        { label: 'Quality of life', total: 0.548, bootstrapped: 0.463, firstRound: 0.609, preSeed: 0.616, seed: 0.538, seriesA: 0.5, seriesBPlus: 0.75 },
+        { label: 'Stable political and legal environment', total: 0.355, bootstrapped: 0.352, firstRound: 0.281, preSeed: 0.342, seed: 0.462, seriesA: 0.5, seriesBPlus: 0.25 },
+        { label: 'Infrastructure (digital, energy)', total: 0.348, bootstrapped: 0.426, firstRound: 0.328, preSeed: 0.301, seed: 0.327, seriesA: 0.25, seriesBPlus: 0.5 },
+        { label: 'Talent', total: 0.21, bootstrapped: 0.241, firstRound: 0.219, preSeed: 0.178, seed: 0.173, seriesA: 0.375, seriesBPlus: 0.125 },
+        { label: 'Public funding, grants, and R&D support', total: 0.197, bootstrapped: 0.111, firstRound: 0.156, preSeed: 0.219, seed: 0.288, seriesA: 0.313, seriesBPlus: 0.125 },
+        { label: 'Support / pay-it-forward mindset', total: 0.165, bootstrapped: 0.093, firstRound: 0.156, preSeed: 0.233, seed: 0.096, seriesA: 0.125, seriesBPlus: 0.125 },
+        { label: 'Access to early-stage capital', total: 0.035, bootstrapped: 0, firstRound: 0, preSeed: 0.041, seed: 0.077, seriesA: 0.125, seriesBPlus: 0 },
+      ],
+    };
+
+    const STAGES = [
+      { key: 'total', label: 'Total' },
+      { key: 'bootstrapped', label: 'Bootstrapped' },
+      { key: 'firstRound', label: 'Raising First Round' },
+      { key: 'preSeed', label: 'Raising Pre-seed' },
+      { key: 'seed', label: 'Raising Seed' },
+      { key: 'seriesA', label: 'Raising Series A' },
+      { key: 'seriesBPlus', label: 'Raising Series B+' },
+    ];
+
+    const EXPLORER_QUESTIONS = [
+      { key: 'struggles', label: 'What do you struggle with most?' },
+      { key: 'situation', label: 'What best describes your situation?' },
+      { key: 'relocation', label: 'Have you considered relocating?' },
+      { key: 'relocationReasons', label: 'Main reason for relocation' },
+      { key: 'destinations', label: 'Where have you considered moving?' },
+      { key: 'stages', label: 'Which stage best describes your company?' },
+    ];
+
+    function truncateLabel(label, max) {
+      return label.length > max ? label.slice(0, max) + '…' : label;
+    }
+
+    function makeHorizontalBarChart(canvasId, items, height) {
+      const canvas = document.getElementById(canvasId);
+      if (!canvas) return null;
+      const wrap = canvas.parentElement;
+      if (height) wrap.style.height = height + 'px';
+
+      const labels = items.map(d => truncateLabel(d.label, 36)).reverse();
+      const values = items.map(d => d.value * 100).reverse();
+
+      return new Chart(canvas, {
+        type: 'bar',
+        data: {
+          labels,
+          datasets: [{
+            data: values,
+            backgroundColor: SLUSH,
+            borderRadius: 3,
+            barPercentage: 0.62,
+            datalabels: {
+              anchor: 'end', align: 'end', offset: 4,
+              color: FG, font: { size: 11, weight: '700', family: FONT },
+              formatter: v => Math.round(v) + '%',
+            },
+          }],
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: ctx => {
+                  const item = items[items.length - 1 - ctx.dataIndex];
+                  return ` ${Math.round(ctx.raw)}% (${item.count} responses)`;
+                },
+              },
+            },
+            datalabels: {},
+          },
+          scales: {
+            x: {
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, callback: v => v + '%' },
+              max: Math.ceil(Math.max(...values) / 5) * 5 + 5,
+            },
+            y: {
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+            },
+          },
+        },
+      });
+    }
+
+    makeHorizontalBarChart('chart-struggles', DATA.struggles, 280);
+    makeHorizontalBarChart('chart-situation', DATA.situation, 180);
+    makeHorizontalBarChart('chart-relocation', DATA.relocation, 180);
+    makeHorizontalBarChart('chart-relocation-reasons', DATA.relocationReasons, 320);
+    makeHorizontalBarChart('chart-destinations', DATA.destinations, 220);
+    makeHorizontalBarChart('chart-stages', DATA.stages, 220);
+
+    function stageColorIndex(key) {
+      return STAGES.findIndex(s => s.key === key);
+    }
+
+    function buildComparisonChart(canvasId, toggleContainerId, legendContainerId, rows, activeKeys) {
+      const canvas = document.getElementById(canvasId);
+      const toggleContainer = document.getElementById(toggleContainerId);
+      const legendContainer = document.getElementById(legendContainerId);
+      let active = [...activeKeys];
+      let chart;
+
+      function renderLegend() {
+        legendContainer.innerHTML = active.map(key => {
+          const stage = STAGES.find(s => s.key === key);
+          const idx = stageColorIndex(key);
+          const color = SERIES_COLORS[idx];
+          return `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${color}"></span>${stage.label}</span>`;
+        }).join('');
+      }
+
+      function buildDatasets(keys) {
+        return keys.map(key => {
+          const idx = stageColorIndex(key);
+          const stage = STAGES.find(s => s.key === key);
+          return {
+            label: stage.label,
+            data: rows.map(r => r[key] * 100),
+            backgroundColor: SERIES_COLORS[idx],
+            borderRadius: 2,
+            barPercentage: 0.72,
+          };
+        });
+      }
+
+      function updateChart() {
+        const labels = rows.map(r => truncateLabel(r.label, 42));
+        if (chart) {
+          chart.data.labels = labels;
+          chart.data.datasets = buildDatasets(active);
+          chart.update();
+        } else {
+          chart = new Chart(canvas, {
+            type: 'bar',
+            data: {
+              labels,
+              datasets: buildDatasets(active),
+            },
+            options: {
+              indexAxis: 'y',
+              responsive: true,
+              maintainAspectRatio: false,
+              plugins: {
+                legend: { display: false },
+                tooltip: {
+                  ...tooltip,
+                  callbacks: {
+                    label: c => ` ${c.dataset.label}: ${Math.round(c.raw)}%`,
+                  },
+                },
+                datalabels: { display: false },
+              },
+              scales: {
+                x: {
+                  grid: { color: GRID },
+                  border: { display: false },
+                  ticks: { color: FG_DIM, callback: v => v + '%' },
+                  max: 100,
+                },
+                y: {
+                  grid: { display: false },
+                  border: { display: false },
+                  ticks: { color: FG_MUTED, font: { size: 10, weight: '500' } },
+                },
+              },
+            },
+          });
+        }
+        renderLegend();
+      }
+
+      STAGES.forEach(stage => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'toggle-pill' + (active.includes(stage.key) ? ' is-active' : '');
+        btn.textContent = stage.label;
+        btn.dataset.key = stage.key;
+        btn.addEventListener('click', () => {
+          if (active.includes(stage.key)) {
+            if (active.length === 1) return;
+            active = active.filter(k => k !== stage.key);
+          } else {
+            active = [...active, stage.key];
+          }
+          toggleContainer.querySelectorAll('.toggle-pill').forEach(pill => {
+            pill.classList.toggle('is-active', active.includes(pill.dataset.key));
+          });
+          updateChart();
+        });
+        toggleContainer.appendChild(btn);
+      });
+
+      updateChart();
+      return chart;
+    }
+
+    buildComparisonChart(
+      'chart-difficulties',
+      'difficulties-toggles',
+      'difficulties-legend',
+      DATA.difficulties,
+      ['total', 'seed', 'seriesA']
+    );
+
+    buildComparisonChart(
+      'chart-advantages',
+      'advantages-toggles',
+      'advantages-legend',
+      DATA.advantages,
+      ['total', 'seed', 'seriesA']
+    );
+
+    // Data explorer
+    const tabsEl = document.getElementById('explorer-tabs');
+    const tbodyEl = document.getElementById('explorer-tbody');
+    let activeQuestion = EXPLORER_QUESTIONS[0].key;
+
+    function renderExplorerTable(key) {
+      const rows = DATA[key];
+      tbodyEl.innerHTML = rows.map(row => {
+        const pct = Math.round(row.value * 100);
+        return `<tr>
+          <td>${row.label}</td>
+          <td style="text-align:right;">${pct}%</td>
+          <td style="text-align:right;">${row.count}</td>
+          <td><div class="dist-bar"><div class="dist-bar-fill" style="width:${pct}%"></div></div></td>
+        </tr>`;
+      }).join('');
+    }
+
+    EXPLORER_QUESTIONS.forEach(q => {
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'toggle-pill' + (q.key === activeQuestion ? ' is-active' : '');
+      btn.textContent = q.label;
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('aria-selected', q.key === activeQuestion ? 'true' : 'false');
+      btn.addEventListener('click', () => {
+        activeQuestion = q.key;
+        tabsEl.querySelectorAll('.toggle-pill').forEach(pill => {
+          const isActive = pill === btn;
+          pill.classList.toggle('is-active', isActive);
+          pill.setAttribute('aria-selected', isActive ? 'true' : 'false');
+        });
+        renderExplorerTable(activeQuestion);
+      });
+      tabsEl.appendChild(btn);
+    });
+
+    renderExplorerTable(activeQuestion);
+  })();
+  </script>
+
+</body>
+</html>
