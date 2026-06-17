@@ -16,6 +16,26 @@
   background: url('../../assets/hero.jpg') center center / cover no-repeat;
 }
 
+.hero-image--landing {
+  background-image: url('../../assets/hero-landing.jpg');
+}
+
+.hero-image--finnish-founder-survey-2026 {
+  background-image: url('../../assets/hero-finnish-founder-survey-2026.jpg');
+}
+
+.hero-image--startup-struggle-survey-2025 {
+  background-image: url('../../assets/hero-startup-struggle-survey-2025.jpg');
+}
+
+.hero-image--startup-struggle-survey-2024 {
+  background-image: url('../../assets/hero-startup-struggle-survey-2024.jpg');
+}
+
+.hero-image--entrepreneurship-redefined-2020 {
+  background-image: url('../../assets/hero-entrepreneurship-redefined-2020.jpg');
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
