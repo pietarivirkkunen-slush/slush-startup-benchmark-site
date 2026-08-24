@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>From Volunteer to Founder — Slush Impact Report Series</title>
+  <meta name="description" content="Every year Slush introduces 2,000 volunteers to the startup ecosystem. Four ex-volunteers share how it shaped their path to founding companies — with interactive data on who volunteers and why.">
+  <link rel="apple-touch-icon" href="assets/slush-s-icon.jpeg" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  <link rel="shortcut icon" type="image/jpeg" href="assets/logo.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.2.0/dist/chartjs-plugin-datalabels.min.js"></script>
+
+  <link rel="stylesheet" href="design-system/slush.css">
+  <style>
+    .founder-list {
+      margin: 24px 0 0;
+      padding: 0;
+      list-style: none;
+      display: grid;
+      gap: 12px;
+    }
+    .founder-list li {
+      padding: 16px 20px;
+      background: var(--surface-bg);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--surface-radius);
+      font-size: var(--text-base);
+      line-height: 1.6;
+      color: var(--fg-muted);
+    }
+    .founder-list strong { color: var(--fg); }
+    .founder-list a { color: var(--color-brand); text-decoration: none; }
+    .founder-list a:hover { text-decoration: underline; }
+
+    .visual-figure {
+      margin-top: 48px;
+      border: 1px solid var(--surface-border);
+      border-radius: var(--surface-radius);
+      overflow: hidden;
+      background: var(--surface-bg);
+    }
+    .visual-figure img { display: block; width: 100%; height: auto; }
+    .visual-figure figcaption {
+      padding: 14px 20px;
+      font-size: var(--text-sm);
+      color: var(--fg-dim);
+      border-top: 1px solid var(--surface-border);
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="topnav" aria-label="Chapter navigation">
+    <a class="topnav-brand" href="/" aria-label="Slush — Impact Report Series">
+      <img class="topnav-logo" src="assets/slush-logo.png" alt="Slush">
+      <span>Volunteer to Founder Report</span>
+    </a>
+    <span class="topnav-divider" aria-hidden="true"></span>
+    <ul class="topnav-links">
+      <li><a href="/">All reports</a></li>
+      <li><a href="#exec-summary">Summary</a></li>
+      <li><a href="#exposure">Ecosystem exposure</a></li>
+      <li><a href="#community">Community</a></li>
+      <li><a href="#interest">Ecosystem interest</a></li>
+      <li><a href="#data">Volunteer data</a></li>
+      <li><a href="#methodology">Methodology</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-image hero-image--volunteer-report-2026" role="img" aria-label="Four Slush volunteers who went on to found companies"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Slush Impact Report Series &mdash; Volunteer to Founder</div>
+      <h1 id="hero-title">These four founders got inspired by volunteering at Slush</h1>
+      <div class="hero-meta">
+        Helsinki &middot; Released August 25, 2026
+      </div>
+    </div>
+  </section>
+
+  <!-- ── EXECUTIVE SUMMARY ── -->
+  <section class="chapter" id="exec-summary" aria-labelledby="ch1-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Executive summary</div>
+      <h2 id="ch1-title">A human accelerator for future founders</h2>
+
+      <div class="stat-grid stat-grid--quad">
+        <div class="stat-box">
+          <div class="stat-finding">Volunteers each year</div>
+          <div class="stat-number">2,000</div>
+          <div class="stat-label">Introduced to the startup ecosystem through Slush every year</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Introduced since inception</div>
+          <div class="stat-number">10,000+</div>
+          <div class="stat-label">Young people brought into the ecosystem via volunteering by 2026</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Join for the ecosystem</div>
+          <div class="stat-number">50%</div>
+          <div class="stat-label">Volunteers who join out of interest in the startup ecosystem</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Alumni founding rate</div>
+          <div class="stat-number">15%</div>
+          <div class="stat-label">Of Slush alumni have founded their own company</div>
+        </div>
+      </div>
+
+      <div class="exec-meta-layout">
+        <div class="exec-summary">
+          <p>Slush&rsquo;s mission is to help and create founders to change the world. According to its <a href="slush-founder-factory-report-2025.html">Founder Factory report</a> published last year, 15% of Slush alumni have founded their own company. Every year, Slush introduces 2,000 volunteers to the startup ecosystem.</p>
+          <p>&ldquo;Volunteering at Slush opens doors for young visionaries. It&rsquo;s a human accelerator that shows how far you can run, independent of your age or prior experience,&rdquo; Noora Saksa, CEO at Slush, describes.</p>
+          <p>By 2026, Slush has introduced more than 10,000 young people to the startup ecosystem through volunteering. Here, four ex-volunteers share how volunteering at Slush influenced their decision to become tech entrepreneurs.</p>
+        </div>
+
+        <aside class="meta-panel">
+          <div class="meta-row">
+            <div class="meta-label">Released</div>
+            <div class="meta-value">August 25, 2026</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Location</div>
+            <div class="meta-value">Helsinki</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Reference period</div>
+            <div class="meta-value">2023&ndash;2025</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Series</div>
+            <div class="meta-value">
+              <a href="/">All reports</a>
+            </div>
+          </div>
+        </aside>
+      </div>
+
+      <figure class="visual-figure">
+        <img src="assets/volunteer-founders-2026.png" alt="Portraits of four Slush volunteers who went on to become founders">
+        <figcaption>Slush volunteers who became founders: Sami Marttinen (Swappie), Antonia Eneh (Elva), Olli Kangas (Intergrid), and Sanni Makkonen (Inspot).</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- ── ECOSYSTEM EXPOSURE ── -->
+  <section class="chapter" id="exposure" aria-labelledby="ch2-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Slush offers ecosystem exposure</div>
+      <h2 id="ch2-title">Exposure to the whole ecosystem fuels the drive to start</h2>
+
+      <div class="prose">
+        <p><strong>Sami Marttinen</strong> founded <strong><a href="https://app.dealroom.co/companies/swappie" target="_blank" rel="noopener">Swappie</a></strong> in 2016. Swappie is Europe&rsquo;s leading refurbisher of used iPhones, with an annual revenue of over &euro;200 million. Sami, while remaining on Swappie&rsquo;s board, has now stepped down from his full-time position to build his new startup.</p>
+      </div>
+
+      <div class="quote-grid" style="margin-top: 48px;">
+        <figure class="quote-card">
+          <blockquote>&ldquo;The biggest impact [of volunteering at Slush] at the time was exposure to the whole ecosystem, which fueled my drive to start a company right away instead of years later&mdash;my co-founder and I decided to start building Swappie already a couple of months after Slush.&rdquo;</blockquote>
+          <figcaption style="margin-top:16px;font-size:var(--text-sm);color:var(--fg-dim);">Sami Marttinen, founder of Swappie</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose" style="margin-top: 40px;">
+        <p>For many Slush volunteers, the experience unlocks a belief in endless possibilities. <strong>Antonia Eneh</strong>, who founded <strong><a href="https://app.dealroom.co/companies/elva_8" target="_blank" rel="noopener">Elva</a></strong> in 2025, recalls being inspired by the young team building Slush and wanting to get involved in the ecosystem as soon as possible.</p>
+      </div>
+
+      <div class="quote-grid" style="margin-top: 48px;">
+        <figure class="quote-card">
+          <blockquote>&ldquo;At Slush, people place infinite trust in you: that you can do absolutely anything if you just dare to go for it. I&rsquo;ve utilized that same belief with my own team now as CEO.&rdquo;</blockquote>
+          <figcaption style="margin-top:16px;font-size:var(--text-sm);color:var(--fg-dim);">Antonia Eneh, founder &amp; CEO of Elva</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose" style="margin-top: 40px;">
+        <p>Elva has raised &euro;1.3 million in funding to address a key bottleneck faced by European startups: moving talent across borders.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── COMMUNITY / AGE ── -->
+  <section class="chapter" id="community" aria-labelledby="ch3-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">A community where age isn&rsquo;t a measure of success</div>
+      <h2 id="ch3-title">Where the most ambitious people get things done</h2>
+
+      <div class="prose">
+        <p><strong>Olli Kangas</strong> founded <strong><a href="https://app.dealroom.co/companies/intergrid_3" target="_blank" rel="noopener">Intergrid</a></strong> in 2023 to accelerate the transition to renewable energy systems; the 40-person team now serves over a hundred industrial customers. Kangas highlights that volunteering at Slush in 2015 and 2017 lowered his threshold to becoming an entrepreneur.</p>
+      </div>
+
+      <div class="quote-grid" style="margin-top: 48px;">
+        <figure class="quote-card">
+          <blockquote>&ldquo;Slush is the one community where the most ambitious and curious people get things done, but with a twinkle in their eyes.&rdquo;</blockquote>
+          <figcaption style="margin-top:16px;font-size:var(--text-sm);color:var(--fg-dim);">Olli Kangas, founder of Intergrid</figcaption>
+        </figure>
+      </div>
+
+      <div class="prose" style="margin-top: 40px;">
+        <p>All the entrepreneurs interviewed by Slush share the experience of Slush accelerating their path to entrepreneurship. <strong>Sanni Makkonen</strong> even got her business idea for <strong>Inspot</strong> from Slush &mdash; the idea stemmed from a personal problem, the difficulty of finding her own photo among thousands of event photos. Now, Inspot matches every event photo to the right person in an instant. Although Makkonen&rsquo;s startup idea came from Slush, her passion for entrepreneurship had already existed since childhood.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ECOSYSTEM INTEREST ── -->
+  <section class="chapter" id="interest" aria-labelledby="ch4-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">50% join out of interest in the startup ecosystem</div>
+      <h2 id="ch4-title">Interest in the ecosystem is rising &mdash; fastest among first-timers</h2>
+
+      <div class="prose">
+        <p>Interest in the startup ecosystem among volunteers has risen 16 percentage points since 2023 and is strongest among first-timers and younger age groups.</p>
+        <p>Young people&rsquo;s interest in becoming founders in Finland aged 18&ndash;25 has grown explosively: in the early 2000s, only 1% considered an entrepreneurial career &mdash; in 2025 that same number is over 50% (<a href="https://www.yrittajat.fi/uutiset/nuoret-kiinnostuvat-yha-enemman-yrittajyydesta-hanke-tuo-koulut-ja-yritykset-yhteen/" target="_blank" rel="noopener">Yrittäjät 2025</a>).</p>
+      </div>
+
+      <div class="quote-grid" style="margin-top: 48px;">
+        <figure class="quote-card">
+          <blockquote>&ldquo;We&rsquo;re inspired to see the shift in the interest in entrepreneurship. We need more young people who set out to build a company even if the idea isn&rsquo;t fully formed yet.&rdquo;</blockquote>
+          <figcaption style="margin-top:16px;font-size:var(--text-sm);color:var(--fg-dim);">Noora Saksa, CEO at Slush</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VOLUNTEER DATA / INTERACTIVE CHARTS ── -->
+  <section class="chapter" id="data" aria-labelledby="ch5-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Volunteer data</div>
+      <h2 id="ch5-title">Who volunteers at Slush &mdash; and why</h2>
+
+      <div class="prose">
+        <p>The charts below are drawn from Slush&rsquo;s volunteer data across the 2023&ndash;2025 reference period. The largest single age group is 20&ndash;24-year-olds, gender distribution has stayed even, and about 90% of volunteers primarily live in Finland. Hover over any bar for the exact share.</p>
+      </div>
+
+      <!-- Group 1: Who volunteers -->
+      <div class="section-label" style="margin-top: 56px;">Who volunteers</div>
+
+      <div class="inline-charts two-col" style="margin-top: 24px;">
+        <div class="chart-card">
+          <div class="chart-headline">20&ndash;24 year olds are the biggest group</div>
+          <div class="chart-subtitle">Volunteers by age group, share per year</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-age" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-age"></div>
+          <div class="chart-source-line">Slush volunteer data · 2023–2025</div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-headline">Gender split has stayed almost even</div>
+          <div class="chart-subtitle">Volunteers by gender, share per year</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-gender" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-gender"></div>
+          <div class="chart-source-line">Slush volunteer data · 2023–2025</div>
+        </div>
+      </div>
+
+      <div class="inline-charts one-col" style="margin-top: 24px;">
+        <div class="chart-card">
+          <div class="chart-headline">85% of Slush volunteers are based in Finland</div>
+          <div class="chart-subtitle">Volunteers by location, share per year</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-location" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-location"></div>
+          <div class="chart-source-line">Slush volunteer data · 2023–2025</div>
+        </div>
+      </div>
+
+      <!-- Group 2: Why they volunteer -->
+      <div class="section-label" style="margin-top: 64px;">Why they volunteer</div>
+
+      <div class="inline-charts two-col" style="margin-top: 24px;">
+        <div class="chart-card">
+          <div class="chart-headline">Ecosystem interest up nearly 50% since 2022</div>
+          <div class="chart-subtitle">Primary motivation to volunteer, share per year</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-motivation" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-motivation"></div>
+          <div class="chart-source-line">Slush volunteer data · 2022–2025</div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-headline">Networking interest grows with age</div>
+          <div class="chart-subtitle">Primary motivation to volunteer, by age group</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-motivation-age" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-motivation-age"></div>
+          <div class="chart-source-line">Slush volunteer data · reference period 2023–2025</div>
+        </div>
+      </div>
+
+      <!-- Group 3: Ecosystem interest growth -->
+      <div class="section-label" style="margin-top: 64px;">Ecosystem interest is rising across the board</div>
+
+      <div class="inline-charts two-col" style="margin-top: 24px;">
+        <div class="chart-card">
+          <div class="chart-headline">Top motivation for first-time volunteers</div>
+          <div class="chart-subtitle">Primary motivation among first-timers, share per year</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-firsttime" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-firsttime"></div>
+          <div class="chart-source-line">Slush volunteer data · 2023–2025</div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-headline">Rising among returning volunteers too</div>
+          <div class="chart-subtitle">Primary motivation among returners, share per year</div>
+          <div class="chart-canvas-wrap"><canvas id="chart-returning" height="300"></canvas></div>
+          <div class="chart-legend" id="legend-returning"></div>
+          <div class="chart-source-line">Slush volunteer data · 2023–2025</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── VOLUNTEERS INTERVIEWED ── -->
+  <section class="chapter" id="volunteers" aria-labelledby="ch6-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Volunteers interviewed by Slush</div>
+      <h2 id="ch6-title">From the cloak room to the cap table</h2>
+
+      <ul class="founder-list">
+        <li><strong>Sami Marttinen</strong> (<a href="https://app.dealroom.co/companies/swappie" target="_blank" rel="noopener">Swappie</a>) &mdash; Slush volunteer 2014, Pre-registration · Founded Swappie in 2016</li>
+        <li><strong>Antonia Eneh</strong> (<a href="https://app.dealroom.co/companies/elva_8" target="_blank" rel="noopener">Elva</a>) &mdash; Slush volunteer 2019, Cloak room &amp; 2021, Partner side events · Founded Elva in 2025</li>
+        <li><strong>Olli Kangas</strong> (<a href="https://app.dealroom.co/companies/intergrid_3" target="_blank" rel="noopener">Intergrid</a>) &mdash; Slush volunteer 2015 &amp; 2017, Slush store · Founded Intergrid in 2023</li>
+        <li><strong>Sanni Makkonen</strong> (Inspot) &mdash; Slush volunteer 2025, Event badge claim · Founded Inspot in 2026</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ── METHODOLOGY ── -->
+  <section class="chapter" id="methodology" aria-labelledby="ch7-title">
+    <div class="chapter-inner">
+      <details class="chapter-toggle">
+        <summary>
+          <div>
+            <div class="chapter-number">Methodology</div>
+            <h2 id="ch7-title">Methodology and volunteer statistics</h2>
+          </div>
+        </summary>
+        <div class="chapter-toggle-body">
+          <div class="prose">
+            <p>The largest single age group among Slush volunteers is 20&ndash;24-year-olds, who make up roughly 38&ndash;46% of volunteers depending on the year. Gender distribution among volunteers has been very even in the 2020s; 50&ndash;60% are women. About 90% of Slush&rsquo;s volunteers primarily live in Finland. The reference period is 2023&ndash;2025. Interviewees were selected for this piece from Slush&rsquo;s networks.</p>
+            <p>The alumni founding rate of 15% is drawn from the <a href="slush-founder-factory-report-2025.html">Slush Alumni Founder Factory Report (2025)</a>. The comparison on young people&rsquo;s interest in entrepreneurship in Finland references <a href="https://www.yrittajat.fi/uutiset/nuoret-kiinnostuvat-yha-enemman-yrittajyydesta-hanke-tuo-koulut-ja-yritykset-yhteen/" target="_blank" rel="noopener">Yrittäjät (2025)</a>.</p>
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    Slush Research &middot; Impact Report Series &middot; Volunteer to Founder &middot; August 2026
+  </footer>
+
+  <script>
+  (function () {
+    Chart.register(ChartDataLabels);
+
+    const ds = getComputedStyle(document.documentElement);
+    const token = (name) => ds.getPropertyValue(name).trim();
+
+    const FG       = token('--color-text');
+    const FG_MUTED = token('--color-chart-axis');
+    const FG_DIM   = token('--color-chart-axis-dim');
+    const GRID     = token('--color-chart-grid');
+    const FONT     = token('--font-heading');
+
+    // Palette — same as the Finnish Founder Survey: chart series tokens, in order
+    const SERIES_COLORS = [
+      token('--color-chart-series-1'), // #35cd5a
+      token('--color-chart-series-2'), // #6b8cff
+      token('--color-chart-series-3'), // #e8a838
+      token('--color-chart-series-4'), // #c86bff
+      token('--color-chart-series-5'), // #38c9c9
+      token('--color-chart-series-6'), // #e86b8c
+      token('--color-chart-series-7'), // #a8b0c0
+    ];
+
+    Chart.defaults.font.family = FONT;
+    Chart.defaults.font.size   = 11;
+    Chart.defaults.color       = FG_MUTED;
+
+    const tooltip = {
+      backgroundColor: token('--color-bg-elevated'),
+      borderColor:     token('--color-border'),
+      borderWidth:     1,
+      titleColor:      FG,
+      bodyColor:       FG_MUTED,
+      padding:         10,
+      cornerRadius:    8,
+    };
+
+    // Shared motivation categories/colours across four charts
+    const MOTIVATION = [
+      { label: 'Ecosystem & builder interest', color: SERIES_COLORS[0] },
+      { label: 'Finding friends',              color: SERIES_COLORS[1] },
+      { label: 'Networking',                   color: SERIES_COLORS[2] },
+      { label: 'Other',                        color: SERIES_COLORS[3] },
+    ];
+
+    function renderLegend(id, series) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.innerHTML = series.map(s =>
+        `<span class="chart-legend-item"><span class="chart-legend-swatch" style="background:${s.color}"></span>${s.label}</span>`
+      ).join('');
+    }
+
+    // 100% stacked vertical bar chart
+    function makeStacked(canvasId, labels, series) {
+      const el = document.getElementById(canvasId);
+      if (!el) return;
+
+      const datasets = series.map(s => ({
+        label: s.label,
+        data: s.data,
+        backgroundColor: s.color,
+        borderColor: token('--color-bg'),
+        borderWidth: 1,
+        barPercentage: 0.68,
+        categoryPercentage: 0.8,
+        datalabels: {
+          display: ctx => ctx.dataset.data[ctx.dataIndex] >= 5,
+          color: '#0c0c0e',
+          font: { size: 10, weight: '700', family: FONT },
+          formatter: v => v.toFixed(1) + '%',
+        },
+      }));
+
+      new Chart(el, {
+        type: 'bar',
+        data: { labels, datasets },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              ...tooltip,
+              callbacks: {
+                label: c => ` ${c.dataset.label}: ${c.raw.toFixed(1)}%`,
+              },
+            },
+            datalabels: {},
+          },
+          scales: {
+            x: {
+              stacked: true,
+              grid: { display: false },
+              border: { display: false },
+              ticks: { color: FG_MUTED, font: { size: 11, weight: '600' } },
+            },
+            y: {
+              stacked: true,
+              grid: { color: GRID },
+              border: { display: false },
+              ticks: { color: FG_DIM, stepSize: 25, callback: v => v + '%' },
+              min: 0,
+              max: 100,
+            },
+          },
+        },
+      });
+    }
+
+    // ── 1. Age groups by year ──
+    const ageSeries = [
+      { label: 'Under 20',    color: SERIES_COLORS[0], data: [19.7, 18.2, 18.5] },
+      { label: '20–24',       color: SERIES_COLORS[1], data: [43.0, 45.9, 47.2] },
+      { label: '25–29',       color: SERIES_COLORS[2], data: [21.4, 22.6, 21.9] },
+      { label: '30–34',       color: SERIES_COLORS[3], data: [9.5,  8.0,  7.4]  },
+      { label: '35 or more',  color: SERIES_COLORS[4], data: [6.4,  5.3,  5.0]  },
+    ];
+    makeStacked('chart-age', ['2023', '2024', '2025'], ageSeries);
+    renderLegend('legend-age', ageSeries);
+
+    // ── 2. Gender by year ──
+    const genderSeries = [
+      { label: 'Woman',              color: SERIES_COLORS[0], data: [52.8, 51.2, 52.7] },
+      { label: 'Man',                color: SERIES_COLORS[1], data: [46.7, 47.9, 46.5] },
+      { label: 'Prefer not to say',  color: SERIES_COLORS[2], data: [0.3,  0.6,  0.5]  },
+      { label: 'Other',              color: SERIES_COLORS[3], data: [0.2,  0.3,  0.3]  },
+    ];
+    makeStacked('chart-gender', ['2023', '2024', '2025'], genderSeries);
+    renderLegend('legend-gender', genderSeries);
+
+    // ── 3. Location by year ──
+    const locationSeries = [
+      { label: 'Finland',                 color: SERIES_COLORS[0], data: [84.2, 85.6, 86.0] },
+      { label: 'Europe (excl. Finland)',  color: SERIES_COLORS[1], data: [9.6,  7.6,  9.2]  },
+      { label: 'Outside Europe',          color: SERIES_COLORS[2], data: [6.2,  6.8,  4.8]  },
+    ];
+    makeStacked('chart-location', ['2023', '2024', '2025'], locationSeries);
+    renderLegend('legend-location', locationSeries);
+
+    // ── 4. Motivation overall by year ──
+    const motivationSeries = [
+      { label: MOTIVATION[0].label, color: MOTIVATION[0].color, data: [33.6, 42.0, 41.5, 49.7] },
+      { label: MOTIVATION[1].label, color: MOTIVATION[1].color, data: [29.3, 25.5, 24.9, 25.5] },
+      { label: MOTIVATION[2].label, color: MOTIVATION[2].color, data: [25.0, 23.1, 23.2, 16.8] },
+      { label: MOTIVATION[3].label, color: MOTIVATION[3].color, data: [12.1, 9.4,  10.4, 8.0]  },
+    ];
+    makeStacked('chart-motivation', ['2022', '2023', '2024', '2025'], motivationSeries);
+    renderLegend('legend-motivation', MOTIVATION);
+
+    // ── 5. Motivation by age group ──
+    const motivationAgeSeries = [
+      { label: MOTIVATION[0].label, color: MOTIVATION[0].color, data: [45.5, 47.5, 42.0, 39.2, 39.6] },
+      { label: MOTIVATION[1].label, color: MOTIVATION[1].color, data: [26.3, 28.3, 26.5, 22.8, 9.3]  },
+      { label: MOTIVATION[2].label, color: MOTIVATION[2].color, data: [9.0,  17.7, 24.2, 31.7, 39.5] },
+      { label: MOTIVATION[3].label, color: MOTIVATION[3].color, data: [19.2, 6.5,  7.3,  6.3,  11.6] },
+    ];
+    makeStacked('chart-motivation-age', ['Under 20', '20–24', '25–29', '30–34', '35+'], motivationAgeSeries);
+    renderLegend('legend-motivation-age', MOTIVATION);
+
+    // ── 6. Motivation, first-time volunteers by year ──
+    const firstTimeSeries = [
+      { label: MOTIVATION[0].label, color: MOTIVATION[0].color, data: [45.6, 47.1, 53.1] },
+      { label: MOTIVATION[1].label, color: MOTIVATION[1].color, data: [25.0, 22.0, 25.0] },
+      { label: MOTIVATION[2].label, color: MOTIVATION[2].color, data: [21.5, 21.1, 12.3] },
+      { label: MOTIVATION[3].label, color: MOTIVATION[3].color, data: [7.9,  9.8,  9.6]  },
+    ];
+    makeStacked('chart-firsttime', ['2023', '2024', '2025'], firstTimeSeries);
+    renderLegend('legend-firsttime', MOTIVATION);
+
+    // ── 7. Motivation, returning volunteers by year ──
+    const returningSeries = [
+      { label: MOTIVATION[0].label, color: MOTIVATION[0].color, data: [33.7, 28.2, 41.5] },
+      { label: MOTIVATION[1].label, color: MOTIVATION[1].color, data: [26.7, 31.8, 26.6] },
+      { label: MOTIVATION[2].label, color: MOTIVATION[2].color, data: [26.7, 28.2, 27.7] },
+      { label: MOTIVATION[3].label, color: MOTIVATION[3].color, data: [12.9, 11.8, 4.2]  },
+    ];
+    makeStacked('chart-returning', ['2023', '2024', '2025'], returningSeries);
+    renderLegend('legend-returning', MOTIVATION);
+  })();
+  </script>
+
+</body>
+</html>

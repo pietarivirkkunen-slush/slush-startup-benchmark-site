@@ -40,6 +40,11 @@
   background-image: url('../../assets/hero-founder-factory-report-2025.jpg');
 }
 
+.hero-image--volunteer-report-2026 {
+  background-image: url('../../assets/hero-volunteer-report-2026.jpg');
+  background-position: center 30%;
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
