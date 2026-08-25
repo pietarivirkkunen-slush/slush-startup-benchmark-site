@@ -37,15 +37,4 @@ footer {
   .topnav-logo {
     height: 18px;
   }
-
-  .topnav-links a {
-    padding: 6px 8px;
-    font-size: var(--text-sm);
-    letter-spacing: 0;
-  }
-
-  .topnav-divider {
-    margin: 0 4px;
-    height: 16px;
-  }
 }

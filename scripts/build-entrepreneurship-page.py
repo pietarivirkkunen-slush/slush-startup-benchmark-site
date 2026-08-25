@@ -359,6 +359,7 @@ def build_html(sections: dict[str, dict]) -> str:
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="design-system/slush.css">
+  <script src="design-system/nav.js" defer></script>
 </head>
 
 <body>
