@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slush 20 Under 20 — Slush Impact Report Series</title>
+  <meta name="description" content="Slush reveals the first Slush 20 Under 20: twenty builders under 20, from over a dozen countries, who have already raised venture funding, joined Y Combinator, and worked at Lovable, OpenAI and NASA.">
+  <link rel="apple-touch-icon" href="assets/slush-s-icon.jpeg" />
+  <meta name="theme-color" content="#000000" />
+  <link rel="icon" type="image/jpeg" href="assets/logo.jpeg" />
+  <link rel="shortcut icon" type="image/jpeg" href="assets/logo.jpeg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="design-system/slush.css">
+  <script src="design-system/nav.js" defer></script>
+  <style>
+    .hero-image--20u20 {
+      background-color: #ff0101;
+      background-image: url("assets/S20U20%20media%20kit/s20_hero1.png");
+      background-position: center center;
+    }
+    .hero--20u20 h1 { max-width: 13ch; }
+
+    .talent-list {
+      margin-top: 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .talent {
+      display: grid;
+      grid-template-columns: 128px 1fr;
+      gap: 28px;
+      align-items: start;
+      padding: 20px;
+      background: var(--surface-bg);
+      border: 1px solid var(--surface-border);
+      border-radius: var(--surface-radius);
+    }
+    .talent-photo {
+      width: 128px;
+      height: 160px;
+      object-fit: cover;
+      object-position: center 18%;
+      border-radius: 10px;
+      background: #111;
+      display: block;
+    }
+    .talent h3 {
+      font-family: var(--font-heading);
+      font-weight: var(--weight-bold);
+      font-size: clamp(20px, 2vw, 26px);
+      letter-spacing: -0.02em;
+      line-height: 1.15;
+      color: var(--fg);
+    }
+    .talent h3 a {
+      color: inherit;
+      text-decoration: none;
+    }
+    .talent h3 a:hover { text-decoration: underline; text-underline-offset: 3px; }
+    .talent-meta {
+      margin-top: 8px;
+      font-family: var(--font-heading);
+      font-size: 12px;
+      font-weight: var(--weight-semibold);
+      letter-spacing: var(--tracking-caps);
+      text-transform: uppercase;
+      color: var(--fg-dim);
+    }
+    .talent-known {
+      margin-top: 12px;
+      font-size: var(--text-md);
+      font-weight: var(--weight-medium);
+      line-height: 1.45;
+      color: var(--fg);
+    }
+    .talent-bio {
+      margin-top: 10px;
+      max-width: 68ch;
+      font-size: var(--text-base);
+      line-height: 1.65;
+      color: var(--fg-muted);
+    }
+    .talent-bio a { color: var(--fg); }
+
+    .partner-row {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .partner-row span {
+      padding: 10px 16px;
+      border: 1px solid var(--surface-border);
+      border-radius: 999px;
+      background: var(--surface-bg);
+      font-family: var(--font-heading);
+      font-size: 13px;
+      font-weight: var(--weight-semibold);
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--fg);
+    }
+
+    @media (max-width: 800px) {
+      .hero-image--20u20 {
+        background-size: auto 52%;
+        background-position: 80% 0;
+        background-repeat: no-repeat;
+      }
+      .hero--20u20 .eyebrow { max-width: 22ch; }
+    }
+    @media (max-width: 640px) {
+      .talent {
+        grid-template-columns: 88px 1fr;
+        gap: 16px;
+        padding: 16px;
+      }
+      .talent-photo { width: 88px; height: 112px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="topnav" aria-label="Chapter navigation">
+    <a class="topnav-brand" href="/" aria-label="Slush — Impact Report Series">
+      <img class="topnav-logo" src="assets/slush-logo.png" alt="Slush">
+      <span>20 Under 20</span>
+    </a>
+    <span class="topnav-divider" aria-hidden="true"></span>
+    <ul class="topnav-links">
+      <li><a href="/">All reports</a></li>
+      <li><a href="#exec-summary">Summary</a></li>
+      <li><a href="#the-twenty">The twenty</a></li>
+      <li><a href="#helsinki">Helsinki</a></li>
+    </ul>
+  </nav>
+
+  <section class="hero hero--20u20" id="top" aria-labelledby="hero-title">
+    <div class="hero-image hero-image--20u20" role="img" aria-label="Slush 20 Under 20 mark on red"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <div class="eyebrow">Slush Impact Report Series &mdash; 20 Under 20</div>
+      <h1 id="hero-title">Meet our generation&rsquo;s most exceptional outliers</h1>
+      <div class="hero-meta">
+        Helsinki &middot; Released October 7, 2026
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter" id="exec-summary" aria-labelledby="ch1-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Executive summary</div>
+      <h2 id="ch1-title">The youngest is 15. The oldest hasn&rsquo;t turned 20 yet.</h2>
+
+      <div class="stat-grid stat-grid--quad">
+        <div class="stat-box">
+          <div class="stat-finding">Cohort</div>
+          <div class="stat-number">20</div>
+          <div class="stat-label">Builders named to the first Slush 20 Under 20</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Youngest</div>
+          <div class="stat-number">15</div>
+          <div class="stat-label">Age of the youngest participants on the list</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Venture funding</div>
+          <div class="stat-number">&euro;10M+</div>
+          <div class="stat-label">Raised between them, before most finished school</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-finding">Countries</div>
+          <div class="stat-number">12+</div>
+          <div class="stat-label">Home countries, from Kosovo and Ukraine to the US and India</div>
+        </div>
+      </div>
+
+      <div class="exec-meta-layout">
+        <div class="exec-summary">
+          <p>Slush reveals the first Slush 20 Under 20: twenty extraordinary supertalents from over a dozen countries who are already building rockets, robots, satellites and AI companies backed by the world&rsquo;s leading investors. Between them, the twenty have raised over &euro;10 million in venture funding, been accepted into Y Combinator, worked at Lovable, OpenAI and NASA, and booked a satellite launch for 2027. Most of them did it before finishing high school.</p>
+          <p>Slush 20U20 is Slush&rsquo;s new program for the most exceptional outliers of this generation. Founders are prioritized, alongside young builders with clear entrepreneurial ambitions. The youngest European ever accepted into Y Combinator, the youngest EWOR fellow and the youngest Thiel Fellow are coming to Helsinki.</p>
+        </div>
+
+        <aside class="meta-panel">
+          <div class="meta-row">
+            <div class="meta-label">Released</div>
+            <div class="meta-value">October 7, 2026</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Location</div>
+            <div class="meta-value">Helsinki</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Program</div>
+            <div class="meta-value">November 17&ndash;19, 2026</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Slush 2026</div>
+            <div class="meta-value">November 18&ndash;19</div>
+          </div>
+          <div class="meta-row">
+            <div class="meta-label">Series</div>
+            <div class="meta-value"><a href="/">All reports</a></div>
+          </div>
+        </aside>
+      </div>
+
+      <figure class="quote-card" style="margin-top: 48px; max-width: var(--reading-width);">
+        <blockquote>We need to acknowledge that the world&rsquo;s best talent is getting younger each year. Slush 20U20 is a testament to that. Every name on this list is doing something that sounds impossible for their age. As an event run by 20-odd-year-olds, we want to highlight the talent that has yet to have been discovered by the wider audience.</blockquote>
+        <figcaption style="margin-top:16px;font-size:var(--text-sm);color:var(--fg-dim);">Noora Saksa, CEO of Slush</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="chapter" id="cohort" aria-labelledby="ch2-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">The cohort</div>
+      <h2 id="ch2-title">Lovable alumni, NASA prodigies and 15-year-old supertalents</h2>
+
+      <div class="prose">
+        <p><strong>The Lovable mafia has extended to under twenties.</strong> Two of the twenty have already passed through Europe&rsquo;s fastest-growing startup. <a href="#elliot-norrevik">Elliot Norrevik</a> (17, Sweden) joined Lovable at 16 before becoming the youngest European ever accepted into Y Combinator. <a href="#elliot-lindberg">Elliot Lindberg</a> (19, Sweden / &Aring;land) built software with 450k+ users at 14, joined Lovable at 17, and is now building an agentic video editor.</p>
+        <p><strong>Two of them are quite literally shooting for the stars.</strong> <a href="#devesh-khilnani">Devesh Khilnani</a> (18, US) joined NASA as one of the youngest engineers working on Artemis III before leaving at 17 to build Xyla. <a href="#minh-nguyen">Minh Nguyen</a> (17, US) turned his research with NASA&rsquo;s OSDR Analysis Working Group into xOrbita, a satellite autopilot whose first launch is booked for 2027.</p>
+        <p><strong>The best are backed by the best.</strong> <a href="#arlan-rakhmetzhanov">Arlan Rakhmetzhanov</a> (19, Kazakhstan) has raised &euro;6.2 million from the likes of CRV, LocalGlobe and BoxGroup for his YC-backed consumer AI startup Nozomio. <a href="#nick-dobroshinsky">Nick Dobroshinsky</a> (16, US) became the youngest Thiel Fellow to date after growing his AI equity research platform EveryTicker to 60,000 monthly users.</p>
+        <p><strong>The world&rsquo;s best talent is only getting younger.</strong> At 15, <a href="#kaon-krasniqi">Kaon Krasniqi</a> (Kosovo) and <a href="#amitav-krishna">Amitav Krishna</a> (Canada) have already achieved more than most people double their age. Kaon ran an edtech startup before organising Kosovo&rsquo;s biggest AI hackathon. Amitav joined the &euro;100 million+ scaleup 8090 Solutions before presenting his quantum research at IEEE&rsquo;s qCCL 2026 conference.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter" id="the-twenty" aria-labelledby="ch3-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">Slush 20U20 2026</div>
+      <h2 id="ch3-title">The full list, from youngest to oldest</h2>
+
+      <div class="talent-list">
+
+        <article class="talent" id="amitav-krishna">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/amitav.jpg" alt="Portrait of Amitav Krishna" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/amitav-krishna/" target="_blank" rel="noopener">Amitav Krishna</a></h3>
+            <p class="talent-meta">15 &middot; Canada</p>
+            <p class="talent-known">Breakthrough research on quantum and water splitting</p>
+            <p class="talent-bio">Amitav has done research on quantum denoising and is currently researching materials simulations for water splitting. He has presented his findings at IEEE&rsquo;s qCCL 2026 conference, and joined the $100M+ scaleup 8090 Solutions at 14.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="kaon-krasniqi">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/kaon.jpg" alt="Portrait of Kaon Krasniqi" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/kaonkrasniqi/" target="_blank" rel="noopener">Kaon Krasniqi</a></h3>
+            <p class="talent-meta">15 &middot; Kosovo</p>
+            <p class="talent-known">Founder of Kosovo&rsquo;s biggest AI hackathon</p>
+            <p class="talent-bio">Kaon started coding at seven and was running an edtech startup at 14. He organized Kosovo&rsquo;s biggest AI hackathon with over 100 participants, and is now focusing on building AR glasses. Earlier this year, Kaon became the youngest member of Null Fellows, a program connecting the greatest entrepreneurial minds of the next decades.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="nick-dobroshinsky">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/nick.jpg" alt="Portrait of Nick Dobroshinsky" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/nick-dobroshinsky-a4b627319/" target="_blank" rel="noopener">Nick Dobroshinsky</a></h3>
+            <p class="talent-meta">16 &middot; United States</p>
+            <p class="talent-known">Youngest Thiel Fellow</p>
+            <p class="talent-bio">Nick is the founder of EveryTicker, an AI-powered equity research platform used by 60,000 investors monthly. He started it when he was fourteen and is now extending the platform into asset management by launching a hedge fund that uses EveryTicker to automate investment in public equities. He became the youngest Thiel Fellow to date at 16.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="david-k">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/david-k.jpg" alt="Portrait of David K." width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/davidkhjo/" target="_blank" rel="noopener">David K.</a></h3>
+            <p class="talent-meta">17 &middot; Sweden</p>
+            <p class="talent-known">Ex-Strawberry, now building energy-based models</p>
+            <p class="talent-bio">David dropped out of high school to work at Strawberry, one of the world&rsquo;s leading AI browser startups. From Strawberry he went on to found Polished Snow, a startup building energy-based models.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="edvin-andersson">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/edvin.jpg" alt="Portrait of Edvin Andersson" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/edvinanderssonfounder/" target="_blank" rel="noopener">Edvin Andersson</a></h3>
+            <p class="talent-meta">17 &middot; Sweden</p>
+            <p class="talent-known">Serial founder with &euro;2M+ in generated revenue</p>
+            <p class="talent-bio">Edvin is already building his third startup. After making $2M+ in revenue with his past ventures, he recently founded Grit to transform home improvement with AI.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="elliot-norrevik">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/elliot-norrevik.jpg" alt="Portrait of Elliot Norrevik" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/elliotnorrevik/" target="_blank" rel="noopener">Elliot Norrevik</a></h3>
+            <p class="talent-meta">17 &middot; Sweden</p>
+            <p class="talent-known">Youngest European accepted to Y Combinator (YC S26)</p>
+            <p class="talent-bio">Elliot launched his first company at 14 and joined Lovable at 16 as a software engineer. He then co-founded Blaise and got accepted to Y Combinator, becoming the youngest European ever to do so. He has now left Blaise to research the existential impact of superintelligence.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="minh-nguyen">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/minh.jpg" alt="Portrait of Minh Nguyen" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/minhxorbita/" target="_blank" rel="noopener">Minh Nguyen</a></h3>
+            <p class="talent-meta">17 &middot; United States</p>
+            <p class="talent-known">Ex-NASA and youngest EWOR fellow</p>
+            <p class="talent-bio">Minh turned his research with NASA&rsquo;s OSDR Analysis Working Group into xOrbita, an autopilot platform for satellites. He soon became the youngest EWOR fellow ever. xOrbita allows spacecraft to make collision-avoidance decisions autonomously in real time, and is backed by Pareto Holdings, Emergent Ventures and Frontera. Its first satellite launch is booked for 2027.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="devesh-khilnani">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/devesh.jpg" alt="Portrait of Devesh Khilnani" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/dkhilnani/" target="_blank" rel="noopener">Devesh Khilnani</a></h3>
+            <p class="talent-meta">18 &middot; United States</p>
+            <p class="talent-known">Ex-NASA, building containers to space</p>
+            <p class="talent-bio">Devesh started college at 14, dropped out at 16, and joined NASA as an IC as one of the youngest engineers working on Artemis III. At 17, Devesh left NASA to build his own startup, Xyla. Xyla builds containers to produce plants in extreme environments ranging from oil rigs and mining fields to space.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="divyansh-chauhan">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/divyansh.jpg" alt="Portrait of Divyansh Chauhan" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/divyansh-chauhan-733387225/" target="_blank" rel="noopener">Divyansh Chauhan</a></h3>
+            <p class="talent-meta">18 &middot; India</p>
+            <p class="talent-known">Ex-Slashy (YC S25), now building a simulation dataset</p>
+            <p class="talent-bio">Divyansh moved from India to San Francisco after high school to join Slashy (YC S25) as the first hire, and made six-figure revenue on the side with <a href="https://blipai.app/" target="_blank" rel="noopener">Blip AI</a>. He is now back in India building Datak, a startup commercializing CAD and engineering simulation datasets.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="fifi-siddiqui">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/fifi.jpg" alt="Portrait of Fifi Siddiqui" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/fifisiddiqui/" target="_blank" rel="noopener">Fifi Siddiqui</a></h3>
+            <p class="talent-meta">18 &middot; United Kingdom</p>
+            <p class="talent-known">Serial founder and tech prodigy</p>
+            <p class="talent-bio">Fifi taught herself to code at 7 and has been building businesses since 11. She dropped out at 17 and moved from London to Miami to build Maxed, an AI-native operating system for CPA firms, with $895k in pre-seed funding raised.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="maximilian-lippert">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/maximilian.jpg" alt="Portrait of Maximilian Lippert" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/maximilian-lippert-velarde-67717b306/" target="_blank" rel="noopener">Maximilian Lippert</a></h3>
+            <p class="talent-meta">18 &middot; Brazil / Germany</p>
+            <p class="talent-known">Raised from Atlantic on his 18th birthday</p>
+            <p class="talent-bio">Maximilian has been running businesses since the age of 13. On his 18th birthday this August, Atlantic VC backed his newest venture, <a href="https://flocta.com/" target="_blank" rel="noopener">Flocta</a>, with a $1.1 million deal only two weeks after starting. He is now building Europe&rsquo;s first truly cost-efficient AI platform for working with worldwide AI models at significantly lower cost, making AI affordable at scale.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="noel-matero">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/noel.jpg" alt="Portrait of Noel Matero" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/matero-noel-70b414390/" target="_blank" rel="noopener">Noel Matero</a></h3>
+            <p class="talent-meta">18 &middot; Finland</p>
+            <p class="talent-known">Robotics and informatics prodigy</p>
+            <p class="talent-bio">Noel has represented Finland in the Robotics World Championships and the International Olympiads in Informatics. He finished high school this spring and spoke with more than a dozen startups interested in hiring him before deciding to join Verda to build LLM systems.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="rahul-chandelkar">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/rahul.jpg" alt="Portrait of Rahul Chandelkar" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/rahul-chandelkar-6266662b1/" target="_blank" rel="noopener">Rahul Chandelkar</a></h3>
+            <p class="talent-meta">18 &middot; India</p>
+            <p class="talent-known">Youngest Magnificent Grants Fellow</p>
+            <p class="talent-bio">Growing up with limited internet access in a small village in India, Rahul taught himself computer science and cybersecurity, earning his first bug bounty at 13. He later joined a world-leading Capture the Flag team and became the youngest-ever Magnificent Grants Fellow. Rahul is now building a new cybersecurity lab, with the ambition of building a DeepMind for security.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="arlan-rakhmetzhanov">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/arlan.jpg" alt="Portrait of Arlan Rakhmetzhanov" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/arlan-rakhmetzhanov/" target="_blank" rel="noopener">Arlan Rakhmetzhanov</a></h3>
+            <p class="talent-meta">19 &middot; Kazakhstan</p>
+            <p class="talent-known">YC (S25) founder with &euro;6.2M raised</p>
+            <p class="talent-bio">Arlan dropped out of high school to build Nozomio, a consumer AI startup. Nozomio was accepted to Y Combinator in summer 2025, and has since received $6.2 million in funding from the likes of CRV, LocalGlobe and BoxGroup. Arlan previously founded an edtech startup at 15, reaching 20,000 users.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="con-kirby">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/con.jpg" alt="Portrait of Con Kirby" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/conkirby/" target="_blank" rel="noopener">Con Kirby</a></h3>
+            <p class="talent-meta">19 &middot; Ireland</p>
+            <p class="talent-known">Chess prodigy turned OpenAI forward deployed engineer</p>
+            <p class="talent-bio">Con has won three all-Ireland junior chess championships, before shifting into software engineering. At 17 he won TECS, Ireland&rsquo;s student software engineering competition. He later founded his first startup, Icon, and currently works at OpenAI as a forward deployed engineer.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="elliot-lindberg">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/elliot-lindberg.jpg" alt="Portrait of Elliot Lindberg" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/robiot/" target="_blank" rel="noopener">Elliot Lindberg</a></h3>
+            <p class="talent-meta">19 &middot; Sweden / &Aring;land</p>
+            <p class="talent-known">Serial founder and ex-Lovable</p>
+            <p class="talent-bio">Elliot built software with 450k+ users when he was 14. After founding numerous small businesses, he joined Lovable at 17. He is now building an agentic video editor.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="julian-lewandowski">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/julian.jpg" alt="Portrait of Julian Lewandowski" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/julianlew/" target="_blank" rel="noopener">Julian Lewandowski</a></h3>
+            <p class="talent-meta">19 &middot; Ireland / Poland</p>
+            <p class="talent-known">Serial hackathon winner and founding engineer at Zymbly (YC W26)</p>
+            <p class="talent-bio">Julian is a serial hackathon winner with nearly $50,000 in hackathon prize money. At 15, he designed an award-winning motor-free retractable flood wall for coastal cities. He is now the first hire and a founding forward-deployed engineer at Zymbly (YC W26), where he builds AI agents for aircraft maintenance crews after landing the role by cold emailing the founders.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="liam-fuller">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/liam.jpg" alt="Portrait of Liam Fuller" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/liam-fuller-499637283/" target="_blank" rel="noopener">Liam Fuller</a></h3>
+            <p class="talent-meta">19 &middot; Ireland</p>
+            <p class="talent-known">AI founder with &euro;1.4M raised</p>
+            <p class="talent-bio">Liam built his first e-commerce app at 13, and raised $1.4 million for his newest startup, Source, at 17. Source is an end-to-end AI-native system integrator for legacy industries.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="sofia-lipkevych">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/sofia.jpg" alt="Portrait of Sofia Lipkevych" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/sofilipkev/" target="_blank" rel="noopener">Sofia Lipkevych</a></h3>
+            <p class="talent-meta">19 &middot; Ukraine</p>
+            <p class="talent-known">Robotics prodigy and hackathon founder</p>
+            <p class="talent-bio">Sofia started researching nanocrystals in high school. She founded Ukraine&rsquo;s first high-school hackathon, and moved to Finland at 18 to build Tune Robotics at FR8 hacker house. Her work then took her to MIT, where her studies and research target spatial understanding in robotics.</p>
+          </div>
+        </article>
+
+        <article class="talent" id="stepan-feduniak">
+          <img class="talent-photo" src="assets/S20U20%20media%20kit/web/stepan.jpg" alt="Portrait of Stepan Feduniak" width="128" height="160">
+          <div>
+            <h3><a href="https://www.linkedin.com/in/stepan-feduniak-b33045276/" target="_blank" rel="noopener">Stepan Feduniak</a></h3>
+            <p class="talent-meta">19 &middot; Ukraine</p>
+            <p class="talent-known">Co-founder and CTO of InLoop Robotics (YC P26)</p>
+            <p class="talent-bio">Stepan is the co-founder and CTO of InLoop Robotics, a German YC-backed startup building robot workers for warehouses. Before founding InLoop, he competed in Olympiad mathematics, did robotics research at two robot learning labs at 18, and won a week-long humanoid robot hackathon as a solo team.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter" id="helsinki" aria-labelledby="ch4-title">
+    <div class="chapter-inner">
+      <div class="chapter-number">One week, one city</div>
+      <h2 id="ch4-title">Twenty supertalents, flown to Helsinki</h2>
+
+      <div class="prose">
+        <p>Slush Week is the one week of the year when Europe&rsquo;s best founders and investors are in the same city. On November 17&ndash;19, the twenty program participants are flown to Helsinki, accommodated together, and connected with top investors, Slush stage speakers and leading tech journalists through a curated mentoring program. Slush 2026 takes place in Helsinki on November 18&ndash;19.</p>
+      </div>
+
+      <figure class="quote-card" style="margin-top: 48px; max-width: var(--reading-width);">
+        <blockquote>Europe&rsquo;s first &euro;1 trillion company could be founded by a teenager. We want them to meet the people who can help them get there, here in Helsinki.</blockquote>
+        <figcaption style="margin-top:16px;font-size:var(--text-sm);color:var(--fg-dim);">Noora Saksa, CEO of Slush</figcaption>
+      </figure>
+
+      <div class="section-label">Made possible with</div>
+      <div class="partner-row" aria-label="Program partners">
+        <span>Anthropic</span>
+        <span>Index Ventures</span>
+        <span>Sifted</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="chapter" id="source" aria-labelledby="ch5-title">
+    <div class="chapter-inner">
+      <details class="chapter-toggle">
+        <summary>
+          <div>
+            <div class="chapter-number">Source</div>
+            <h2 id="ch5-title">Press materials for the Sifted launch</h2>
+          </div>
+        </summary>
+        <div class="chapter-toggle-body">
+          <div class="prose">
+            <p>This report is drawn from Slush&rsquo;s 20 Under 20 press release and the talent descriptions prepared for the list launch with Sifted on October 7, 2026. Those descriptions were checked with the participants. Portraits are from the <a href="https://drive.google.com/drive/folders/1sYi0HXUevjQLhlytvVt86y56o0E3q83G?usp=sharing" target="_blank" rel="noopener">S20U20 media kit</a>. Names link to each participant&rsquo;s LinkedIn profile.</p>
+            <p>Where the press list and the checked biographies use different currencies for the same round, both figures are kept as published: the list line uses the press-release figure, and the biography uses the checked description.</p>
+          </div>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer>
+    Slush Research &middot; Impact Report Series &middot; 20 Under 20 &middot; October 2026
+  </footer>
+
+</body>
+</html>
